@@ -1,0 +1,77 @@
+import type { Metadata } from "next";
+import "../../public/assets/css/bootstrap.min.css";
+import "../../public/assets/css/bootstrap-icons.css";
+import "../../public/assets/css/animate.min.css";
+import "../../public/assets/css/swiper-bundle.min.css";
+import "react-modal-video/css/modal-video.css";
+import "../../public/assets/css/nice-select.css";
+import "../../public/assets/css/style.css";
+import { dmsans, manrope } from "../fonts/font";
+import ClientRoot from "@/components/ClientRoot"
+import SchemaOrg from "@/components/common/SchemaOrg";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Akaraka Global Resources Limited (AGRL) - Industrial Chemicals, Paints & Raw Materials",
+    template: "%s | AGRL - Akaraka Global Resources",
+  },
+  description: "AGRL is a leading supplier of industrial chemicals, paints, inks, raw materials (CaCO3, stone dust, kaolinite), coatings, and plastics in Nigeria. Dealers in imports, exports and general contracting since 2000. AD Asperia Per Astra.",
+  keywords: ["industrial chemicals", "paints", "inks", "raw materials", "calcium carbonate", "CaCO3", "titanium dioxide", "HPMC", "coatings", "plastics", "Nigeria", "Abuja", "AGRL", "Akaraka"],
+  authors: [{ name: "Akaraka Global Resources Limited" }],
+  creator: "Akaraka Global Resources Limited",
+  publisher: "Akaraka Global Resources Limited",
+  formatDetection: {
+    email: true,
+    address: true,
+    telephone: true,
+  },
+  metadataBase: new URL("https://akarakaglobalresources.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    siteName: "Akaraka Global Resources Limited",
+    title: "Akaraka Global Resources Limited (AGRL) - Industrial Chemicals, Paints & Raw Materials",
+    description: "Trusted supplier of industrial chemicals, paints, inks, raw materials, coatings and plastics in Nigeria since 2000.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Akaraka Global Resources Limited (AGRL)",
+    description: "Industrial chemicals, paints, raw materials, coatings & plastics supplier in Nigeria.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/assets/img/fav-icon.svg",
+    apple: "/assets/img/akaraka-logo.png",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html className={`tt-magic-cursor ${dmsans.variable} ${manrope.variable}`} lang="en">
+      <body  >
+        <SchemaOrg />
+        <ClientRoot>
+          
+          {children}
+        </ClientRoot>
+      </body>
+    </html>
+  );
+}

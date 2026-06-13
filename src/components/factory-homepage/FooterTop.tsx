@@ -1,7 +1,10 @@
+"use client";
 import Link from 'next/link'
 import React from 'react'
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const FooterTop = () => {
+    const { t } = useLanguage();
     return (
         <>
             <div className="footer-top-banner-section">
@@ -13,9 +16,9 @@ const FooterTop = () => {
                         </div>
                         <div className="btn-grp wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <Link className="primary-btn1 white-bg" href="/service">
-                                <span>Explore Products
+                                <span>{t("exploreProducts")}
                                 </span>
-                                <span>Explore Products
+                                <span>{t("exploreProducts")}
                                 </span>
                                 <svg className="arrow" width={23} height={23} viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
                                     <g>
@@ -25,7 +28,7 @@ const FooterTop = () => {
                                 </svg>
                             </Link>
                             <Link className="discuss-btn" href="/contact">
-                                Get In Touch
+                                {t("getInTouch")}
                                 <svg width={9} height={9} viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.0445549 0H9.00008V1.67647L1.69308 9L0 7.32353L4.99014 2.38235L0.0445549 2.42647V0Z" />
                                     <path d="M9.0002 8.99999V3.35294L6.59424 5.73529V8.99999H9.0002Z" />

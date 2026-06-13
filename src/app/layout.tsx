@@ -9,6 +9,8 @@ import "../../public/assets/css/style.css";
 import { dmsans, manrope } from "../fonts/font";
 import ClientRoot from "@/components/ClientRoot"
 import SchemaOrg from "@/components/common/SchemaOrg";
+import { LanguageProvider } from "@/i18n/LanguageContext";
+import DomTranslator from "@/i18n/DomTranslator";
 
 export const metadata: Metadata = {
   title: {
@@ -67,10 +69,13 @@ export default function RootLayout({
     <html className={`tt-magic-cursor ${dmsans.variable} ${manrope.variable}`} lang="en">
       <body  >
         <SchemaOrg />
-        <ClientRoot>
-          
-          {children}
-        </ClientRoot>
+        <LanguageProvider>
+          <DomTranslator />
+          <ClientRoot>
+            
+            {children}
+          </ClientRoot>
+        </LanguageProvider>
       </body>
     </html>
   );

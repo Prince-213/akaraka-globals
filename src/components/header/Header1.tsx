@@ -3,6 +3,8 @@ import React, { useEffect, useReducer, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import LanguageSwitcher from "@/i18n/LanguageSwitcher";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 // Define the shape of the state
 interface State {
@@ -88,6 +90,7 @@ const Header1: React.FC = () => {
   const headerRef = useRef<HTMLElement>(null);
   // usePathname can return string | null, asserting as string for common use case
   const pathname = usePathname() as string;
+  const { t } = useLanguage();
 
   const handleScroll = () => {
     // Ensure window is defined for client-side operations
@@ -458,7 +461,7 @@ const Header1: React.FC = () => {
                 className={`menu-item-has-children position-inherit ${isHomeActive ? "active" : ""}`}
               >
                 <Link href="/" className="drop-down">
-                  Home
+                  {t("home")}
                   <svg
                     width={10}
                     height={10}
@@ -475,7 +478,7 @@ const Header1: React.FC = () => {
                 className={`menu-item-has-children  ${isServiceActive ? "active" : ""}`}
               >
                 <Link href="/service" className="drop-down">
-                  Services
+                  {t("services")}
                   <svg
                     width={10}
                     height={10}
@@ -489,13 +492,13 @@ const Header1: React.FC = () => {
                 {/*  <i onClick={() => toggleMenu("solution")} className={`bi bi-${state.activeMenu === "solution" ? "dash" : "plus"} dropdown-icon`} /> */}
               </li>
               <li className={pathname === "/about" ? "active" : ""}>
-                <Link href="/about">About</Link>
+                <Link href="/about">{t("about")}</Link>
               </li>
               <li
                 className={`menu-item-has-children  ${isSProjectPathActive ? "active" : ""}`}
               >
                 <a href="/contact" className="drop-down">
-                  Contact Us
+                  {t("contactUs")}
                   <svg
                     width={10}
                     height={10}
@@ -527,7 +530,7 @@ const Header1: React.FC = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Us</span>
+                <span>{t("callUs")}</span>
                 <a href="tel:08166175684">0816-617-5684</a>
               </div>
             </div>
@@ -547,10 +550,11 @@ const Header1: React.FC = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Us</span>
+                <span>{t("callUs")}</span>
                 <a href="tel:08166175684">0816-617-5684</a>
               </div>
             </div>
+            <LanguageSwitcher />
             <div className="right-sidebar-button" onClick={toggleRightSidebar}>
               <svg
                 width={14}
@@ -568,7 +572,7 @@ const Header1: React.FC = () => {
                 />
                 <rect y="12.6" width="11.2" height="1.4" rx="0.699998" />
               </svg>
-              <span>GET IN TOUCH</span>
+              <span>{t("getInTouch")}</span>
             </div>
             <div
               className="sidebar-button mobile-menu-btn"

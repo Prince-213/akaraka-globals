@@ -10,6 +10,7 @@ import handleAnimation from "@/utils/handleAnimation";
 import { usePathname } from "next/navigation";
 
 const Preloader = dynamic(() => import("@/components/common/Preloader"), { ssr: false });
+const Chatbot = dynamic(() => import("@/components/common/Chatbot"), { ssr: false });
 export default function ClientRoot({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   useButtonHoverEffect();
@@ -40,6 +41,7 @@ export default function ClientRoot({ children }: { children: React.ReactNode }) 
       <Preloader />
       {children}
       <ScrollCircleProgress />
+      <Chatbot />
     </>
   );
 }

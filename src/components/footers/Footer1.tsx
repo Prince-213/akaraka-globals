@@ -1,8 +1,11 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const Footer1: React.FC = () => {
+  const { t } = useLanguage();
   return (
     <footer className="footer-section">
       <div className="footer-wrapper">
@@ -55,7 +58,7 @@ const Footer1: React.FC = () => {
                       </li>
                     </ul>
                     <Link href="/contact" className="location-btn">
-                      View All Locations
+                      {t("ourLocation")}
                     </Link>
                   </div>
                 </div>
@@ -72,7 +75,7 @@ const Footer1: React.FC = () => {
                           <ul className="widget-list">
                             <li>
                               <Link href="/about">
-                                About Us
+                                {t("about")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -100,7 +103,7 @@ const Footer1: React.FC = () => {
                             </li>
                             <li>
                               <Link href="/service">
-                                Our Products
+                                {t("products")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -128,7 +131,7 @@ const Footer1: React.FC = () => {
                             </li> */}
                             <li>
                               <Link href="/service">
-                                Services
+                                {t("services")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -299,7 +302,7 @@ const Footer1: React.FC = () => {
                               </svg>
                             </div>
                             <div className="content">
-                              <span>SAY HELLO</span>
+                              <span>{t("sayHello")}</span>
                               <h6>
                                 <a href="mailto:akarakaglobalresources@yahoo.com">
                                   akarakaglobalresources@yahoo.com

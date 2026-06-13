@@ -56,7 +56,7 @@ const Preloader = () => {
       left: 0,
       width: "100vw",
       height: "100vh",
-      background: "#0a0a0a",
+      background: "#ffffff",
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -95,7 +95,7 @@ const Preloader = () => {
         <div style={{
           width: "200px",
           height: "2px",
-          background: "rgba(200,16,46,0.2)",
+          background: "rgba(200,16,46,0.12)",
           overflow: "hidden",
           borderRadius: "1px",
         }}>
@@ -108,7 +108,7 @@ const Preloader = () => {
           }} />
         </div>
         <span style={{
-          color: "rgba(255,255,255,0.4)",
+          color: "rgba(0,0,0,0.4)",
           fontSize: "11px",
           fontFamily: "var(--font-manrope), sans-serif",
           letterSpacing: "2px",

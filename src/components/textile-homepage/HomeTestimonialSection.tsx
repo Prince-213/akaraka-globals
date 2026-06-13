@@ -53,7 +53,7 @@ const HomeTestimonialSection: React.FC = () => {
                 <div className="row mb-60">
                     <div className="col-lg-5 d-lg-block d-none wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="testimonial-img">
-                            <Image width={511} height={230} src="/assets/img/home5/home5-testimonial-img.jpg" alt="" />
+                            <Image width={511} height={230} src="/assets/img/home5/home5-testimonial-img.webp" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-7">
@@ -63,7 +63,7 @@ const HomeTestimonialSection: React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="testimonial-card3">
                                             <div className="author-img">
-                                                <Image width={699} height={60} src="/assets/img/home5/testimonial-author-img1.png" alt="" />
+                                                <Image width={699} height={60} src="/assets/img/home5/testimonial-author-img1.webp" alt="" />
                                             </div>
                                             <span>Best Quality Polymer Industry!</span>
                                             <p>“Feel free to customize the key features based onen the services and strategies you offer in each plan. This breakdown helps various potenti clients understand the specific value they'll receive at each pricing tier These tools are fundamental for your home”.</p>
@@ -76,7 +76,7 @@ const HomeTestimonialSection: React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="testimonial-card3">
                                             <div className="author-img">
-                                                <Image width={699} height={60} src="/assets/img/home5/testimonial-author-img2.png" alt="" />
+                                                <Image width={699} height={60} src="/assets/img/home5/testimonial-author-img2.webp" alt="" />
                                             </div>
                                             <span>Top-Rated Polymer Sector!</span>
                                             <p>“Customize focus onent features according to the services and approach you provide for each plan. This analysis aids  a number of possible Meet the leading brands' social media team. Customers are essential at Overtoomai Gong”.</p>
@@ -89,7 +89,7 @@ const HomeTestimonialSection: React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="testimonial-card3">
                                             <div className="author-img">
-                                                <Image width={699} height={60} src="/assets/img/home5/testimonial-author-img3.png" alt="" />
+                                                <Image width={699} height={60} src="/assets/img/home5/testimonial-author-img3.webp" alt="" />
                                             </div>
                                             <span>The finest polymer manufacturer!</span>
                                             <p>“Customize focus onent features according to the services and approach you provide for each plan. This
@@ -105,9 +105,9 @@ const HomeTestimonialSection: React.FC = () => {
                             </Swiper>
                             <div className="contact-btn-area">
                                 <ul className="img-grp">
-                                    <li><Image width={699} height={60} src="/assets/img/home5/banner-people-img1.png" alt="" /></li>
-                                    <li><Image width={699} height={60} src="/assets/img/home5/banner-people-img2.png" alt="" /></li>
-                                    <li><Image width={699} height={60} src="/assets/img/home5/banner-people-img4.png" alt="" /></li>
+                                    <li><Image width={699} height={60} src="/assets/img/home5/banner-people-img1.webp" alt="" /></li>
+                                    <li><Image width={699} height={60} src="/assets/img/home5/banner-people-img2.webp" alt="" /></li>
+                                    <li><Image width={699} height={60} src="/assets/img/home5/banner-people-img4.webp" alt="" /></li>
                                 </ul>
                                 <a className="contact-btn" href="/contact">
                                     Connect With Us

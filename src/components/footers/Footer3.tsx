@@ -14,7 +14,7 @@ const Footer3 = () => {
                   <Image
                     width={160}
                     height={50}
-                    src="/assets/img/Group 415.png"
+                    src="/assets/img/Group 415.webp"
                     alt="AGRL Logo"
                   />
                 </Link>

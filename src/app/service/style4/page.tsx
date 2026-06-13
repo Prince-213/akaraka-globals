@@ -17,7 +17,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img1.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img1.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Workforce Training &amp; Control</Link></h4>
@@ -35,7 +35,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img2.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img2.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Precision Engineering Solutions</Link></h4>
@@ -53,7 +53,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img3.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img3.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Bespoke Engineering Solutions</Link></h4>
@@ -71,7 +71,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img4.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img4.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Custom Engineering Support</Link></h4>
@@ -89,7 +89,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img5.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img5.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Precision Process Services</Link></h4>
@@ -107,7 +107,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img6.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img6.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Smart Engineering Support</Link></h4>
@@ -125,7 +125,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/home6/service-img7.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/home6/service-img7.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Custom Tech Solutions</Link></h4>
@@ -143,7 +143,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img1.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img1.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Logistics Management</Link></h4>
@@ -161,7 +161,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img2.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img2.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Equipment Rental &amp; Leasing</Link></h4>
@@ -179,7 +179,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img3.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img3.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Metal Work &amp; Compliance Train</Link></h4>
@@ -197,7 +197,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img4.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img4.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Exploration and Drilling</Link></h4>
@@ -215,7 +215,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="service-card3 two magnetic-item">
                                 <div className="service-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img5.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service4-img5.webp" alt="" />
                                 </div>
                                 <div className="service-content">
                                     <h4><Link href="/service/details">Assembly Line Automation</Link></h4>
@@ -247,7 +247,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img1.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img1.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Steel Sheets &amp; Plates</Link></h4>
@@ -266,7 +266,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img2.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img2.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Copper Pipes &amp; Tubes</Link></h4>
@@ -285,7 +285,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img3.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img3.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Stainless Steel Coils</Link></h4>
@@ -304,7 +304,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img4.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img4.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Brass Rods &amp; Sheets</Link></h4>
@@ -323,7 +323,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img5.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img5.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Pre-Stress Steel Beam</Link></h4>
@@ -342,7 +342,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img6.jpg" alt="" />
+                                    <Image width={260} height={230} src="/assets/img/innerpages/service-page-product-img6.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Factory Aluminum</Link></h4>

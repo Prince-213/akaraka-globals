@@ -8,7 +8,7 @@ const HomeBannerSection:React.FC = () => {
         <>
             <div className="home2-banner-section mb-120">
                 <div className="banner-img">
-                    <Image width={833} height={899} src="/assets/img/home2/banner-img.jpg" alt="" />
+                    <Image width={833} height={899} src="/assets/img/home2/banner-img.webp" alt="" />
                     <div className="circular-text">
                         <a href="#about" className="center-icon">
                             <svg width={50} height={32} viewBox="0 0 53 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,10 +47,10 @@ const HomeBannerSection:React.FC = () => {
                             </svg>
                             <div className="people-area">
                                 <ul className="img-grp">
-                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img1.png" alt="" /></li>
-                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img2.png" alt="" /></li>
-                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img3.png" alt="" /></li>
-                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img4.png" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img1.webp" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img2.webp" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img3.webp" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home2/banner-people-img4.webp" alt="" /></li>
                                 </ul>
                                 <Link href="/contact">1k People Work with us</Link>
                             </div>

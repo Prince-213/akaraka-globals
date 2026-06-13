@@ -2541,7 +2541,7 @@ header.style-1 .main-menu > ul > li ul.sub-menu {
   margin: 0;
   display: none;
   min-width: 292px;
-  background-image: url(../img/home1/sub-menu-bg.png), linear-gradient(#F1F5FF, #F1F5FF);
+  background-image: url(../img/home1/sub-menu-bg.webp), linear-gradient(#F1F5FF, #F1F5FF);
   border-radius: 0 0 20px 20px;
   text-align: left;
   transform-origin: top;
@@ -2732,7 +2732,7 @@ header.style-1 .main-menu > ul > li ul.sub-menu > li .sub-menu {
   position: absolute;
   max-width: 230px;
   min-width: 215px;
-  background-image: url(../img/home1/sub-menu-bg.png), linear-gradient(#F1F5FF, #F1F5FF);
+  background-image: url(../img/home1/sub-menu-bg.webp), linear-gradient(#F1F5FF, #F1F5FF);
   top: 0;
 }
 header.style-1 .main-menu > ul > li ul.sub-menu > li .sub-menu::before {
@@ -2811,7 +2811,7 @@ header.style-1 .main-menu > ul > li .mega-menu {
 }
 header.style-1 .main-menu > ul > li .mega-menu .mega-menu-wrap {
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png), linear-gradient(#FFF4F1, #FFF4F1);
+  background-image: url(../img/home1/home1-megamenu-bg.webp), linear-gradient(#FFF4F1, #FFF4F1);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -2842,8 +2842,8 @@ header.style-1 .main-menu > ul > li .mega-menu .single-menu-item {
   text-align: center;
 }
 header.style-1 .main-menu > ul > li .mega-menu .single-menu-item .home-img {
-  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.png);
-          mask-image: url(../img/home1/mega-menu-home-img-bg.png);
+  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
+          mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -3152,7 +3152,7 @@ header.style-1.engineering-header .main-menu > ul > li > a svg {
   fill: var(--white-color);
 }
 header.style-1.engineering-header .main-menu > ul > li .mega-menu .mega-menu-wrap {
-  background-image: url(../img/home5/home5-megamenu-bg.png), linear-gradient(#DBE2F4, #DBE2F4);
+  background-image: url(../img/home5/home5-megamenu-bg.webp), linear-gradient(#DBE2F4, #DBE2F4);
 }
 header.style-1.engineering-header .main-menu > ul > li .mega-menu .single-menu-item:hover h5 a {
   color: var(--primary-color5);
@@ -3161,7 +3161,7 @@ header.style-1.engineering-header .main-menu > ul > li .mega-menu .single-menu-i
   color: var(--primary-color5);
 }
 header.style-1.engineering-header .main-menu > ul > li ul.sub-menu {
-  background-image: url(../img/home5/home5-sub-menu-bg.png), linear-gradient(#DBE2F4, #DBE2F4);
+  background-image: url(../img/home5/home5-sub-menu-bg.webp), linear-gradient(#DBE2F4, #DBE2F4);
 }
 header.style-1.engineering-header .main-menu > ul > li ul.sub-menu > li > a span::before {
   background: linear-gradient(90deg, #fff, var(--primary-color5), #fff);
@@ -3197,7 +3197,7 @@ header.style-1.engineering-header .main-menu > ul > li ul.sub-menu > li.active .
   color: var(--primary-color5);
 }
 header.style-1.engineering-header .main-menu > ul > li ul.sub-menu > li .sub-menu {
-  background-image: url(/img/home5/sub-menu-bg.png), linear-gradient(#DBE2F4, #DBE2F4);
+  background-image: url(/img/home5/sub-menu-bg.webp), linear-gradient(#DBE2F4, #DBE2F4);
 }
 header.style-1.engineering-header .main-menu > ul > li ul.sub-menu > li .sub-menu::before {
   display: none;
@@ -3661,7 +3661,7 @@ header.style-2 .main-menu > ul > li ul.sub-menu {
   margin: 0;
   display: none;
   min-width: 292px;
-  background-image: url(../img/home1/sub-menu-bg.png), linear-gradient(#F1F5FF, #F1F5FF);
+  background-image: url(../img/home1/sub-menu-bg.webp), linear-gradient(#F1F5FF, #F1F5FF);
   border-radius: 0 0 20px 20px;
   text-align: left;
   transform-origin: top;
@@ -3865,7 +3865,7 @@ header.style-2 .main-menu > ul > li ul.sub-menu > li .sub-menu {
   position: absolute;
   max-width: 230px;
   min-width: 215px;
-  background-image: url(../img/home1/sub-menu-bg.png), linear-gradient(#F1F5FF, #F1F5FF);
+  background-image: url(../img/home1/sub-menu-bg.webp), linear-gradient(#F1F5FF, #F1F5FF);
   top: 0;
 }
 @media (max-width: 1699px) {
@@ -3951,7 +3951,7 @@ header.style-2 .main-menu > ul > li .mega-menu {
 }
 header.style-2 .main-menu > ul > li .mega-menu .mega-menu-wrap {
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png), linear-gradient(#FFF4F1, #FFF4F1);
+  background-image: url(../img/home1/home1-megamenu-bg.webp), linear-gradient(#FFF4F1, #FFF4F1);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -3982,8 +3982,8 @@ header.style-2 .main-menu > ul > li .mega-menu .single-menu-item {
   text-align: center;
 }
 header.style-2 .main-menu > ul > li .mega-menu .single-menu-item .home-img {
-  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.png);
-          mask-image: url(../img/home1/mega-menu-home-img-bg.png);
+  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
+          mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -4622,7 +4622,7 @@ header.style-3 .main-menu > ul > li ul.sub-menu {
   margin: 0;
   display: none;
   min-width: 292px;
-  background-image: url(../img/home1/sub-menu-bg.png), linear-gradient(#F1F5FF, #F1F5FF);
+  background-image: url(../img/home1/sub-menu-bg.webp), linear-gradient(#F1F5FF, #F1F5FF);
   border-radius: 0 0 20px 20px;
   text-align: left;
   transform-origin: top;
@@ -4810,7 +4810,7 @@ header.style-3 .main-menu > ul > li ul.sub-menu > li .sub-menu {
   position: absolute;
   max-width: 230px;
   min-width: 215px;
-  background-image: url(../img/home1/sub-menu-bg.png), linear-gradient(#F1F5FF, #F1F5FF);
+  background-image: url(../img/home1/sub-menu-bg.webp), linear-gradient(#F1F5FF, #F1F5FF);
   top: 0;
 }
 @media (max-width: 1199px) {
@@ -4872,7 +4872,7 @@ header.style-3 .main-menu > ul > li .mega-menu {
 }
 header.style-3 .main-menu > ul > li .mega-menu .mega-menu-wrap {
   padding: 70px 0px;
-  background-image: url(../img/home1/home1-megamenu-bg.png), linear-gradient(#FFF4F1, #FFF4F1);
+  background-image: url(../img/home1/home1-megamenu-bg.webp), linear-gradient(#FFF4F1, #FFF4F1);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -4903,8 +4903,8 @@ header.style-3 .main-menu > ul > li .mega-menu .single-menu-item {
   text-align: center;
 }
 header.style-3 .main-menu > ul > li .mega-menu .single-menu-item .home-img {
-  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.png);
-          mask-image: url(../img/home1/mega-menu-home-img-bg.png);
+  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
+          mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -5482,7 +5482,7 @@ header.style-4 .main-menu > ul > li ul.sub-menu {
   margin: 0;
   display: none;
   min-width: 292px;
-  background-image: url(../img/home5/home5-sub-menu-bg.png), linear-gradient(#ECFDEC, #ECFDEC);
+  background-image: url(../img/home5/home5-sub-menu-bg.webp), linear-gradient(#ECFDEC, #ECFDEC);
   border-radius: 0 0 20px 20px;
   text-align: left;
   transform-origin: top;
@@ -5682,7 +5682,7 @@ header.style-4 .main-menu > ul > li ul.sub-menu > li .sub-menu {
   position: absolute;
   max-width: 230px;
   min-width: 215px;
-  background-image: url(../img/home5/home5-sub-menu-bg.png), linear-gradient(#ECFDEC, #ECFDEC);
+  background-image: url(../img/home5/home5-sub-menu-bg.webp), linear-gradient(#ECFDEC, #ECFDEC);
   top: 0;
 }
 header.style-4 .main-menu > ul > li ul.sub-menu > li .sub-menu::before {
@@ -5743,7 +5743,7 @@ header.style-4 .main-menu > ul > li .mega-menu {
 }
 header.style-4 .main-menu > ul > li .mega-menu .mega-menu-wrap {
   padding: 70px 0px;
-  background-image: url(../img/home5/home5-megamenu-bg.png), linear-gradient(#ECFDEC, #ECFDEC);
+  background-image: url(../img/home5/home5-megamenu-bg.webp), linear-gradient(#ECFDEC, #ECFDEC);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -5775,8 +5775,8 @@ header.style-4 .main-menu > ul > li .mega-menu .single-menu-item {
   text-align: center;
 }
 header.style-4 .main-menu > ul > li .mega-menu .single-menu-item .home-img {
-  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.png);
-          mask-image: url(../img/home1/mega-menu-home-img-bg.png);
+  -webkit-mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
+          mask-image: url(../img/home1/mega-menu-home-img-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -7068,7 +7068,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home1-banner-section .banner-wrapper {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/home1/home1-banner-bg.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/home1/home1-banner-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 750px;
@@ -7584,7 +7584,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home1-service-section {
-  background-image: url(../img/home1/home1-service-bg.png), linear-gradient(180deg, #D8E7EF 0%, #D8E7EF 100%);
+  background-image: url(../img/home1/home1-service-bg.webp), linear-gradient(180deg, #D8E7EF 0%, #D8E7EF 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
@@ -9776,8 +9776,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   line-height: 1;
   padding: 13px 32px 9px;
   text-transform: uppercase;
-  -webkit-mask-image: url(../img/home3/blog-date-bg.png);
-          mask-image: url(../img/home3/blog-date-bg.png);
+  -webkit-mask-image: url(../img/home3/blog-date-bg.webp);
+          mask-image: url(../img/home3/blog-date-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
   min-width: 174px;
@@ -10235,7 +10235,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 }
 .footer-top-banner-section.two {
   background-color: unset;
-  background-image: url(../img/home2/footer-top-banner-bg.png);
+  background-image: url(../img/home2/footer-top-banner-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 209px 0 90px;
@@ -10348,7 +10348,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   transform: rotate(45deg);
 }
 .footer-top-banner-section.three {
-  background-image: url(../img/home4/footer-top-banner-bg.png), linear-gradient(180deg, #FB521E 0%, #FB521E 100%);
+  background-image: url(../img/home4/footer-top-banner-bg.webp), linear-gradient(180deg, #FB521E 0%, #FB521E 100%);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0;
@@ -10981,7 +10981,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   color: var(--primary-color1);
 }
 .footer-section.style-2 {
-  background-image: url(../img/home2/footer-bg.png), linear-gradient(180deg, #000000 0%, #000000 100%);
+  background-image: url(../img/home2/footer-bg.webp), linear-gradient(180deg, #000000 0%, #000000 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11047,7 +11047,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   color: var(--primary-color2);
 }
 .footer-section.style-3 {
-  background-image: url(../img/home3/footer-bg.png);
+  background-image: url(../img/home3/footer-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11136,7 +11136,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   color: var(--primary-color2);
 }
 .footer-section.style-4 {
-  background-image: url(../img/home2/footer-bg.png), linear-gradient(180deg, #000000 0%, #000000 100%);
+  background-image: url(../img/home2/footer-bg.webp), linear-gradient(180deg, #000000 0%, #000000 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11326,7 +11326,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   color: var(--primary-color2);
 }
 .footer-section.style-5 {
-  background-image: url(../img/home6/footer-bg.png), linear-gradient(180deg, #0B0B1D 0%, #0B0B1D 100%);
+  background-image: url(../img/home6/footer-bg.webp), linear-gradient(180deg, #0B0B1D 0%, #0B0B1D 100%);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -12229,7 +12229,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   20. Home2 Benefit Section CSS
 ========================================*/
 .home2-benefit-section {
-  background-image: url(../img/home2/home2-benefit-bg.png), linear-gradient(180deg, #F1F6F6 0%, #F1F6F6 100%);
+  background-image: url(../img/home2/home2-benefit-bg.webp), linear-gradient(180deg, #F1F6F6 0%, #F1F6F6 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
@@ -12400,8 +12400,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   left: 3px;
 }
 .home2-benefit-section .benefit-img-wrap .benefit-img {
-  -webkit-mask-image: url(../img/home2/benefit-img-bg.png);
-          mask-image: url(../img/home2/benefit-img-bg.png);
+  -webkit-mask-image: url(../img/home2/benefit-img-bg.webp);
+          mask-image: url(../img/home2/benefit-img-bg.webp);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -13502,7 +13502,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   24. Home2 Why Choose Us Section CSS
 ========================================*/
 .home2-why-choose-us-section {
-  background-image: url(../img/home2/home2-why-choose-us-bg.png), linear-gradient(180deg, #C5CEB3 0%, #C5CEB3 100%);
+  background-image: url(../img/home2/home2-why-choose-us-bg.webp), linear-gradient(180deg, #C5CEB3 0%, #C5CEB3 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
@@ -14463,7 +14463,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   28. Home2 Testimonial Section CSS
 ========================================*/
 .home2-testimonial-section {
-  background-image: url(../img/home2/home2-testimonial-bg.png), linear-gradient(180deg, #EBEEFA 0%, #EBEEFA 100%);
+  background-image: url(../img/home2/home2-testimonial-bg.webp), linear-gradient(180deg, #EBEEFA 0%, #EBEEFA 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -14715,7 +14715,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   30. Home3 Banner Section CSS
 ========================================*/
 .home3-banner-section {
-  background-image: url(../img/home3/home3-banner-bg.png);
+  background-image: url(../img/home3/home3-banner-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 145px 150px 0 140px;
@@ -15425,8 +15425,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   border-radius: 5px;
   overflow: hidden;
   pointer-events: none;
-  -webkit-mask-image: url(../img/home3/service-img-bg.png);
-          mask-image: url(../img/home3/service-img-bg.png);
+  -webkit-mask-image: url(../img/home3/service-img-bg.webp);
+          mask-image: url(../img/home3/service-img-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
 }
@@ -15513,7 +15513,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   33. Home3 Industry Location Section CSS
 ========================================*/
 .home3-industry-location-section .industry-location-wrapper {
-  background-image: url(../img/home3/industry-location-map.png);
+  background-image: url(../img/home3/industry-location-map.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16156,8 +16156,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   position: relative;
 }
 .home3-company-info-section .company-info-img-and-countdown-area .info-img {
-  -webkit-mask-image: url(../img/home3/company-info-img-bg-shape.png);
-          mask-image: url(../img/home3/company-info-img-bg-shape.png);
+  -webkit-mask-image: url(../img/home3/company-info-img-bg-shape.webp);
+          mask-image: url(../img/home3/company-info-img-bg-shape.webp);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
 }
@@ -16448,7 +16448,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 }
 
 .home3-team-section {
-  background-image: url(../img/home3/home3-team-bg.png);
+  background-image: url(../img/home3/home3-team-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0;
@@ -16898,7 +16898,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 }
 .home3-testimonial-section .testimonial-card2 {
   padding: 20px 78px 20px 20px;
-  background-image: url(../img/home3/testimonial-card-bg.png), linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-image: url(../img/home3/testimonial-card-bg.webp), linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -18148,8 +18148,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home4-service-section .service-wrapper .single-service .service-img-and-title-area .service-img {
-  -webkit-mask-image: url(../img/home4/service-img-bg.png);
-          mask-image: url(../img/home4/service-img-bg.png);
+  -webkit-mask-image: url(../img/home4/service-img-bg.webp);
+          mask-image: url(../img/home4/service-img-bg.webp);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   min-width: 450px;
@@ -18409,8 +18409,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home4-service-section .service-wrapper .single-service:hover .service-img-and-title-area .service-img {
-  -webkit-mask-image: url(../img/home4/service-img-hover-bg.png);
-          mask-image: url(../img/home4/service-img-hover-bg.png);
+  -webkit-mask-image: url(../img/home4/service-img-hover-bg.webp);
+          mask-image: url(../img/home4/service-img-hover-bg.webp);
 }
 .home4-service-section .service-wrapper .single-service:hover .service-img-and-title-area .title-area ul li a {
   color: var(--white-color);
@@ -18512,7 +18512,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   46. Home4 Process Section CSS
 ========================================*/
 .home4-process-section {
-  background-image: url(../img/home4/home4-process-bg.png), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
+  background-image: url(../img/home4/home4-process-bg.webp), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0;
@@ -19138,7 +19138,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   49. Home4 Counter Section CSS
 ========================================*/
 .home4-counter-section {
-  background-image: url(../img/home4/home4-counter-bg.png), linear-gradient(180deg, #F9F6FF 0%, #F9F6FF 100%);
+  background-image: url(../img/home4/home4-counter-bg.webp), linear-gradient(180deg, #F9F6FF 0%, #F9F6FF 100%);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -19598,7 +19598,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   51. Home4 Contact Section CSS
 ========================================*/
 .home4-contact-section {
-  background-image: url(../img/home4/home4-contact-bg.png), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
+  background-image: url(../img/home4/home4-contact-bg.webp), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
@@ -20087,7 +20087,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   z-index: 1;
 }
 .home5-banner-section::before {
-  content: url(../img/home5/home5-banner-vector1.png);
+  content: url(../img/home5/home5-banner-vector1.webp);
   position: absolute;
   top: 5%;
   left: 0;
@@ -20099,7 +20099,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home5-banner-section::after {
-  content: url(../img/home5/home5-banner-vector2.png);
+  content: url(../img/home5/home5-banner-vector2.webp);
   position: absolute;
   top: 5%;
   right: 0;
@@ -20768,7 +20768,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   55. Home5 About Section CSS
 ========================================*/
 .home5-about-section {
-  background-image: url(../img/home5/home5-about-bg.png), linear-gradient(180deg, #234F40 0%, #234F40 100%);
+  background-image: url(../img/home5/home5-about-bg.webp), linear-gradient(180deg, #234F40 0%, #234F40 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0 100px;
@@ -21471,7 +21471,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   59. Home5 Process Section CSS
 ========================================*/
 .home5-process-section {
-  background-image: url(../img/home5/home5-process-bg.png), linear-gradient(180deg, #234F40 0%, #234F40 100%);
+  background-image: url(../img/home5/home5-process-bg.webp), linear-gradient(180deg, #234F40 0%, #234F40 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0 100px;
@@ -21587,7 +21587,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   61. Home5 Testimonial Section CSS
 ========================================*/
 .home5-testimonial-section {
-  background-image: url(../img/home5/home5-testimonial-bg.png), linear-gradient(180deg, #D9EAD3 0%, #D9EAD3 100%);
+  background-image: url(../img/home5/home5-testimonial-bg.webp), linear-gradient(180deg, #D9EAD3 0%, #D9EAD3 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
@@ -21616,8 +21616,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home5-testimonial-section .testimonial-img {
-  -webkit-mask-image: url(../img/home5/home5-testiomial-img-bg.png);
-          mask-image: url(../img/home5/home5-testiomial-img-bg.png);
+  -webkit-mask-image: url(../img/home5/home5-testiomial-img-bg.webp);
+          mask-image: url(../img/home5/home5-testiomial-img-bg.webp);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -21967,7 +21967,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   63. Home5 Footer Section CSS
 ========================================*/
 .footer-section2 {
-  background-image: url(../img/home5/home5-footer-bg.png), linear-gradient(180deg, #234F40 0%, #234F40 100%);
+  background-image: url(../img/home5/home5-footer-bg.webp), linear-gradient(180deg, #234F40 0%, #234F40 100%);
   background-size: cover;
   background-repeat: no-repeat;
   display: grid;
@@ -22766,7 +22766,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   64. Home6 Banner Section CSS
 ========================================*/
 .home6-banner-section {
-  background-image: url(../img/home6/home6-banner-bg.png);
+  background-image: url(../img/home6/home6-banner-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 12% 0 15%;
@@ -23080,7 +23080,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home6-banner-section::before {
-  content: url(../img/home6/home6-banner-vector1.png);
+  content: url(../img/home6/home6-banner-vector1.webp);
   position: absolute;
   top: 30%;
   left: 0;
@@ -23091,7 +23091,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .home6-banner-section::after {
-  content: url(../img/home6/home6-banner-vector2.png);
+  content: url(../img/home6/home6-banner-vector2.webp);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -23538,7 +23538,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   66. Home6 Service Section CSS
 ========================================*/
 .home6-service-section {
-  background-image: url(../img/home6/home6-service-bg.png), linear-gradient(180deg, #0B0B1D 0%, #0B0B1D 100%);
+  background-image: url(../img/home6/home6-service-bg.webp), linear-gradient(180deg, #0B0B1D 0%, #0B0B1D 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -23994,7 +23994,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   68. Home6 Feature Section CSS
 ========================================*/
 .home6-feature-section {
-  background-image: url(../img/home6/home6-feature-bg.png), linear-gradient(180deg, #ECEDF8 0%, #ECEDF8 100%);
+  background-image: url(../img/home6/home6-feature-bg.webp), linear-gradient(180deg, #ECEDF8 0%, #ECEDF8 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -24231,7 +24231,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   71. Home6 Tesimonial Section CSS
 ========================================*/
 .home6-testimonial-section {
-  background-image: url(../img/home6/home6-testimonial-bg.png), linear-gradient(180deg, #0B0B1D 0%, #0B0B1D 100%);
+  background-image: url(../img/home6/home6-testimonial-bg.webp), linear-gradient(180deg, #0B0B1D 0%, #0B0B1D 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 140px 0;
@@ -25025,8 +25025,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .breadcrumb-section .breadcrumb-img {
-  -webkit-mask-image: url(../img/innerpages/breadcrumb-img-bg.png);
-          mask-image: url(../img/innerpages/breadcrumb-img-bg.png);
+  -webkit-mask-image: url(../img/innerpages/breadcrumb-img-bg.webp);
+          mask-image: url(../img/innerpages/breadcrumb-img-bg.webp);
   -webkit-mask-size: cover;
           mask-size: cover;
   -webkit-mask-repeat: no-repeat;
@@ -26175,7 +26175,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   78. Inner Contact Section CSS
 ========================================*/
 .inner-contact-section {
-  background-image: url(../img/home4/home4-contact-bg.png), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
+  background-image: url(../img/home4/home4-contact-bg.webp), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 90px 0;
@@ -26362,7 +26362,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   }
 }
 .inner-contact-section.two .contact-wrapper {
-  background-image: url(../img/home4/home4-contact-bg.png), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
+  background-image: url(../img/home4/home4-contact-bg.webp), linear-gradient(180deg, #F1F5FF 0%, #F1F5FF 100%);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 85px 50px 85px 75px;

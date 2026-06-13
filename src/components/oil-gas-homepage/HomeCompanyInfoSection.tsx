@@ -10,7 +10,7 @@ const HomeCompanyInfoSection = () => {
                     <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="company-info-img-and-countdown-area">
                             <div className="info-img magnetic-item">
-                                <Image width={636} height={382}  src="/assets/img/home3/company-info-img.jpg" alt="" />
+                                <Image width={636} height={382}  src="/assets/img/home3/company-info-img.webp" alt="" />
                             </div>
                             <div className="countdown-area">
                                 <div className="number">

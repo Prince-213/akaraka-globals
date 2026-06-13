@@ -49,7 +49,7 @@ const HomeAboutSection: React.FC = () => {
                                 <p>"At AGRL, we believe that quality raw materials are the foundation of every great product. Our commitment to consistency and reliability has made us the preferred supplier for Nigeria's leading manufacturers."</p>
                                 <div className="founder-profile">
                                     <div className="profile-img">
-                                        <Image width={48} height={48} src="/assets/img/home2/founder-img.png" alt="" />
+                                        <Image width={48} height={48} src="/assets/img/home2/founder-img.webp" alt="" />
                                     </div>
                                     <div className="profile-content">
                                         <h6>Paisleys Genesis</h6>
@@ -67,13 +67,13 @@ const HomeAboutSection: React.FC = () => {
                                         </svg>
                                     </Link>
                                 </div>
-                                <Image width={509} height={263} src="/assets/img/home2/about-founder-area-bg.png" alt="" className="bg-vector" />
+                                <Image width={509} height={263} src="/assets/img/home2/about-founder-area-bg.webp" alt="" className="bg-vector" />
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-6 d-lg-block d-none wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="about-img">
-                            <Image width={636} height={583} src="/assets/img/home2/about-img.jpg" alt="" />
+                            <Image width={636} height={583} src="/assets/img/home2/about-img.webp" alt="" />
                         </div>
                     </div>
                 </div>

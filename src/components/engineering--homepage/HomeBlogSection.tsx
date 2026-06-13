@@ -26,7 +26,7 @@ const HomeBlogSection:React.FC = () => {
                     <div className="col-lg-6">
                         <div className="blog-card2 three magnetic-item mb-40">
                             <div className="blog-img">
-                                <Image width={640} height={510} src="/assets/img/home6/blog-img1.jpg" alt="" />
+                                <Image width={640} height={510} src="/assets/img/home6/blog-img1.webp" alt="" />
                             </div>
                             <div className="blog-content-wrap">
                                 <Link href="/blog" className="blog-date">10 August, 2025</Link>
@@ -44,7 +44,7 @@ const HomeBlogSection:React.FC = () => {
                         </div>
                         <div className="blog-card2 three magnetic-item">
                             <div className="blog-img">
-                                <Image width={640} height={510} src="/assets/img/home6/blog-img2.jpg" alt="" />
+                                <Image width={640} height={510} src="/assets/img/home6/blog-img2.webp" alt="" />
                             </div>
                             <div className="blog-content-wrap">
                                 <Link href="/blog" className="blog-date">13 August, 2025</Link>

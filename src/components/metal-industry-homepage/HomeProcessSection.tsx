@@ -7,37 +7,37 @@ const processData = [
     {
         step: "01",
         title: "Consultation &amp; Quote",
-        img: "/assets/img/home4/process-img1.jpg",
+        img: "/assets/img/home4/process-img1.webp",
         desc: "We assess your project requirements, surface conditions, and recommend the best coatings and paints for optimal protection and finish.",
     },
     {
         step: "02",
         title: "Order Processing",
-        img: "/assets/img/home4/process-img2.jpg",
+        img: "/assets/img/home4/process-img2.webp",
         desc: "Once approved, we process your order with precision, ensuring accurate product selection and timely procurement.",
     },
     {
         step: "03",
         title: "Formulation &amp; Blending",
-        img: "/assets/img/home4/process-img3.jpg",
+        img: "/assets/img/home4/process-img3.webp",
         desc: "Our expert technicians formulate and blend high-quality coatings to meet your exact specifications and performance standards.",
     },
     {
         step: "04",
         title: "Quality Testing",
-        img: "/assets/img/home4/process-img4.jpg",
+        img: "/assets/img/home4/process-img4.webp",
         desc: "Rigorous quality control tests ensure every batch meets industry standards for durability, adhesion, and finish quality.",
     },
     {
         step: "05",
         title: "Dispatch",
-        img: "/assets/img/home4/process-img5.jpg",
+        img: "/assets/img/home4/process-img5.webp",
         desc: "Products are carefully packaged and dispatched through our reliable logistics network to reach you on schedule.",
     },
     {
         step: "06",
         title: "Delivery to You",
-        img: "/assets/img/home4/process-img6.jpg",
+        img: "/assets/img/home4/process-img6.webp",
         desc: "Your coatings and paints arrive ready for application, with full technical support available whenever you need it.",
     },
 ];

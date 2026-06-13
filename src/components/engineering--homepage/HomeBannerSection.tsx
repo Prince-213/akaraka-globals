@@ -93,7 +93,7 @@ const HomeBannerSection: React.FC = () => {
             </div>
             <div className="home6-banner-bottom-area mb-120">
                 <div className="banner-bottom-img-wrapper">
-                    <Image width={1605} height={780} src="/assets/img/home6/home6-banner-bottom-bg.jpg" alt="" />
+                    <Image width={1605} height={780} src="/assets/img/home6/home6-banner-bottom-bg.webp" alt="" />
                 </div>
                 <ul className="social-list">
                     <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>

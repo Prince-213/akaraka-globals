@@ -13,7 +13,7 @@ const HomeVideoBannerSection:React.FC = () => {
     return (
         <div className="home2-video-banner-section mb-120">
             <div className="banner-wrapper">
-                <Image width={1835} height={893} src="/assets/img/home2/home2-video-banner-bg.jpg" alt="" />
+                <Image width={1835} height={893} src="/assets/img/home2/home2-video-banner-bg.webp" alt="" />
                 <div className="circular-text2" >
                     <a style={{ cursor: "pointer" }}
                         onClick={() => setOpen(true)} className="center-icon video-player">
@@ -35,20 +35,20 @@ const HomeVideoBannerSection:React.FC = () => {
                             </div>
                             <div className="marquee">
                                 <div className="marquee__group">
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-01.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-02.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-03.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-04.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-05.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-06.png" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-01.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-02.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-03.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-04.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-05.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-06.webp" alt="" /></a>
                                 </div>
                                 <div aria-hidden="true" className="marquee__group">
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-01.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-02.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-03.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-04.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-05.png" alt="" /></a>
-                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-06.png" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-01.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-02.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-03.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-04.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-05.webp" alt="" /></a>
+                                    <a href="#"><Image width={105} height={50} src="/assets/img/home2/partner-06.webp" alt="" /></a>
                                 </div>
                             </div>
                         </div>

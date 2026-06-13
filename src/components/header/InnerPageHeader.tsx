@@ -157,7 +157,7 @@ const InnerPageHeader: React.FC = () => {
                   width={157}
                   height={34}
                   alt="AGRL Logo"
-                  src="/assets/img/akaraka-logo.png"
+                  src="/assets/img/akaraka-logo.webp"
                 />
               </Link>
             </div>
@@ -387,7 +387,7 @@ const InnerPageHeader: React.FC = () => {
                 }}
                 alt="image"
                 className="img-fluid"
-                src="/assets/img/akaraka-logo.png"
+                src="/assets/img/akaraka-logo.webp"
               />
             </Link>
           </div>
@@ -405,7 +405,7 @@ const InnerPageHeader: React.FC = () => {
                   }}
                   alt="image"
                   className="img-fluid"
-                  src="/assets/img/akaraka-logo.png"
+                  src="/assets/img/akaraka-logo.webp"
                 />
               </Link>
               <div className="menu-close-btn" onClick={toggleSidebar}>

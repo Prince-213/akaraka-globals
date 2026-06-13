@@ -82,7 +82,7 @@ const HomeTestimonialSection: React.FC = () => {
                                         </svg>
                                         <div className="author-area">
                                             <div className="author-img">
-                                                <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img1.png" alt="" />
+                                                <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img1.webp" alt="" />
                                             </div>
                                             <div className="author-content">
                                                 <h5>Mr. Daniel Scoot</h5>
@@ -104,7 +104,7 @@ const HomeTestimonialSection: React.FC = () => {
                                         </svg>
                                         <div className="author-area">
                                             <div className="author-img">
-                                                <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img2.png" alt="" />
+                                                <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img2.webp" alt="" />
                                             </div>
                                             <div className="author-content">
                                                 <h5>Mrs. Jeams Torbak</h5>
@@ -126,7 +126,7 @@ const HomeTestimonialSection: React.FC = () => {
                                         </svg>
                                         <div className="author-area">
                                             <div className="author-img">
-                                                <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img3.png" alt="" />
+                                                <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img3.webp" alt="" />
                                             </div>
                                             <div className="author-content">
                                                 <h5>Matthew Julian</h5>

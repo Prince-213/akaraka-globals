@@ -33,7 +33,7 @@ const page = () => {
                 <Image
                   width={306}
                   height={340}
-                  src="/assets/img/home2/team-img1.png"
+                  src="/assets/img/home2/team-img1.webp"
                   alt=""
                 />
                 <div className="team-content-wrap">

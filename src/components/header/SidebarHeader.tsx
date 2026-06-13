@@ -146,7 +146,7 @@ const SidebarHeader: React.FC = () => {
                   height={35}
                   alt="image"
                   className="img-fluid"
-                  src="/assets/img/akaraka-logo.png"
+                  src="/assets/img/akaraka-logo.webp"
                 />
               </Link>
             </div>

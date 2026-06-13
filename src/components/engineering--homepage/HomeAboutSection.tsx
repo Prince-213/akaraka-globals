@@ -33,7 +33,7 @@ const HomeAboutSection:React.FC = () => {
                     <div className="col-lg-5">
                         <div className="about-img-wrap magnetic-item">
                             <div className="about-img">
-                                <Image width={526} height={490} src="/assets/img/home6/about-img.jpg" alt="" />
+                                <Image width={526} height={490} src="/assets/img/home6/about-img.webp" alt="" />
                                 <Link href="/about" className="about-btn">About AGRL</Link>
                             </div>
                             <p>We understand your needs and deliver digital marketing through unique selling One proposi. Our team of experts is passionate about helping yot SEO company. Foi Choose experience the difference!</p>

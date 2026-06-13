@@ -1,19 +1,50 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Image from "next/image";
+
+const CRITICAL_IMAGES = [
+  "/assets/img/home1/home1-banner-bg.webp",
+  "/assets/img/home1/home1-service-bg.webp",
+  "/assets/img/akaraka-logo.webp",
+];
 
 const Preloader = () => {
   const [showPreloader, setShowPreloader] = useState(true);
+  const [progress, setProgress] = useState(0);
+  const hasVisited = useRef(false);
 
   useEffect(() => {
-    const hasVisited = localStorage.getItem("agrl_visited");
-    if (hasVisited) {
+    if (typeof window === "undefined") return;
+    
+    const visited = localStorage.getItem("agrl_visited");
+    if (visited) {
+      hasVisited.current = true;
       setShowPreloader(false);
       return;
     }
-    localStorage.setItem("agrl_visited", "true");
-    const timer = setTimeout(() => setShowPreloader(false), 2000);
-    return () => clearTimeout(timer);
+
+    let loaded = 0;
+    const total = CRITICAL_IMAGES.length + 1;
+    const updateProgress = () => {
+      loaded++;
+      setProgress(Math.round((loaded / total) * 100));
+      if (loaded >= total) {
+        localStorage.setItem("agrl_visited", "true");
+        setTimeout(() => setShowPreloader(false), 400);
+      }
+    };
+
+    // Track critical images
+    CRITICAL_IMAGES.forEach((src) => {
+      const img = new window.Image();
+      img.onload = updateProgress;
+      img.onerror = updateProgress;
+      img.src = src;
+    });
+
+    // Timeout fallback
+    const fallback = setTimeout(updateProgress, 3000);
+    return () => clearTimeout(fallback);
   }, []);
 
   if (!showPreloader) return null;
@@ -34,20 +65,23 @@ const Preloader = () => {
       transition: "opacity 0.5s ease",
     }}>
       <div style={{
-        animation: "preloaderPulse 1.5s ease-in-out infinite",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         gap: "20px",
       }}>
-        <Image 
-          src="/assets/img/akaraka-logo.png" 
-          alt="AGRL Logo" 
-          width={180} 
-          height={120}
-          priority
-          style={{ objectFit: "contain" }}
-        />
+        <div style={{
+          animation: "preloaderPulse 1.5s ease-in-out infinite",
+        }}>
+          <Image 
+            src="/assets/img/akaraka-logo.webp" 
+            alt="AGRL Logo" 
+            width={180} 
+            height={120}
+            priority
+            style={{ objectFit: "contain" }}
+          />
+        </div>
         <span style={{
           color: "#c8102e",
           fontSize: "18px",
@@ -66,22 +100,26 @@ const Preloader = () => {
           borderRadius: "1px",
         }}>
           <div style={{
-            width: "60px",
+            width: `${progress}%`,
             height: "100%",
             background: "#c8102e",
-            animation: "preloaderBar 1.2s ease-in-out infinite",
+            transition: "width 0.4s ease",
             borderRadius: "1px",
           }} />
         </div>
+        <span style={{
+          color: "rgba(255,255,255,0.4)",
+          fontSize: "11px",
+          fontFamily: "var(--font-manrope), sans-serif",
+          letterSpacing: "2px",
+        }}>
+          {progress}%
+        </span>
       </div>
       <style jsx>{`
         @keyframes preloaderPulse {
           0%, 100% { transform: scale(1); opacity: 1; }
           50% { transform: scale(1.05); opacity: 0.8; }
-        }
-        @keyframes preloaderBar {
-          0% { transform: translateX(-60px); }
-          100% { transform: translateX(200px); }
         }
       `}</style>
     </div>

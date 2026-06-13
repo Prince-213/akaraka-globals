@@ -191,7 +191,7 @@ const Header2: React.FC = () => {
                   width={157}
                   height={34}
                   alt="AGRL Logo"
-                  src="/assets/img/akaraka-logo.png"
+                  src="/assets/img/akaraka-logo.webp"
                 />
               </Link>
             </div>
@@ -418,7 +418,7 @@ const Header2: React.FC = () => {
                 height={34}
                 alt="AGRL Logo"
                 className="img-fluid"
-                src="/assets/img/Group 416.png"
+                src="/assets/img/Group 416.webp"
               />
             </Link>
             <Link href="/industry" className="logo-black">
@@ -427,7 +427,7 @@ const Header2: React.FC = () => {
                 height={34}
                 alt="image"
                 className="img-fluid"
-                src="/assets/img/akaraka-logo.png"
+                src="/assets/img/akaraka-logo.webp"
               />
             </Link>
           </div>
@@ -442,7 +442,7 @@ const Header2: React.FC = () => {
                     height={34}
                     alt="image"
                     className="img-fluid"
-                    src="/assets/img/akaraka-logo.png"
+                    src="/assets/img/akaraka-logo.webp"
                   />
                 </Link>
                 <div className="menu-close-btn" onClick={toggleSidebar}>
@@ -481,7 +481,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img1.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img1.webp"
                                   alt=""
                                 />
                               </Link>
@@ -498,7 +498,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img2.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img2.webp"
                                   alt=""
                                 />
                               </Link>
@@ -515,7 +515,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img3.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img3.webp"
                                   alt=""
                                 />
                               </Link>
@@ -532,7 +532,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img4.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img4.webp"
                                   alt=""
                                 />
                               </Link>
@@ -551,7 +551,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img5.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img5.webp"
                                   alt=""
                                 />
                               </Link>
@@ -568,7 +568,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img6.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img6.webp"
                                   alt=""
                                 />
                               </Link>
@@ -583,7 +583,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img7.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img7.webp"
                                   alt=""
                                 />
                               </a>
@@ -600,7 +600,7 @@ const Header2: React.FC = () => {
                                 <Image
                                   width={306}
                                   height={245}
-                                  src="/assets/img/home1/mega-menu-home-img8.jpg"
+                                  src="/assets/img/home1/mega-menu-home-img8.webp"
                                   alt=""
                                 />
                               </a>

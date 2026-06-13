@@ -36,7 +36,7 @@ const HomeBlogSection:React.FC = () => {
                             </div>
                             <div className="author-area">
                                 <div className="author-img">
-                                    <Image width={374} height={261} src="/assets/img/home4/blog-author-img1.png" alt="" />
+                                    <Image width={374} height={261} src="/assets/img/home4/blog-author-img1.webp" alt="" />
                                 </div>
                                 <div className="author-content">
                                     <h6>Posted By, <span>Alen Jodge</span></h6>
@@ -45,7 +45,7 @@ const HomeBlogSection:React.FC = () => {
                             </div>
                             <h4><Link href="/blog/details">Revolutionizing Surface Protection &amp; the Future of Coatings.</Link></h4>
                             <Link className="blog-img" href="/blog/details">
-                                <Image width={374} height={261} src="/assets/img/home4/blog-img1.jpg" alt="" />
+                                <Image width={374} height={261} src="/assets/img/home4/blog-img1.webp" alt="" />
                             </Link>
                             <Link href="/blog/details" className="read-btn">
                                 <span>Read More</span>
@@ -68,7 +68,7 @@ const HomeBlogSection:React.FC = () => {
                             </div>
                             <div className="author-area">
                                 <div className="author-img">
-                                    <Image width={374} height={261} src="/assets/img/home4/blog-author-img2.png" alt="" />
+                                    <Image width={374} height={261} src="/assets/img/home4/blog-author-img2.webp" alt="" />
                                 </div>
                                 <div className="author-content">
                                     <h6>Posted By, <span>Johan Bored</span></h6>
@@ -77,7 +77,7 @@ const HomeBlogSection:React.FC = () => {
                             </div>
                             <h4><Link href="/blog/details">Emerging Trends Shaping the Coatings &amp; Paints Industry.</Link></h4>
                             <Link className="blog-img" href="/blog/details">
-                                <Image width={374} height={261} src="/assets/img/home4/blog-img2.jpg" alt="" />
+                                <Image width={374} height={261} src="/assets/img/home4/blog-img2.webp" alt="" />
                             </Link>
                             <Link href="/blog/details" className="read-btn">
                                 <span>Read More</span>
@@ -100,7 +100,7 @@ const HomeBlogSection:React.FC = () => {
                             </div>
                             <div className="author-area">
                                 <div className="author-img">
-                                    <Image width={374} height={261} src="/assets/img/home4/blog-author-img3.png" alt="" />
+                                    <Image width={374} height={261} src="/assets/img/home4/blog-author-img3.webp" alt="" />
                                 </div>
                                 <div className="author-content">
                                     <h6>Posted By, <span>Domigonal</span></h6>
@@ -109,7 +109,7 @@ const HomeBlogSection:React.FC = () => {
                             </div>
                             <h4><Link href="/blog/details">Sustainable Coatings Reducing Environmental Impact.</Link></h4>
                             <Link className="blog-img" href="/blog/details">
-                                <Image width={374} height={261} src="/assets/img/home4/blog-img3.jpg" alt="" />
+                                <Image width={374} height={261} src="/assets/img/home4/blog-img3.webp" alt="" />
                             </Link>
                             <Link href="/blog/details" className="read-btn">
                                 <span>Read More</span>

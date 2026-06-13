@@ -94,7 +94,7 @@ const HomeProductSection = () => {
                                 <div className="col-md-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                                     <div className="product-card magnetic-item">
                                         <div className="product-img">
-                                            <Image width={361} height={292} src="/assets/img/home4/product-img1.jpg" alt="" />
+                                            <Image width={361} height={292} src="/assets/img/home4/product-img1.webp" alt="" />
                                             <Link href="/product/details" className="arrow">
                                                 <svg width={18} height={19} viewBox="0 0 18 19" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0.0891088 0.0541992H18V3.40711L3.38614 18.054L0 14.7011L9.98019 4.81886L0.0891088 4.90709V0.0541992Z" />
@@ -111,7 +111,7 @@ const HomeProductSection = () => {
                                 <div className="col-md-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                                     <div className="product-card mt-15 magnetic-item">
                                         <div className="product-img">
-                                            <Image width={361} height={292} src="/assets/img/home4/product-img2.jpg" alt="" />
+                                            <Image width={361} height={292} src="/assets/img/home4/product-img2.webp" alt="" />
                                             <Link href="/product/details" className="arrow">
                                                 <svg width={18} height={19} viewBox="0 0 18 19" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0.0891088 0.0541992H18V3.40711L3.38614 18.054L0 14.7011L9.98019 4.81886L0.0891088 4.90709V0.0541992Z" />
@@ -128,7 +128,7 @@ const HomeProductSection = () => {
                                 <div className="col-md-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                                     <div className="product-card magnetic-item">
                                         <div className="product-img">
-                                            <Image width={361} height={292} src="/assets/img/home4/product-img3.jpg" alt="" />
+                                            <Image width={361} height={292} src="/assets/img/home4/product-img3.webp" alt="" />
                                             <Link href="/product/details" className="arrow">
                                                 <svg width={18} height={19} viewBox="0 0 18 19" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0.0891088 0.0541992H18V3.40711L3.38614 18.054L0 14.7011L9.98019 4.81886L0.0891088 4.90709V0.0541992Z" />
@@ -145,7 +145,7 @@ const HomeProductSection = () => {
                                 <div className="col-md-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                                     <div className="product-card mt-15 magnetic-item">
                                         <div className="product-img">
-                                            <Image width={361} height={292} src="/assets/img/home4/product-img4.jpg" alt="" />
+                                            <Image width={361} height={292} src="/assets/img/home4/product-img4.webp" alt="" />
                                             <Link href="/product/details" className="arrow">
                                                 <svg width={18} height={19} viewBox="0 0 18 19" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0.0891088 0.0541992H18V3.40711L3.38614 18.054L0 14.7011L9.98019 4.81886L0.0891088 4.90709V0.0541992Z" />

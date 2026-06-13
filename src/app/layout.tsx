@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/assets/img/fav-icon.svg",
-    apple: "/assets/img/akaraka-logo.png",
+    apple: "/assets/img/akaraka-logo.webp",
   },
 };
 

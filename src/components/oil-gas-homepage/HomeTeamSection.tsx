@@ -84,7 +84,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170}  src="/assets/img/home3/team-img1.png" alt="" />
+                                            <Image width={212} height={170}  src="/assets/img/home3/team-img1.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -103,7 +103,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img2.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img2.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -122,7 +122,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img3.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img3.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -141,7 +141,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img4.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img4.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -160,7 +160,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img5.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img5.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -179,7 +179,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img8.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img8.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -198,7 +198,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img6.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img6.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">
@@ -217,7 +217,7 @@ const HomeTeamSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="team-card2">
                                         <div className="team-img">
-                                            <Image width={212} height={170} src="/assets/img/home3/team-img7.png" alt="" />
+                                            <Image width={212} height={170} src="/assets/img/home3/team-img7.webp" alt="" />
                                             <div className="social-wrap">
                                                 <a href="https://www.facebook.com/" className="social-area">
                                                     <div className="icon">

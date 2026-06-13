@@ -90,7 +90,7 @@ const HomeProjectSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="project-card3">
                                         <Link href="/project/details" className="project-img">
-                                            <Image width={420} height={442} src="/assets/img/home5/project-img1.jpg" alt="" />
+                                            <Image width={420} height={442} src="/assets/img/home5/project-img1.webp" alt="" />
                                         </Link>
                                         <div className="project-content">
                                             <span>Client: AGRL</span>
@@ -101,7 +101,7 @@ const HomeProjectSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="project-card3">
                                         <Link href="/project/details" className="project-img">
-                                            <Image width={420} height={442} src="/assets/img/home5/project-img2.jpg" alt="" />
+                                            <Image width={420} height={442} src="/assets/img/home5/project-img2.webp" alt="" />
                                         </Link>
                                         <div className="project-content">
                                             <span>Client: AGRL</span>
@@ -112,7 +112,7 @@ const HomeProjectSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="project-card3">
                                         <Link href="/project/details" className="project-img">
-                                            <Image width={420} height={442} src="/assets/img/home5/project-img3.jpg" alt="" />
+                                            <Image width={420} height={442} src="/assets/img/home5/project-img3.webp" alt="" />
                                         </Link>
                                         <div className="project-content">
                                             <span>Client: Qzency</span>
@@ -123,7 +123,7 @@ const HomeProjectSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="project-card3">
                                         <Link href="/project/details" className="project-img">
-                                            <Image width={420} height={442} src="/assets/img/home5/project-img4.jpg" alt="" />
+                                            <Image width={420} height={442} src="/assets/img/home5/project-img4.webp" alt="" />
                                         </Link>
                                         <div className="project-content">
                                             <span>Client: Grand Chemicals Ltd</span>
@@ -134,7 +134,7 @@ const HomeProjectSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="project-card3">
                                         <Link href="/project/details" className="project-img">
-                                            <Image width={420} height={442} src="/assets/img/home5/project-img5.jpg" alt="" />
+                                            <Image width={420} height={442} src="/assets/img/home5/project-img5.webp" alt="" />
                                         </Link>
                                         <div className="project-content">
                                             <span>Client: Zenfy</span>
@@ -145,7 +145,7 @@ const HomeProjectSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="project-card3">
                                         <Link href="/project/details" className="project-img">
-                                            <Image width={420} height={442} src="/assets/img/home5/project-img6.jpg" alt="" />
+                                            <Image width={420} height={442} src="/assets/img/home5/project-img6.webp" alt="" />
                                         </Link>
                                         <div className="project-content">
                                             <span>Client: Mortar</span>

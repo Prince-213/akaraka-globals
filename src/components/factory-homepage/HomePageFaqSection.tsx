@@ -45,7 +45,7 @@ const FaqSection: React.FC= () => {
               <Image
                 width={334}
                 height={450}
-                src="/assets/img/home1/faq-img.jpg"
+                src="/assets/img/home1/faq-img.webp"
                 alt="FAQ Illustration"
               />
             </div>

@@ -88,9 +88,9 @@ const HomeTestimonialSection:React.FC = () => {
                             </Swiper>
                             <div className="contact-btn-area">
                                 <ul className="img-grp">
-                                    <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img1.png" alt="" /></li>
-                                    <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img2.png" alt="" /></li>
-                                    <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img4.png" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img1.webp" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img2.webp" alt="" /></li>
+                                    <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img4.webp" alt="" /></li>
                                 </ul>
                                 <a className="contact-btn" href="/contact">
                                     Connect With Us

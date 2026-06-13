@@ -75,7 +75,7 @@ const HomeTeamSection:React.FC = () => {
                                 <div className="swiper-wrapper">
                                     <SwiperSlide className="swiper-slide">
                                         <div className="team-card two">
-                                              <Image width={306} height={345} src="/assets/img/home2/team-img1.png" alt="" />
+                                              <Image width={306} height={345} src="/assets/img/home2/team-img1.webp" alt="" />
                                             <div className="team-content-wrap">
                                                 <div className="team-content">
                                                     <span>Director at AGRL</span>
@@ -97,7 +97,7 @@ const HomeTeamSection:React.FC = () => {
                                     </SwiperSlide>
                                     <SwiperSlide className="swiper-slide">
                                         <div className="team-card two">
-                                            <Image width={306} height={345} src="/assets/img/home2/team-img2.png" alt="" />
+                                            <Image width={306} height={345} src="/assets/img/home2/team-img2.webp" alt="" />
                                             <div className="team-content-wrap">
                                                 <div className="team-content">
                                                     <span>Project Manager</span>
@@ -119,7 +119,7 @@ const HomeTeamSection:React.FC = () => {
                                     </SwiperSlide>
                                     <SwiperSlide className="swiper-slide">
                                         <div className="team-card two">
-                                            <Image width={306} height={345} src="/assets/img/home2/team-img3.png" alt="" />
+                                            <Image width={306} height={345} src="/assets/img/home2/team-img3.webp" alt="" />
                                             <div className="team-content-wrap">
                                                 <div className="team-content">
                                                     <span>Civil Engineer</span>
@@ -141,7 +141,7 @@ const HomeTeamSection:React.FC = () => {
                                     </SwiperSlide>
                                     <SwiperSlide className="swiper-slide">
                                         <div className="team-card two">
-                                            <Image width={306} height={345} src="/assets/img/home2/team-img4.png" alt="" />
+                                            <Image width={306} height={345} src="/assets/img/home2/team-img4.webp" alt="" />
                                             <div className="team-content-wrap">
                                                 <div className="team-content">
                                                     <span>Safety Officer</span>
@@ -163,7 +163,7 @@ const HomeTeamSection:React.FC = () => {
                                     </SwiperSlide>
                                     <SwiperSlide className="swiper-slide">
                                         <div className="team-card two">
-                                            <Image width={306} height={345} src="/assets/img/home2/team-img5.png" alt="" />
+                                            <Image width={306} height={345} src="/assets/img/home2/team-img5.webp" alt="" />
                                             <div className="team-content-wrap">
                                                 <div className="team-content">
                                                     <span>Machine Operator</span>
@@ -185,7 +185,7 @@ const HomeTeamSection:React.FC = () => {
                                     </SwiperSlide>
                                     <SwiperSlide className="swiper-slide">
                                         <div className="team-card two">
-                                            <Image width={306} height={345} src="/assets/img/home2/team-img6.png" alt="" />
+                                            <Image width={306} height={345} src="/assets/img/home2/team-img6.webp" alt="" />
                                             <div className="team-content-wrap">
                                                 <div className="team-content">
                                                     <span>Process Engineer</span>

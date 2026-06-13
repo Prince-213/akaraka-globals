@@ -88,7 +88,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Workforce Training &amp; Control</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img1.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img1.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details
@@ -111,7 +111,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Logistics <br /> Management</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img2.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img2.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details
@@ -134,7 +134,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Equipment <br /> Rental &amp; Leasing</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img3.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img3.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details
@@ -157,7 +157,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Metal Work &amp; <br /> Compliance Train</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img4.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img4.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details
@@ -180,7 +180,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Solar Panel Wind Installation</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img5.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img5.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details
@@ -203,7 +203,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Exploration and <br /> Drilling</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img6.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img6.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details
@@ -226,7 +226,7 @@ const HomeServiceSection: React.FC = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="service-card">
                                                 <h4><Link href="/service/details">Warehousing and Distribution</Link></h4>
-                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img7.jpg" alt="" /></Link>
+                                                <Link href="/service/details" className="service-img"><Image width={240} height={130} src="/assets/img/home2/service-img7.webp" alt="" /></Link>
                                                 <p>We provide end-to-end product development services, from ideation to launch.</p>
                                                 <Link className="primary-btn3 transparent" href="/service/details">
                                                     <span>View Details

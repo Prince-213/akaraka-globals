@@ -34,7 +34,7 @@ const HomeCareerOpportunitySection = () => {
                                     <div className="career-card">
                                         <div className="career-banner-img">
                                              <Image
-                                              width={425} height={470} src="/assets/img/home3/career-banner-img1.jpg" alt="" />
+                                              width={425} height={470} src="/assets/img/home3/career-banner-img1.webp" alt="" />
                                         </div>
                                         <div className="career-content-wrap">
                                             <div className="career-content">
@@ -55,7 +55,7 @@ const HomeCareerOpportunitySection = () => {
                                     <div className="career-card">
                                         <div className="career-banner-img">
                                              <Image
-                                              width={425} height={470} src="/assets/img/home3/career-banner-img2.jpg" alt="" />
+                                              width={425} height={470} src="/assets/img/home3/career-banner-img2.webp" alt="" />
                                         </div>
                                         <div className="career-content-wrap">
                                             <div className="career-content">

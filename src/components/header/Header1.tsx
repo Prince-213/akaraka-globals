@@ -201,7 +201,7 @@ const Header1: React.FC = () => {
                   width={157}
                   height={34}
                   alt="image"
-                  src="/assets/img/akaraka-logo.png"
+                  src="/assets/img/akaraka-logo.webp"
                 />
               </Link>
             </div>
@@ -432,7 +432,7 @@ const Header1: React.FC = () => {
                 }}
                 alt="image"
                 className="img-fluid"
-                src="/assets/img/akaraka-logo.png"
+                src="/assets/img/akaraka-logo.webp"
               />
             </Link>
           </div>
@@ -446,7 +446,7 @@ const Header1: React.FC = () => {
                   height={34}
                   alt="image"
                   className="img-fluid"
-                  src="/assets/img/akaraka-logo.png"
+                  src="/assets/img/akaraka-logo.webp"
                 />
               </Link>
               <div className="menu-close-btn" onClick={toggleSidebar}>

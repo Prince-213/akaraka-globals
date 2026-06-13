@@ -51,7 +51,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
                 <Image
                   width={283}
                   height={171}
-                  src="/assets/img/home2/why-choose-img1.jpg"
+                  src="/assets/img/home2/why-choose-img1.webp"
                   alt="choose-img1"
                 />
                 Spanish mackerel yellow weaver sigils. Sunporch flying fish
@@ -78,7 +78,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
                 <Image
                   width={283}
                   height={171}
-                  src="/assets/img/home2/why-choose-img2.jpg"
+                  src="/assets/img/home2/why-choose-img2.webp"
                   alt="choose-img2"
                 />
                 A trusted partner is a reliable and dependable collaborator who
@@ -105,7 +105,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
                 <Image
                   width={283}
                   height={171}
-                  src="/assets/img/home2/why-choose-img3.jpg"
+                  src="/assets/img/home2/why-choose-img3.webp"
                   alt="choose-img3"
                 />
                 Driving Innovation means continuously exploring new ideas,
@@ -131,7 +131,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
                 <Image
                   width={283}
                   height={171}
-                  src="/assets/img/home2/why-choose-img4.jpg"
+                  src="/assets/img/home2/why-choose-img4.webp"
                   alt="choose-img4"
                 />
                 Exploring new materials and technologies to improve strength,

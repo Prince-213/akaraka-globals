@@ -104,7 +104,7 @@ const HomeServiceSection: React.FC = () => {
                         <ul className="service-card-wrap" ref={serviceImgListRef}>
                             <li className="active">
                                 <div className="service-card2">
-                                    <Image width={716} height={556} src="/assets/img/home5/service-img1.jpg" alt="" />
+                                    <Image width={716} height={556} src="/assets/img/home5/service-img1.webp" alt="" />
                                     <div className="service-content">
                                         <p>These services cover a broad range of plastic &amp; polymer solutions, helping you choose the right materials that match your design goals.</p>
                                         <Link className="primary-btn5 two btn-hover" href="/service/details">
@@ -122,7 +122,7 @@ const HomeServiceSection: React.FC = () => {
                             </li>
                             <li>
                                 <div className="service-card2">
-                                    <Image width={716} height={556} src="/assets/img/home5/service-img2.jpg" alt="" />
+                                    <Image width={716} height={556} src="/assets/img/home5/service-img2.webp" alt="" />
                                     <div className="service-content">
                                         <p>These services cover a broad range of plastic &amp; polymer industry needs from basic manufacturing processes to specialized solutions.</p>
                                         <Link className="primary-btn5 two btn-hover" href="/service/details">
@@ -140,7 +140,7 @@ const HomeServiceSection: React.FC = () => {
                             </li>
                             <li>
                                 <div className="service-card2">
-                                    <Image width={716} height={556} src="/assets/img/home5/service-img3.jpg" alt="" />
+                                    <Image width={716} height={556} src="/assets/img/home5/service-img3.webp" alt="" />
                                     <div className="service-content">
                                         <p>These services cover a broad range of garment production needs, from initial pattern making to final stitching.</p>
                                         <Link className="primary-btn5 two btn-hover" href="/service/details">
@@ -158,7 +158,7 @@ const HomeServiceSection: React.FC = () => {
                             </li>
                             <li>
                                 <div className="service-card2">
-                                    <Image width={716} height={556} src="/assets/img/home5/service-img4.jpg" alt="" />
+                                    <Image width={716} height={556} src="/assets/img/home5/service-img4.webp" alt="" />
                                     <div className="service-content">
                                         <p>These services cover the color and pattern applications, offering everything from traditional dyeing techniques.</p>
                                         <Link className="primary-btn5 two btn-hover" href="/service/details">
@@ -176,7 +176,7 @@ const HomeServiceSection: React.FC = () => {
                             </li>
                             <li>
                                 <div className="service-card2">
-                                    <Image width={716} height={556} src="/assets/img/home5/service-img5.jpg" alt="" />
+                                    <Image width={716} height={556} src="/assets/img/home5/service-img5.webp" alt="" />
                                     <div className="service-content">
                                         <p>These services cover a broad range of plastic &amp; polymer industry needs from basic manufacturing processes to specialized solutions.</p>
                                         <Link className="primary-btn5 two btn-hover" href="/service/details">
@@ -194,7 +194,7 @@ const HomeServiceSection: React.FC = () => {
                             </li>
                             <li>
                                 <div className="service-card2">
-                                    <Image width={716} height={556} src="/assets/img/home5/service-img2.jpg" alt="" />
+                                    <Image width={716} height={556} src="/assets/img/home5/service-img2.webp" alt="" />
                                     <div className="service-content">
                                         <p>These services cover a broad range of plastic &amp; polymer industry needs from basic manufacturing processes to specialized solutions.</p>
                                         <Link className="primary-btn5 two btn-hover" href="/service/details">

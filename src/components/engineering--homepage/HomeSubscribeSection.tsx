@@ -7,7 +7,7 @@ const HomeSubscribeSection: React.FC = () => {
             <div className="container">
                 <div className="subscribe-wrapper">
                     <div className="subscribe-img">
-                        <Image width={590} height={210} src="/assets/img/home6/subscribe-img.jpg" alt="" />
+                        <Image width={590} height={210} src="/assets/img/home6/subscribe-img.webp" alt="" />
                     </div>
                     <div className="subscribe-content">
                         <h4>Stay Connected — Subscribe for General Contracting &amp; Supply Updates.</h4>
@@ -25,7 +25,7 @@ const HomeSubscribeSection: React.FC = () => {
                             </div>
                         </form>
                     </div>
-                    <Image width={420} height={118} src="/assets/img/home6/subscribe-section-vector.png" alt="" className="vector" />
+                    <Image width={420} height={118} src="/assets/img/home6/subscribe-section-vector.webp" alt="" className="vector" />
                 </div>
             </div>
         </div>

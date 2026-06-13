@@ -12,7 +12,7 @@ const HomeAboutSection = () => {
                                 <h2>About Our Company Mission &amp; Vision</h2>
                             </div>
                             <p>We understand your needs and deliver digital marketing through unique selling proposition. Our team of experts is passionate about helping you SEO company. Choose us and experience the difference! Looking for something different? We challenge the status quo with innovative solutions and a [company culture adjective] approach. Let us show you how we can help you achieve desired outcome in a way you won't expect.</p>
-                            <Image width={1026} height={745} src="/assets/img/home5/home5-about-img.jpg" alt="" />
+                            <Image width={1026} height={745} src="/assets/img/home5/home5-about-img.webp" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-2 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -52,18 +52,18 @@ const HomeAboutSection = () => {
                         </div>
                         <div className="marquee">
                             <div className="marquee__group">
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-01.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-02.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-03.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-04.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-05.png" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-01.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-02.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-03.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-04.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-05.webp" alt="" /></a>
                             </div>
                             <div aria-hidden="true" className="marquee__group">
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-01.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-02.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-03.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-04.png" alt="" /></a>
-                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-05.png" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-01.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-02.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-03.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-04.webp" alt="" /></a>
+                                <a href="#"><Image width={105} height={50} src="/assets/img/home5/partner-05.webp" alt="" /></a>
                             </div>
                         </div>
                     </div>

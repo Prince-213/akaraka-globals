@@ -12,7 +12,7 @@ export const contentType = 'image/png';
 
 export default async function Image() {
   try {
-    const bgData = await readFile(join(process.cwd(), 'public/assets/img/og-bg.png'));
+    const bgData = await readFile(join(process.cwd(), 'public/assets/img/og-bg.webp'));
     const bgBase64 = bgData.toString('base64');
     const bgSrc = `data:image/png;base64,${bgBase64}`;
 

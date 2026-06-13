@@ -36,7 +36,7 @@ const HomeBlogSection = () => {
                     <div className="col-xl-6 col-lg-5 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="blog-card2 two magnetic-item">
                             <div className="blog-img">
-                                <Image width={636} height={534} src="/assets/img/home5/blog-img1.jpg" alt="" />
+                                <Image width={636} height={534} src="/assets/img/home5/blog-img1.webp" alt="" />
                             </div>
                             <div className="blog-content-wrap">
                                 <Link href="/blog" className="blog-date">10 August, 2025</Link>
@@ -57,7 +57,7 @@ const HomeBlogSection = () => {
                         <div className="blog-card four mb-30 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="blog-img-wrap">
                                 <Link className="blog-img" href="/blog/details">
-                                    <Image width={311} height={250} src="/assets/img/home5/blog-img2.jpg" alt="" />
+                                    <Image width={311} height={250} src="/assets/img/home5/blog-img2.webp" alt="" />
                                 </Link>
                             </div>
                             <div className="blog-content-wrap">
@@ -84,7 +84,7 @@ const HomeBlogSection = () => {
                         <div className="blog-card four wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="blog-img-wrap">
                                 <Link className="blog-img" href="/blog/details">
-                                    <Image width={311} height={250} src="/assets/img/home5/blog-img3.jpg" alt="" />
+                                    <Image width={311} height={250} src="/assets/img/home5/blog-img3.webp" alt="" />
                                 </Link>
                             </div>
                             <div className="blog-content-wrap">

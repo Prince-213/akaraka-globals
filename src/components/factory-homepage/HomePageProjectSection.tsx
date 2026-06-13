@@ -86,7 +86,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img1.jpg"
+                            src="/assets/img/home1/project-img1.webp"
                             alt=""
                           />
                         </div>
@@ -120,7 +120,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img2.jpg"
+                            src="/assets/img/home1/project-img2.webp"
                             alt=""
                           />
                         </div>
@@ -152,7 +152,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img3.jpg"
+                            src="/assets/img/home1/project-img3.webp"
                             alt=""
                           />
                         </div>
@@ -183,7 +183,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img4.jpg"
+                            src="/assets/img/home1/project-img4.webp"
                             alt=""
                           />
                         </div>
@@ -214,7 +214,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img5.jpg"
+                            src="/assets/img/home1/project-img5.webp"
                             alt=""
                           />
                         </div>
@@ -245,7 +245,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img6.jpg"
+                            src="/assets/img/home1/project-img6.webp"
                             alt=""
                           />
                         </div>

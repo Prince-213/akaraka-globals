@@ -10,9 +10,9 @@ const FooterTopSection: React.FC = () => {
                     <div className="title-and-btn-area wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="section-title white">
                             <h2>
-                                <Image width={50} height={50} src="/assets/img/home4/expert-img1.png" alt="" />
-                                <Image width={50} height={50} src="/assets/img/home4/expert-img2.png" alt="" />
-                                <Image width={50} height={50} src="/assets/img/home4/expert-img3.png" alt="" />
+                                <Image width={50} height={50} src="/assets/img/home4/expert-img1.webp" alt="" />
+                                <Image width={50} height={50} src="/assets/img/home4/expert-img2.webp" alt="" />
+                                <Image width={50} height={50} src="/assets/img/home4/expert-img3.webp" alt="" />
                                 Talk to our experts about your coatings &amp; paints needs.
                             </h2>
                         </div>

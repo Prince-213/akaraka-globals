@@ -14,7 +14,7 @@ const Footer4 = () => {
                   <Image
                     width={160}
                     height={100}
-                    src="/assets/img/akaraka-logo.png"
+                    src="/assets/img/akaraka-logo.webp"
                     alt="AGRL Logo"
                   />
                 </Link>

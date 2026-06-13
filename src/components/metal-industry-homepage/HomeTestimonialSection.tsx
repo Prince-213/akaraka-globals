@@ -75,7 +75,7 @@ const HomeTestimonialSection = () => {
                                         <div className="author-and-social-area">
                                             <div className="author-area">
                                                 <div className="author-img">
-                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img1.png" alt="" />
+                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img1.webp" alt="" />
                                                 </div>
                                                 <div className="author-content">
                                                     <h5>Mr. Daniel Scoot</h5>
@@ -101,7 +101,7 @@ const HomeTestimonialSection = () => {
                                         <div className="author-and-social-area">
                                             <div className="author-area">
                                                 <div className="author-img">
-                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img4.png" alt="" />
+                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img4.webp" alt="" />
                                                 </div>
                                                 <div className="author-content">
                                                     <h5>Ryan Leonardo</h5>
@@ -127,7 +127,7 @@ const HomeTestimonialSection = () => {
                                         <div className="author-and-social-area">
                                             <div className="author-area">
                                                 <div className="author-img">
-                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img2.png" alt="" />
+                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img2.webp" alt="" />
                                                 </div>
                                                 <div className="author-content">
                                                     <h5>Jeremiah Jose</h5>
@@ -153,7 +153,7 @@ const HomeTestimonialSection = () => {
                                         <div className="author-and-social-area">
                                             <div className="author-area">
                                                 <div className="author-img">
-                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img3.png" alt="" />
+                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img3.webp" alt="" />
                                                 </div>
                                                 <div className="author-content">
                                                     <h5>Matthew Julian</h5>
@@ -179,7 +179,7 @@ const HomeTestimonialSection = () => {
                                         <div className="author-and-social-area">
                                             <div className="author-area">
                                                 <div className="author-img">
-                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img4.png" alt="" />
+                                                    <Image width={50} height={50} src="/assets/img/home1/testimonial-author-img4.webp" alt="" />
                                                 </div>
                                                 <div className="author-content">
                                                     <h5>Olivern James</h5>

@@ -17,7 +17,7 @@ const HomeProjectSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="project-card2 two magnetic-item">
                             <Link href="/project/details" className="project-img">
-                                <Image width={636} height={382} src="/assets/img/home3/project-img1.jpg" alt="" />
+                                <Image width={636} height={382} src="/assets/img/home3/project-img1.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <h4><Link href="/project/details">Global Pigment Supply Initiative</Link></h4>
@@ -31,7 +31,7 @@ const HomeProjectSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div className="project-card2 two magnetic-item">
                             <Link href="/project/details" className="project-img">
-                                <Image width={636} height={382}  src="/assets/img/home3/project-img2.jpg" alt="" />
+                                <Image width={636} height={382}  src="/assets/img/home3/project-img2.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <h4><Link href="/project/details">Printing Ink Distribution Network</Link></h4>
@@ -45,7 +45,7 @@ const HomeProjectSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                         .<div className="project-card2 two magnetic-item">
                             <Link href="/project/details" className="project-img">
-                                <Image width={636} height={382}  src="/assets/img/home3/project-img3.jpg" alt="" />
+                                <Image width={636} height={382}  src="/assets/img/home3/project-img3.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <h4><Link href="/project/details">Colour Matching Excellence Programme</Link></h4>
@@ -59,7 +59,7 @@ const HomeProjectSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                         .<div className="project-card2 two magnetic-item">
                             <Link href="/project/details" className="project-img">
-                                <Image width={636} height={382}  src="/assets/img/home3/project-img4.jpg" alt="" />
+                                <Image width={636} height={382}  src="/assets/img/home3/project-img4.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <h4><Link href="/project/details">Sustainable Coatings Project</Link></h4>

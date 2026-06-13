@@ -24,7 +24,7 @@ const HomeProductSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="product-card2">
                             <div className="product-img">
-                                <Image width={300} height={155} src="/assets/img/home5/product-img1.jpg" alt="" />
+                                <Image width={300} height={155} src="/assets/img/home5/product-img1.webp" alt="" />
                             </div>
                             <div className="product-content">
                                 <h4><Link href="/product/details">Plastic Packaging</Link></h4>
@@ -43,7 +43,7 @@ const HomeProductSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div className="product-card2">
                             <div className="product-img">
-                                <Image width={300} height={155} src="/assets/img/home5/product-img2.jpg" alt="" />
+                                <Image width={300} height={155} src="/assets/img/home5/product-img2.webp" alt="" />
                             </div>
                             <div className="product-content">
                                 <h4><Link href="/product/details">Geopolymers</Link></h4>
@@ -62,7 +62,7 @@ const HomeProductSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="product-card2">
                             <div className="product-img">
-                                <Image width={300} height={155} src="/assets/img/home5/product-img3.jpg" alt="" />
+                                <Image width={300} height={155} src="/assets/img/home5/product-img3.webp" alt="" />
                             </div>
                             <div className="product-content">
                                 <h4><Link href="/product/details">Flooring Solutions</Link></h4>
@@ -81,7 +81,7 @@ const HomeProductSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                         <div className="product-card2">
                             <div className="product-img">
-                                <Image width={300} height={155} src="/assets/img/home5/product-img4.jpg" alt="" />
+                                <Image width={300} height={155} src="/assets/img/home5/product-img4.webp" alt="" />
                             </div>
                             <div className="product-content">
                                 <h4><Link href="/product/details">Household Plastics</Link></h4>
@@ -100,7 +100,7 @@ const HomeProductSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="product-card2">
                             <div className="product-img">
-                                <Image width={300} height={155} src="/assets/img/home5/product-img5.jpg" alt="" />
+                                <Image width={300} height={155} src="/assets/img/home5/product-img5.webp" alt="" />
                             </div>
                             <div className="product-content">
                                 <h4><Link href="/product/details">Automotive Plastics</Link></h4>
@@ -119,7 +119,7 @@ const HomeProductSection = () => {
                     <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div className="product-card2">
                             <div className="product-img">
-                                <Image width={300} height={155} src="/assets/img/home5/product-img6.jpg" alt="" />
+                                <Image width={300} height={155} src="/assets/img/home5/product-img6.webp" alt="" />
                             </div>
                             <div className="product-content">
                                 <h4><Link href="/product/details">Medical Polymers</Link></h4>

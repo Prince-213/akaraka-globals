@@ -54,7 +54,7 @@ const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
         }}
       >
         <Image
-          src="/assets/img/innerpages/breadcrumb-img1.jpg"
+          src="/assets/img/innerpages/breadcrumb-img1.webp"
           alt="breadcrumb image"
           fill
           style={{

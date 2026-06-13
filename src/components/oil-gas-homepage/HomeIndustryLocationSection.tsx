@@ -40,7 +40,7 @@ const HomeIndustryLocationSection = () => {
                                 </div>
                                 <div className="single-item">
                                     <div className="flag">
-                                        <Image width={20} height={20} src="/assets/img/home3/singapore-flag.png" alt="" />
+                                        <Image width={20} height={20} src="/assets/img/home3/singapore-flag.webp" alt="" />
                                     </div>
                                     <span>Singapore</span>
                                 </div>
@@ -57,7 +57,7 @@ const HomeIndustryLocationSection = () => {
                                 </div>
                                 <div className="single-item">
                                     <div className="flag">
-                                        <Image width={20} height={20} src="/assets/img/home3/uk-flag.png" alt="" />
+                                        <Image width={20} height={20} src="/assets/img/home3/uk-flag.webp" alt="" />
                                     </div>
                                     <span>United Kingdom</span>
                                 </div>
@@ -74,7 +74,7 @@ const HomeIndustryLocationSection = () => {
                                 </div>
                                 <div className="single-item">
                                     <div className="flag">
-                                        <Image width={20} height={20} src="/assets/img/home3/uae-flag.png" alt="" />
+                                        <Image width={20} height={20} src="/assets/img/home3/uae-flag.webp" alt="" />
                                     </div>
                                     <span>United Arab Emirates</span>
                                 </div>
@@ -91,7 +91,7 @@ const HomeIndustryLocationSection = () => {
                                 </div>
                                 <div className="single-item">
                                     <div className="flag">
-                                        <Image width={20} height={20} src="/assets/img/home3/australia-flag.png" alt="" />
+                                        <Image width={20} height={20} src="/assets/img/home3/australia-flag.webp" alt="" />
                                     </div>
                                     <span>Australia</span>
                                 </div>
@@ -108,7 +108,7 @@ const HomeIndustryLocationSection = () => {
                                 </div>
                                 <div className="single-item">
                                     <div className="flag">
-                                        <Image width={20} height={20} src="/assets/img/home3/cambodia-flag.png" alt="" />
+                                        <Image width={20} height={20} src="/assets/img/home3/cambodia-flag.webp" alt="" />
                                     </div>
                                     <span>Cambodia</span>
                                 </div>

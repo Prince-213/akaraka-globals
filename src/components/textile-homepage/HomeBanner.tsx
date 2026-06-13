@@ -15,10 +15,10 @@ const HomeBanner = () => {
                         <p>AGRL specialises in polymer-based solutions, from high-density industrial containers to precision-moulded household and automotive plastics.</p>
                         <div className="btn-area">
                             <ul className="img-grp">
-                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img1.png" alt="" /></li>
-                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img2.png" alt="" /></li>
-                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img3.png" alt="" /></li>
-                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img4.png" alt="" /></li>
+                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img1.webp" alt="" /></li>
+                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img2.webp" alt="" /></li>
+                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img3.webp" alt="" /></li>
+                                <li><Image width={42} height={42} src="/assets/img/home5/banner-people-img4.webp" alt="" /></li>
                             </ul>
                             <Link href="/contact">1k PEOPLE WORK WITH US</Link>
                         </div>
@@ -28,7 +28,7 @@ const HomeBanner = () => {
             <div className="home5-feature-section">
                 <div className="feature-wrapper">
                     <div className="feature-img">
-                        <Image width={1900} height={900} src="/assets/img/home5/home5-feature-img.jpg" alt="" />
+                        <Image width={1900} height={900} src="/assets/img/home5/home5-feature-img.webp" alt="" />
                     </div>
                     <div className="feature-content">
                         <div className="container">

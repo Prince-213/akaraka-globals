@@ -69,9 +69,9 @@ const HomeBenefitSection:React.FC = () => {
                     <div className="col-xl-5 col-lg-6 d-lg-block d-none wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="benefit-img-wrap magnetic-item">
                             <div className="benefit-img">
-                                <Image width={495} height={596} src="/assets/img/home2/benefit-img.jpg" alt="" />
+                                <Image width={495} height={596} src="/assets/img/home2/benefit-img.webp" alt="" />
                             </div>
-                            <Image width={500} height={600} src="/assets/img/home2/benefit-img-bg.png" alt="" className="img-bg" />
+                            <Image width={500} height={600} src="/assets/img/home2/benefit-img-bg.webp" alt="" className="img-bg" />
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ const HomeCareerSection: React.FC = () => {
             <div className="row g-0">
                 <div className="col-xl-5 d-xl-block d-none">
                     <div className="career-img">
-                        <Image width={760} height={840} src="/assets/img/home4/home4-career-img.jpg" alt="" />
+                        <Image width={760} height={840} src="/assets/img/home4/home4-career-img.webp" alt="" />
                     </div>
                 </div>
                 <div className="col-xl-7">

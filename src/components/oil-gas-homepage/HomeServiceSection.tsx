@@ -73,7 +73,7 @@ const HomeServiceSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="services-img">
-                            <Image width={250} height={250} src="/assets/img/home3/service-img1.jpg" alt="" />
+                            <Image width={250} height={250} src="/assets/img/home3/service-img1.webp" alt="" />
                         </div>
                         <div className="content">
                             <p>Flexographic &amp; Gravure Inks</p>
@@ -104,7 +104,7 @@ const HomeServiceSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="services-img">
-                            <Image width={250} height={250} src="/assets/img/home3/service-img2.jpg" alt="" />
+                            <Image width={250} height={250} src="/assets/img/home3/service-img2.webp" alt="" />
                         </div>
                         <div className="content">
                             <p>Pigment Distribution &amp; Supply</p>
@@ -131,7 +131,7 @@ const HomeServiceSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="services-img">
-                            <Image width={250} height={250} src="/assets/img/home3/service-img3.jpg" alt="" />
+                            <Image width={250} height={250} src="/assets/img/home3/service-img3.webp" alt="" />
                         </div>
                         <div className="content">
                             <p>Quality Control &amp; Colour Matching</p>
@@ -160,7 +160,7 @@ const HomeServiceSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="services-img">
-                            <Image width={250} height={250} src="/assets/img/home3/service-img4.jpg" alt="" />
+                            <Image width={250} height={250} src="/assets/img/home3/service-img4.webp" alt="" />
                         </div>
                         <div className="content">
                             <p>Coatings &amp; Printing Additives</p>
@@ -189,7 +189,7 @@ const HomeServiceSection: React.FC = () => {
                             </div>
                         </div>
                         <div className="services-img">
-                            <Image width={250} height={250} src="/assets/img/home3/service-img5.jpg" alt="" />
+                            <Image width={250} height={250} src="/assets/img/home3/service-img5.webp" alt="" />
                         </div>
                         <div className="content">
                             <p>Custom Colourant Formulations</p>

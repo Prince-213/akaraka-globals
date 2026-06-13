@@ -12,7 +12,7 @@ const HomeAboutSection:React.FC = () => {
                 <div className="row gy-lg-5 gy-4">
                     <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="about-img magnetic-item">
-                            <Image width={610} height={670} src="/assets/img/home4/about-img.jpg" alt="" />
+                            <Image width={610} height={670} src="/assets/img/home4/about-img.webp" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">

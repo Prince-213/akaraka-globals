@@ -14,7 +14,7 @@ const Footer1: React.FC = () => {
                   <Image
                     width={160}
                     height={100}
-                    src="/assets/img/Group 416.png"
+                    src="/assets/img/Group 416.webp"
                     alt=""
                   />
                 </Link>

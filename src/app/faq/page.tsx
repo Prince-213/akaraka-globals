@@ -40,7 +40,7 @@ const page = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-5 d-lg-flex d-none justify-content-lg-center">
                             <div className="faq-img magnetic-item">
-                                <Image width={343} height={452} src="/assets/img/home1/faq-img.jpg" alt="" />
+                                <Image width={343} height={452} src="/assets/img/home1/faq-img.webp" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-7">

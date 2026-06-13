@@ -9,7 +9,7 @@ const HomeContactSection: React.FC = () => {
                     <div className="row gy-5 align-items-center">
                         <div className="col-lg-6 d-md-block d-none">
                             <div className="contact-img">
-                                <Image width={600} height={650} src="/assets/img/home6/home6-contact-img.jpg" alt="" />
+                                <Image width={600} height={650} src="/assets/img/home6/home6-contact-img.webp" alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6">

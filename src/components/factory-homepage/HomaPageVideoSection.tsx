@@ -10,7 +10,7 @@ const HomaPageVideoSection: React.FC = () => {
     return (
         <>
             <div className="home1-video-section">
-                <Image width={1950} height={765} src="/assets/img/home1/home1-video-bg.jpg" alt="" />
+                <Image width={1950} height={765} src="/assets/img/home1/home1-video-bg.webp" alt="" />
                 <a style={{ cursor: "pointer" }}
                     onClick={() => setOpen(true)} className="play-btn video-player">
                     <div className="icon">

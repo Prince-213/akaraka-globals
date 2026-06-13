@@ -81,7 +81,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                            <Image width={263} height={226} src="/assets/img/home6/service-img1.jpg" alt="" />
+                                            <Image width={263} height={226} src="/assets/img/home6/service-img1.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Workforce Training &amp; Safety</Link></h4>
@@ -99,7 +99,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                             <Image width={263} height={226} src="/assets/img/home6/service-img2.jpg" alt="" />
+                                             <Image width={263} height={226} src="/assets/img/home6/service-img2.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Civil &amp; Structural Works</Link></h4>
@@ -117,7 +117,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                             <Image width={263} height={226} src="/assets/img/home6/service-img3.jpg" alt="" />
+                                             <Image width={263} height={226} src="/assets/img/home6/service-img3.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Procurement &amp; Supply Chain</Link></h4>
@@ -135,7 +135,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                             <Image width={263} height={226} src="/assets/img/home6/service-img4.jpg" alt="" />
+                                             <Image width={263} height={226} src="/assets/img/home6/service-img4.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Project Management</Link></h4>
@@ -153,7 +153,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                             <Image width={263} height={226} src="/assets/img/home6/service-img5.jpg" alt="" />
+                                             <Image width={263} height={226} src="/assets/img/home6/service-img5.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Mechanical &amp; Electrical Services</Link></h4>
@@ -171,7 +171,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                             <Image width={263} height={226} src="/assets/img/home6/service-img6.jpg" alt="" />
+                                             <Image width={263} height={226} src="/assets/img/home6/service-img6.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Facility Maintenance</Link></h4>
@@ -189,7 +189,7 @@ const HomeServiceSection:React.FC = () => {
                                 <SwiperSlide className="swiper-slide">
                                     <div className="service-card3">
                                         <div className="service-img">
-                                             <Image width={263} height={226} src="/assets/img/home6/service-img7.jpg" alt="" />
+                                             <Image width={263} height={226} src="/assets/img/home6/service-img7.webp" alt="" />
                                         </div>
                                         <div className="service-content">
                                             <h4><Link href="/service/details">Logistics &amp; Haulage</Link></h4>

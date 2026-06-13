@@ -14,7 +14,7 @@ const HomeBannerSection = () => {
                 <div className="container-fluid">
                     <div className="banner-wrapper">
                         <div className="banner-img magnetic-item btn_wrapper">
-                            <Image width={710} height={710} src="/assets/img/home3/banner-img.jpg" alt="" />
+                            <Image width={710} height={710} src="/assets/img/home3/banner-img.webp" alt="" />
                         </div>
                         <div className="banner-content">
                             <span>Akaraka Global Resources Limited</span>

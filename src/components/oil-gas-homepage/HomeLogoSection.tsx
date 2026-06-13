@@ -11,20 +11,20 @@ const HomeLogoSection = () => {
                     </div>
                     <div className="marquee">
                         <div className="marquee__group">
-                            <a href="#"> <Image width={150} height={50} src="/assets/img/home3/partner-01.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-02.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-03.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-04.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-05.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-06.png" alt="" /></a>
+                            <a href="#"> <Image width={150} height={50} src="/assets/img/home3/partner-01.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-02.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-03.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-04.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-05.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-06.webp" alt="" /></a>
                         </div>
                         <div aria-hidden="true" className="marquee__group">
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-01.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-02.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-03.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-04.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-05.png" alt="" /></a>
-                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-06.png" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-01.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-02.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-03.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-04.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-05.webp" alt="" /></a>
+                            <a href="#"><Image width={150} height={50} src="/assets/img/home3/partner-06.webp" alt="" /></a>
                         </div>
                     </div>
                 </div>

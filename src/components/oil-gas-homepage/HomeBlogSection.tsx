@@ -79,7 +79,7 @@ const HomeBlogSection:React.FC = () => {
                     <div className="col-lg-6 order-lg-1 order-2 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="blog-card2 magnetic-item">
                             <div className="blog-img">
-                                <Image width={636} height={512} src="/assets/img/home3/blog-img1.jpg" alt="" />
+                                <Image width={636} height={512} src="/assets/img/home3/blog-img1.webp" alt="" />
                             </div>
                             <div className="blog-content-wrap">
                                 <Link href="/blog" className="blog-date">10 August, 2025</Link>
@@ -103,7 +103,7 @@ const HomeBlogSection:React.FC = () => {
                                     <div className="blog-card three">
                                         <div className="blog-img-wrap">
                                             <Link className="blog-img" href="/blog/details">
-                                                <Image width={300} height={300} src="/assets/img/home3/blog-img2.jpg" alt="" />
+                                                <Image width={300} height={300} src="/assets/img/home3/blog-img2.webp" alt="" />
                                             </Link>
                                             <Link href="/blog" className="blog-date">10 August, 2025</Link>
                                         </div>
@@ -125,7 +125,7 @@ const HomeBlogSection:React.FC = () => {
                                     <div className="blog-card three">
                                         <div className="blog-img-wrap">
                                             <Link className="blog-img" href="/blog/details">
-                                                <Image width={300} height={300} src="/assets/img/home3/blog-img3.jpg" alt="" />
+                                                <Image width={300} height={300} src="/assets/img/home3/blog-img3.webp" alt="" />
                                             </Link>
                                             <Link href="/blog" className="blog-date">22 August, 2025</Link>
                                         </div>
@@ -147,7 +147,7 @@ const HomeBlogSection:React.FC = () => {
                                     <div className="blog-card three">
                                         <div className="blog-img-wrap">
                                             <Link className="blog-img" href="/blog/details">
-                                                <Image width={300} height={300} src="/assets/img/home3/blog-img4.jpg" alt="" />
+                                                <Image width={300} height={300} src="/assets/img/home3/blog-img4.webp" alt="" />
                                             </Link>
                                             <Link href="/blog" className="blog-date">25 August, 2025</Link>
                                         </div>
@@ -169,7 +169,7 @@ const HomeBlogSection:React.FC = () => {
                                     <div className="blog-card three">
                                         <div className="blog-img-wrap">
                                             <Link className="blog-img" href="/blog/details">
-                                                <Image width={300} height={300} src="/assets/img/home3/blog-img5.jpg" alt="" />
+                                                <Image width={300} height={300} src="/assets/img/home3/blog-img5.webp" alt="" />
                                             </Link>
                                             <Link href="/blog" className="blog-date">14 May, 2025</Link>
                                         </div>

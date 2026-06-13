@@ -63,7 +63,7 @@ const ServicePageStyle2 = () => {
                                 </div>
                             </div>
                             <div className="services-img">
-                                <Image width={250} height={470} src="/assets/img/home3/service-img1.jpg" alt="" />
+                                <Image width={250} height={470} src="/assets/img/home3/service-img1.webp" alt="" />
                             </div>
                             <div className="content">
                                 <p>Refinery Maintenance &amp; Upgrades</p>
@@ -94,7 +94,7 @@ const ServicePageStyle2 = () => {
                                 </div>
                             </div>
                             <div className="services-img">
-                                <Image width={960} height={470} src="/assets/img/home3/service-img2.jpg" alt="" />
+                                <Image width={960} height={470} src="/assets/img/home3/service-img2.webp" alt="" />
                             </div>
                             <div className="content">
                                 <p>Petroleum Product Distribution</p>
@@ -121,7 +121,7 @@ const ServicePageStyle2 = () => {
                                 </div>
                             </div>
                             <div className="services-img">
-                                <Image width={960} height={470} src="/assets/img/home3/service-img3.jpg" alt="" />
+                                <Image width={960} height={470} src="/assets/img/home3/service-img3.webp" alt="" />
                             </div>
                             <div className="content">
                                 <p>Pipeline Inspection &amp; Maintenance</p>
@@ -150,7 +150,7 @@ const ServicePageStyle2 = () => {
                                 </div>
                             </div>
                             <div className="services-img">
-                                <Image width={960} height={470} src="/assets/img/home3/service-img4.jpg" alt="" />
+                                <Image width={960} height={470} src="/assets/img/home3/service-img4.webp" alt="" />
                             </div>
                             <div className="content">
                                 <p>Environmental Impact Assessments</p>
@@ -179,7 +179,7 @@ const ServicePageStyle2 = () => {
                                 </div>
                             </div>
                             <div className="services-img">
-                                <Image width={960} height={470} src="/assets/img/home3/service-img5.jpg" alt="" />
+                                <Image width={960} height={470} src="/assets/img/home3/service-img5.webp" alt="" />
                             </div>
                             <div className="content">
                                 <p>Pipeline Design &amp; Engineering</p>
@@ -213,7 +213,7 @@ const ServicePageStyle2 = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img1.jpg" alt="" />
+                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img1.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Steel Sheets &amp; Plates</Link></h4>
@@ -232,7 +232,7 @@ const ServicePageStyle2 = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img2.jpg" alt="" />
+                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img2.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Copper Pipes &amp; Tubes</Link></h4>
@@ -251,7 +251,7 @@ const ServicePageStyle2 = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img3.jpg" alt="" />
+                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img3.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Stainless Steel Coils</Link></h4>
@@ -270,7 +270,7 @@ const ServicePageStyle2 = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img4.jpg" alt="" />
+                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img4.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Brass Rods &amp; Sheets</Link></h4>
@@ -289,7 +289,7 @@ const ServicePageStyle2 = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img5.jpg" alt="" />
+                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img5.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Pre-Stress Steel Beam</Link></h4>
@@ -308,7 +308,7 @@ const ServicePageStyle2 = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img6.jpg" alt="" />
+                                    <Image width={960} height={470} src="/assets/img/innerpages/service-page-product-img6.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Factory Aluminum</Link></h4>

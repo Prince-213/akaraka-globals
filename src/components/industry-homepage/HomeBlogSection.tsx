@@ -33,7 +33,7 @@ const HomeBlogSection:React.FC = () => {
                         <div className="blog-card two">
                             <div className="blog-img-wrap">
                                 <Link className="blog-img" href="/blog/details">
-                                    <Image width={650} height={350} src="/assets/img/home2/blog-img1.jpg" alt="" />
+                                    <Image width={650} height={350} src="/assets/img/home2/blog-img1.webp" alt="" />
                                 </Link>
                                 <div className="blog-tag">
                                     <Link href="/blog">Industry</Link>
@@ -63,7 +63,7 @@ const HomeBlogSection:React.FC = () => {
                         <div className="blog-card two">
                             <div className="blog-img-wrap">
                                 <Link className="blog-img" href="/blog/details">
-                                    <Image width={650} height={350} src="/assets/img/home2/blog-img2.jpg" alt="" />
+                                    <Image width={650} height={350} src="/assets/img/home2/blog-img2.webp" alt="" />
                                 </Link>
                                 <div className="blog-tag">
                                     <Link href="/blog">Renovation</Link>

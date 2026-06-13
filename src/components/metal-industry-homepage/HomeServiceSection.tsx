@@ -13,7 +13,7 @@ const HomeServiceSection = () => {
                     <li className="single-service wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="service-img-and-title-area">
                             <div className="service-img">
-                                <Image width={450} height={255} src="/assets/img/home4/service-img1.jpg" alt="" />
+                                <Image width={450} height={255} src="/assets/img/home4/service-img1.webp" alt="" />
                             </div>
                             <div className="title-area">
                                 <ul>
@@ -42,7 +42,7 @@ const HomeServiceSection = () => {
                     <li className="single-service wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div className="service-img-and-title-area">
                             <div className="service-img">
-                                <Image width={450} height={255} src="/assets/img/home4/service-img2.jpg" alt="" />
+                                <Image width={450} height={255} src="/assets/img/home4/service-img2.webp" alt="" />
                             </div>
                             <div className="title-area">
                                 <ul>
@@ -71,7 +71,7 @@ const HomeServiceSection = () => {
                     <li className="single-service wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="service-img-and-title-area">
                             <div className="service-img">
-                                <Image width={450} height={255} src="/assets/img/home4/service-img3.jpg" alt="" />
+                                <Image width={450} height={255} src="/assets/img/home4/service-img3.webp" alt="" />
                             </div>
                             <div className="title-area">
                                 <ul>

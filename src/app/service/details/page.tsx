@@ -28,7 +28,7 @@ const page = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="service-details-img">
-                                <Image width={960} height={470} src="/assets/img/innerpages/service-details-img1.jpg" alt="" />
+                                <Image width={960} height={470} src="/assets/img/innerpages/service-details-img1.webp" alt="" />
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const page = () => {
             <div className="service-details-thumb-area mb-120">
                 <div className="container">
                     <div className="service-details-thumb-img">
-                       <Image width={1560} height={470} src="/assets/img/innerpages/service-details-thumb-img.jpg" alt="" />
+                       <Image width={1560} height={470} src="/assets/img/innerpages/service-details-thumb-img.webp" alt="" />
                     </div>
                     <div className="service-details-faq-area">
                         <div className="faq-wrap">
@@ -303,9 +303,9 @@ const page = () => {
                                     "overflow": "hidden",
                                 
                                 }}>
-                                   <Image width={960} height={470} src="/assets/img/home2/benefit-img.jpg" alt="" />
+                                   <Image width={960} height={470} src="/assets/img/home2/benefit-img.webp" alt="" />
                                 </div>
-                               <Image width={960} height={470} src="/assets/img/home2/benefit-img-bg.png" alt="" className="img-bg" />
+                               <Image width={960} height={470} src="/assets/img/home2/benefit-img-bg.webp" alt="" className="img-bg" />
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="company-info-img-and-countdown-area">
                                 <div className="info-img magnetic-item">
-                                   <Image width={960} height={470} src="/assets/img/home3/company-info-img.jpg" alt="" />
+                                   <Image width={960} height={470} src="/assets/img/home3/company-info-img.webp" alt="" />
                                 </div>
                                 <div className="countdown-area">
                                     <div className="number">

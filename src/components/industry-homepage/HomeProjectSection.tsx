@@ -29,7 +29,7 @@ const HomeProjectSection:React.FC = () => {
                     <div className="project-card-area">
                         <div className="project-card2 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <Link href="/project/details" className="project-img">
-                                <Image width={382} height={382} src="/assets/img/home2/project-img1.jpg" alt="" />
+                                <Image width={382} height={382} src="/assets/img/home2/project-img1.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <span>Client: AGRL</span>
@@ -38,7 +38,7 @@ const HomeProjectSection:React.FC = () => {
                         </div>
                         <div className="project-card2 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <Link href="/project/details" className="project-img">
-                                <Image width={382} height={382} src="/assets/img/home2/project-img2.jpg" alt="" />
+                                <Image width={382} height={382} src="/assets/img/home2/project-img2.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <span>Client: Axleo</span>
@@ -47,7 +47,7 @@ const HomeProjectSection:React.FC = () => {
                         </div>
                         <div className="project-card2 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <Link href="/project/details" className="project-img">
-                                <Image width={582} height={382} src="/assets/img/home2/project-img3.jpg" alt="" />
+                                <Image width={582} height={382} src="/assets/img/home2/project-img3.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <span>Client: Zenfy</span>
@@ -58,7 +58,7 @@ const HomeProjectSection:React.FC = () => {
                     <div className="project-card-area two">
                         <div className="project-card2 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <Link href="/project/details" className="project-img">
-                                <Image width={982} height={382} src="/assets/img/home2/project-img4.jpg" alt="" />
+                                <Image width={982} height={382} src="/assets/img/home2/project-img4.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <span>Client: AGRL</span>
@@ -67,7 +67,7 @@ const HomeProjectSection:React.FC = () => {
                         </div>
                         <div className="project-card2 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <Link href="/project/details" className="project-img">
-                                <Image width={382} height={382} src="/assets/img/home2/project-img5.jpg" alt="" />
+                                <Image width={382} height={382} src="/assets/img/home2/project-img5.webp" alt="" />
                             </Link>
                             <div className="project-content">
                                 <span>Client: Grand Chemicals Ltd</span>

@@ -75,7 +75,7 @@ const HomeProjectSection:React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="project-card4">
                                             <div className="project-img">
-                                                 <Image width={400} height={380}  src="/assets/img/home6/project-img1.jpg" alt="" />
+                                                 <Image width={400} height={380}  src="/assets/img/home6/project-img1.webp" alt="" />
                                             </div>
                                             <div className="project-content-wrap">
                                                 <Link href="/project/details" className="arrow-vector">
@@ -101,7 +101,7 @@ const HomeProjectSection:React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="project-card4">
                                             <div className="project-img">
-                                                  <Image width={400} height={380} src="/assets/img/home6/project-img2.jpg" alt="" />
+                                                  <Image width={400} height={380} src="/assets/img/home6/project-img2.webp" alt="" />
                                             </div>
                                             <div className="project-content-wrap">
                                                 <Link href="/project/details" className="arrow-vector">
@@ -127,7 +127,7 @@ const HomeProjectSection:React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="project-card4">
                                             <div className="project-img">
-                                                  <Image width={400} height={380} src="/assets/img/home6/project-img3.jpg" alt="" />
+                                                  <Image width={400} height={380} src="/assets/img/home6/project-img3.webp" alt="" />
                                             </div>
                                             <div className="project-content-wrap">
                                                 <Link href="/project/details" className="arrow-vector">
@@ -153,7 +153,7 @@ const HomeProjectSection:React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="project-card4">
                                             <div className="project-img">
-                                                  <Image width={400} height={380} src="/assets/img/home6/project-img4.jpg" alt="" />
+                                                  <Image width={400} height={380} src="/assets/img/home6/project-img4.webp" alt="" />
                                             </div>
                                             <div className="project-content-wrap">
                                                 <Link href="/project/details" className="arrow-vector">
@@ -179,7 +179,7 @@ const HomeProjectSection:React.FC = () => {
                                     <SwiperSlide className="swiper-slide">
                                         <div className="project-card4">
                                             <div className="project-img">
-                                                  <Image width={400} height={380} src="/assets/img/home6/project-img5.jpg" alt="" />
+                                                  <Image width={400} height={380} src="/assets/img/home6/project-img5.webp" alt="" />
                                             </div>
                                             <div className="project-content-wrap">
                                                 <Link href="/project/details" className="arrow-vector">

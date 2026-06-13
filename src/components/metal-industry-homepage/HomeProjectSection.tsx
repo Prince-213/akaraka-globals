@@ -88,7 +88,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img1.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img1.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Smart Industrial Coating System</Link></h4>
@@ -102,7 +102,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img2.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img2.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Advanced Coating Application Methods</Link></h4>
@@ -116,7 +116,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img3.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img3.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Digital Colour Matching System</Link></h4>
@@ -130,7 +130,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img4.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img4.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Eco-Friendly Paint Solutions</Link></h4>
@@ -144,7 +144,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img5.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img5.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Supply Chain Optimisation</Link></h4>
@@ -184,7 +184,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img1.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img1.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Smart Industrial Coating System</Link></h4>
@@ -198,7 +198,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img2.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img2.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Advanced Coating Application Methods</Link></h4>
@@ -212,7 +212,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img3.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img3.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Digital Colour Matching System</Link></h4>
@@ -226,7 +226,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img4.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img4.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Eco-Friendly Paint Solutions</Link></h4>
@@ -240,7 +240,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img5.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img5.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Supply Chain Optimisation</Link></h4>
@@ -280,7 +280,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img1.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img1.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Smart Industrial Coating System</Link></h4>
@@ -294,7 +294,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img2.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img2.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Advanced Coating Application Methods</Link></h4>
@@ -308,7 +308,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img3.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img3.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Digital Colour Matching System</Link></h4>
@@ -322,7 +322,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img4.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img4.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Eco-Friendly Paint Solutions</Link></h4>
@@ -336,7 +336,7 @@ const HomeProjectSection = () => {
                                         <SwiperSlide className="swiper-slide">
                                             <div className="project-card2 two">
                                                 <Link href="/project/details" className="project-img">
-                                                    <Image width={631} height={382} src="/assets/img/home4/project-img5.jpg" alt="" />
+                                                    <Image width={631} height={382} src="/assets/img/home4/project-img5.webp" alt="" />
                                                 </Link>
                                                 <div className="project-content">
                                                     <h4><Link href="/project/details">Supply Chain Optimisation</Link></h4>

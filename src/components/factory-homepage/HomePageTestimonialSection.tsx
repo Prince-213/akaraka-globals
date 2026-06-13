@@ -118,7 +118,7 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <p>"AGRL consistently delivers quality calcium carbonate on time. Our paint production has never faced material shortages."</p>
                                             <div className="author-area">
                                                 {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img1.png" alt="" />
+                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img1.webp" alt="" />
                                                 </div> */}
                                                 <div className="author-content">
                                                     <h5>Alhaji Suleiman</h5>
@@ -137,7 +137,7 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <p>"The titanium dioxide from Akaraka is the best quality we have sourced. Excellent pricing and professional service."</p>
                                             <div className="author-area">
                                                 {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img2.png" alt="" />
+                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img2.webp" alt="" />
                                                 </div> */}
                                                 <div className="author-content">
                                                     <h5>Mrs. Adeola Ojo</h5>
@@ -156,7 +156,7 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <p>"AGRL's confineous ink range gives vibrant consistent colors. Our textile printing quality has improved significantly."</p>
                                             <div className="author-area">
                                                 {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img3.png" alt="" />
+                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img3.webp" alt="" />
                                                 </div> */}
                                                 <div className="author-content">
                                                     <h5>Engr. Bello Musa</h5>
@@ -175,7 +175,7 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <p>"We have relied on Akaraka Global for over a decade. Their commitment to quality and reliability is unmatched."</p>
                                             <div className="author-area">
                                                 {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img4.png" alt="" />
+                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img4.webp" alt="" />
                                                 </div> */}
                                                 <div className="author-content">
                                                     <h5>Chief Uche Nnamdi</h5>

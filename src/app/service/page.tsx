@@ -22,7 +22,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Raw Materials Supply</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img1.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img1.webp" alt="" /></Link>
                                 <p>Premium CaCO3, stone dust, kaolinite and other industrial raw materials sourced globally.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -45,7 +45,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Industrial Chemicals <br /> Distribution</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img2.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img2.webp" alt="" /></Link>
                                 <p>Acrylic PVA, titanium dioxide, HPMC, sulphur powder and specialty chemicals for industry.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -68,7 +68,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Inks &amp; Pigments <br /> Sales</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img3.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img3.webp" alt="" /></Link>
                                 <p>High-quality confineous series inks and pigments for printing and industrial applications.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -91,7 +91,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Coatings &amp; <br /> Paints Supply</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img4.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img4.webp" alt="" /></Link>
                                 <p>Emulsion paints, tex coat paints and protective coatings for residential and industrial use.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -114,7 +114,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Plastics &amp; Polymers</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img5.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img5.webp" alt="" /></Link>
                                 <p>Durable plastic buckets, polymer resins and custom moulded products for all sectors.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -137,7 +137,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Import &amp; <br /> Export Services</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img6.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img6.webp" alt="" /></Link>
                                 <p>Reliable international sourcing and export logistics for industrial chemicals and materials.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -160,7 +160,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">General Contracting</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img7.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/home2/service-img7.webp" alt="" /></Link>
                                 <p>Comprehensive supply and project contracting for construction and industrial clients.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -183,7 +183,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Technical Consultation</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img1.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img1.webp" alt="" /></Link>
                                 <p>Expert guidance on chemical formulations, material selection and industrial process optimization.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -206,7 +206,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Supply Chain <br /> Management</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img2.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img2.webp" alt="" /></Link>
                                 <p>End-to-end supply chain solutions ensuring timely delivery of raw materials and chemicals.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -229,7 +229,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Quality Assurance <br /> &amp; Testing</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img3.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img3.webp" alt="" /></Link>
                                 <p>Rigorous quality control and lab testing for all industrial chemicals and raw materials.</p>
                                {/*  <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -252,7 +252,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Bulk Procurement <br /> Services</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img4.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img4.webp" alt="" /></Link>
                                 <p>Large-volume sourcing of industrial raw materials at competitive wholesale pricing.</p>
                                {/*  <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -275,7 +275,7 @@ const page = () => {
                         <div className="col-xl-3 col-lg-4 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="service-card magnetic-item">
                                 <h4><Link href="/service/details">Product Formulation <br /> &amp; Blending</Link></h4>
-                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img5.jpg" alt="" /></Link>
+                                <Link href="/service/details" className="service-img"><Image width={260} height={240} src="/assets/img/innerpages/service-img5.webp" alt="" /></Link>
                                 <p>Custom chemical blending and formulation services tailored to your production needs.</p>
                                 {/* <Link className="primary-btn3 transparent" href="/service/details">
                                     <span>View Details
@@ -312,7 +312,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img1.jpg" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img1.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Calcium Carbonate (CaCO3)</Link></h4>
@@ -331,7 +331,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img2.jpg" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img2.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Acrylic PVA Emulsion</Link></h4>
@@ -350,7 +350,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img3.jpg" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img3.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Titanium Dioxide (TiO2)</Link></h4>
@@ -369,7 +369,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img4.jpg" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img4.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">HPMC (Cellulose Ether)</Link></h4>
@@ -388,7 +388,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img5.jpg" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img5.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Sulphur Powder</Link></h4>
@@ -407,7 +407,7 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img6.jpg" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/innerpages/project-img6.webp" alt="" />
                                 </div>
                                 <div className="product-content">
                                     <h4><Link href="/product/details">Emulsion &amp; Tex Coat Paints</Link></h4>

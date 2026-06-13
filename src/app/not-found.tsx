@@ -38,7 +38,7 @@ const notfound = () => {
       <div className="row justify-content-center">
         <div className="col-xl-8 col-lg-10">
           <div className="error-content text-center">
-            <img src="assets/img/innerpages/error-img.png" alt="" />
+            <img src="assets/img/innerpages/error-img.webp" alt="" />
             <h2>Sorry! Page Not Found.</h2>
             <p>The page you are looking for may have been moved, removed, or does not exist. Please check the URL or navigate back to our homepage.</p>
             <Link className="primary-btn1" href="/">

@@ -12,7 +12,7 @@ const HomeCertificationSection: React.FC = () => {
                     <div className="col-lg-3 col-sm-6 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="certificate-card">
                             <div className="certificate-logo">
-                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo1.png" alt="" />
+                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo1.webp" alt="" />
                             </div>
                             <h6>ISO 9001:2000, SGS</h6>
                             <span className="tag">Industry</span>
@@ -24,7 +24,7 @@ const HomeCertificationSection: React.FC = () => {
                     <div className="col-lg-3 col-sm-6 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div className="certificate-card">
                             <div className="certificate-logo">
-                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo2.png" alt="" />
+                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo2.webp" alt="" />
                             </div>
                             <h6>Quality Management, GLC</h6>
                             <span className="tag">Industry</span>
@@ -36,7 +36,7 @@ const HomeCertificationSection: React.FC = () => {
                     <div className="col-lg-3 col-sm-6 wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div className="certificate-card">
                             <div className="certificate-logo">
-                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo3.png" alt="" />
+                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo3.webp" alt="" />
                             </div>
                             <h6>ISO 8700, ISO</h6>
                             <span className="tag">Industry</span>
@@ -48,7 +48,7 @@ const HomeCertificationSection: React.FC = () => {
                     <div className="col-lg-3 col-sm-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                         <div className="certificate-card">
                             <div className="certificate-logo">
-                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo4.png" alt="" />
+                                <Image width={92} height={92} src="/assets/img/home2/certificate-logo4.webp" alt="" />
                             </div>
                             <h6>B Corporation</h6>
                             <span className="tag">Industry</span>

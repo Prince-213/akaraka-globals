@@ -21,7 +21,7 @@ const HomePageTeamSection: React.FC = () => {
                                 <h4>Chinebu L. Chigozie</h4>
                             </div>
                             <div className="team-img">
-                                <Image width={100} height={100} src="/assets/img/home1/ceo.jpg" alt="" className=' object-center object-cover bg-cover bg-center' />
+                                <Image width={100} height={100} src="/assets/img/home1/ceo.webp" alt="" className=' object-center object-cover bg-cover bg-center' />
                             </div>
                             <a href="https://www.facebook.com/" className="social-area">
                                 <div className="icon">
@@ -36,7 +36,7 @@ const HomePageTeamSection: React.FC = () => {
                                 <h4>Emeka Okafor</h4>
                             </div>
                             <div className="team-img">
-                                <Image width={100} height={100} src="/assets/img/home1/team-img2.png" alt="" className=' object-center object-cover bg-cover bg-center' />
+                                <Image width={100} height={100} src="/assets/img/home1/team-img2.webp" alt="" className=' object-center object-cover bg-cover bg-center' />
                             </div>
                             <a href="https://www.linkedin.com/" className="social-area">
                                 <div className="icon">

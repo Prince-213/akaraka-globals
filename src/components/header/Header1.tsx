@@ -241,7 +241,8 @@ const Header1: React.FC = () => {
                   <div className="content">
                     <span>CALL ANY TIME</span>
                     <h6>
-                      <a href="tel:08166175684">0816-617-5684</a>, <a href="tel:09015989177">0901-598-9177</a>
+                      <a href="tel:08166175684">0816-617-5684</a>,{" "}
+                      <a href="tel:09015989177">0901-598-9177</a>
                     </h6>
                   </div>
                 </div>
@@ -346,9 +347,15 @@ const Header1: React.FC = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <span>Follow Us</span>
+                    <span>Contact Us</span>
                     <h6>
-                      <a href="https://wa.link/aijby0" target="_blank" rel="noopener noreferrer">WhatsApp,</a>{" "}
+                      <a
+                        href="https://wa.link/aijby0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        WhatsApp,
+                      </a>{" "}
                       <a href="https://www.linkedin.com/">LinkedIn,</a>
                     </h6>
                   </div>

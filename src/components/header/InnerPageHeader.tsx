@@ -160,7 +160,7 @@ const InnerPageHeader: React.FC = () => {
                   width={157}
                   height={34}
                   alt="AGRL Logo"
-                  src="/assets/img/akaraka-logo.webp"
+                  src="/assets/img/akaraka-logo.png"
                 />
               </Link>
             </div>
@@ -304,9 +304,15 @@ const InnerPageHeader: React.FC = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <span>Follow Us</span>
+                    <span>Contact Us</span>
                     <h6>
-                      <a href="https://wa.link/aijby0" target="_blank" rel="noopener noreferrer">WhatsApp,</a>{" "}
+                      <a
+                        href="https://wa.link/aijby0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        WhatsApp,
+                      </a>{" "}
                       <a href="https://www.linkedin.com/">LinkedIn,</a>
                     </h6>
                   </div>
@@ -367,9 +373,7 @@ const InnerPageHeader: React.FC = () => {
             </Link>
           </div>
           <div className="sidebar-bottom-area">
-            <p>
-              {t("copyrightText").replace("{year}", "2025")}
-            </p>
+            <p>{t("copyrightText").replace("{year}", "2025")}</p>
           </div>
         </div>
       </div>
@@ -417,12 +421,16 @@ const InnerPageHeader: React.FC = () => {
               <li
                 className={`menu-item-has-children position-inherit ${isHomeActive ? "active" : ""}`}
               >
-                <Link href="/" className="drop-down">{t("home")}</Link>
+                <Link href="/" className="drop-down">
+                  {t("home")}
+                </Link>
               </li>
               <li
                 className={`menu-item-has-children  ${isServiceActive ? "active" : ""}`}
               >
-                <Link href="/service" className="drop-down">{t("services")}</Link>
+                <Link href="/service" className="drop-down">
+                  {t("services")}
+                </Link>
               </li>
               <li className={pathname.startsWith("/about") ? "active" : ""}>
                 <Link href="/about">{t("about")}</Link>
@@ -430,12 +438,15 @@ const InnerPageHeader: React.FC = () => {
               <li
                 className={`menu-item-has-children position-inherit ${pathname.startsWith("/gallery") ? "active" : ""}`}
               >
-                <Link href="/gallery" className="drop-down">{t("gallery")}</Link>
+                <Link href="/gallery" className="drop-down">
+                  {t("gallery")}
+                </Link>
               </li>
               <li
                 className={`menu-item-has-children  ${pathname.startsWith("/contact") ? "active" : ""}`}
               >
-                <Link href="/contact" className="drop-down">{t("contactUs")}
+                <Link href="/contact" className="drop-down">
+                  {t("contactUs")}
                   <svg
                     width={10}
                     height={10}

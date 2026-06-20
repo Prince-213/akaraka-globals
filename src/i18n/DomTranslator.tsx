@@ -7,10 +7,10 @@ import { translate, type Locale } from "./translations";
 // English UI string → translation key
 const STRING_TO_KEY: Record<string, string> = {
   // ── Navigation ──
-  "Home": "home",
-  "Products": "products",
-  "Services": "services",
-  "About": "about",
+  Home: "home",
+  Products: "products",
+  Services: "services",
+  About: "about",
   "Contact Us": "contactUs",
   "Call Us": "callUs",
   "Get In Touch": "getInTouch",
@@ -58,10 +58,10 @@ const STRING_TO_KEY: Record<string, string> = {
   // ── Product Names ──
   "Calcium Carbonate (CaCO3)": "calciumCarbonate",
   "Stone Dust": "stoneDust",
-  "Kaolinite": "kaolinite",
+  Kaolinite: "kaolinite",
   "Acrylic PVA": "acrylicPVA",
   "Titanium Dioxide": "titaniumDioxide",
-  "HPMC": "hpmc",
+  HPMC: "hpmc",
   "Cellulose Ethers": "celluloseEthers",
   "Sulphur Powder": "sulphurPowder",
   "Emulsion Paints": "emulsionPaints",
@@ -86,9 +86,8 @@ const STRING_TO_KEY: Record<string, string> = {
 
   // ── Footer ──
   "Our Location": "ourLocation",
-  "Follow Us": "followUs",
   "Say Hello": "sayHello",
-  "Copyright": "copyright",
+  Copyright: "copyright",
   "Head Office - Abuja": "headOfficeAbuja",
   "Branch Office": "branchOffice",
   "Company Links": "companyLinks",
@@ -119,15 +118,16 @@ const STRING_TO_KEY: Record<string, string> = {
 
   // ── Misc / Business ──
   "Partner With AGRL Today": "partnerWithUs",
-  "Your Trusted Partner in Industrial Chemicals, Paints & Raw Materials": "trustedPartner",
+  "Your Trusted Partner in Industrial Chemicals, Paints & Raw Materials":
+    "trustedPartner",
   "Quality Products": "qualityProducts",
   "Reliable Service": "reliableService",
   "Our Clients": "ourClients",
   "Our Process": "ourProcess",
   "Our Products": "ourProducts",
   "General Contracting": "generalContracting",
-  "Imports": "imports",
-  "Exports": "exports",
+  Imports: "imports",
+  Exports: "exports",
   "Supply Excellence": "supplyExcellence",
   "AD Asperia Per Astra": "motto",
 
@@ -135,7 +135,7 @@ const STRING_TO_KEY: Record<string, string> = {
   "Chat with AGRL": "chatTitle",
   "Type your message...": "chatPlaceholder",
   "Sending...": "chatSending",
-  "Language": "selectLanguage",
+  Language: "selectLanguage",
 
   // ── Uppercase / style variants ──
   "GET IN TOUCH": "getInTouch",
@@ -145,17 +145,16 @@ const STRING_TO_KEY: Record<string, string> = {
   "HEAD OFFICE - ABUJA": "headOfficeAbuja",
   "BRANCH OFFICE": "branchOffice",
   "CONTACT US": "contactUs",
-  "HOME": "home",
-  "PRODUCTS": "products",
-  "SERVICES": "services",
-  "ABOUT": "about",
+  HOME: "home",
+  PRODUCTS: "products",
+  SERVICES: "services",
+  ABOUT: "about",
   "VIEW ALL": "viewAll",
   "READ MORE": "readMore",
   "LEARN MORE": "learnMore",
   "EXPLORE PRODUCTS": "exploreProducts",
   "OUR PRODUCTS": "ourProducts",
   "OUR LOCATION": "ourLocation",
-  "FOLLOW US": "followUs",
   "RAW MATERIALS": "rawMaterials",
   "INDUSTRIAL CHEMICALS": "industrialChemicals",
   "INKS & PIGMENTS": "inksAndPigments",
@@ -164,14 +163,26 @@ const STRING_TO_KEY: Record<string, string> = {
 };
 
 const EXCLUDED_TAGS = new Set([
-  "SCRIPT", "STYLE", "INPUT", "TEXTAREA", "IFRAME", "SVG", "PATH", "NOSCRIPT", "CODE", "PRE",
+  "SCRIPT",
+  "STYLE",
+  "INPUT",
+  "TEXTAREA",
+  "IFRAME",
+  "SVG",
+  "PATH",
+  "NOSCRIPT",
+  "CODE",
+  "PRE",
 ]);
 
-const EXCLUDED_SELECTORS = "[data-no-translate], script, style, input, textarea, iframe, svg, path, noscript, code, pre";
+const EXCLUDED_SELECTORS =
+  "[data-no-translate], script, style, input, textarea, iframe, svg, path, noscript, code, pre";
 
 function dispatchTranslationEvent(state: "start" | "end") {
   if (typeof window === "undefined") return;
-  window.dispatchEvent(new CustomEvent("agrl-translation", { detail: { state } }));
+  window.dispatchEvent(
+    new CustomEvent("agrl-translation", { detail: { state } }),
+  );
 }
 
 export default function DomTranslator() {
@@ -193,7 +204,9 @@ export default function DomTranslator() {
 
     try {
       // Step 1: Restore all previously translated elements to English
-      const marked = Array.from(document.body.querySelectorAll("[data-i18n-marked]"));
+      const marked = Array.from(
+        document.body.querySelectorAll("[data-i18n-marked]"),
+      );
       marked.forEach((el) => {
         const original = el.getAttribute("data-i18n-original");
         if (original !== null) {
@@ -210,17 +223,23 @@ export default function DomTranslator() {
       }
 
       // Step 2: Walk DOM and translate all matching text nodes
-      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-        acceptNode(node) {
-          const parent = node.parentElement;
-          if (!parent) return NodeFilter.FILTER_REJECT;
-          if (EXCLUDED_TAGS.has(parent.tagName)) return NodeFilter.FILTER_REJECT;
-          if (parent.closest(EXCLUDED_SELECTORS)) return NodeFilter.FILTER_REJECT;
-          const text = node.textContent || "";
-          if (!text.trim()) return NodeFilter.FILTER_REJECT;
-          return NodeFilter.FILTER_ACCEPT;
+      const walker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_TEXT,
+        {
+          acceptNode(node) {
+            const parent = node.parentElement;
+            if (!parent) return NodeFilter.FILTER_REJECT;
+            if (EXCLUDED_TAGS.has(parent.tagName))
+              return NodeFilter.FILTER_REJECT;
+            if (parent.closest(EXCLUDED_SELECTORS))
+              return NodeFilter.FILTER_REJECT;
+            const text = node.textContent || "";
+            if (!text.trim()) return NodeFilter.FILTER_REJECT;
+            return NodeFilter.FILTER_ACCEPT;
+          },
         },
-      });
+      );
 
       const nodesToProcess: { node: Text; parent: Element }[] = [];
       let currentNode: Node | null;
@@ -251,7 +270,9 @@ export default function DomTranslator() {
 
         // Try partial match: check if text contains any translatable strings
         let hasTranslation = false;
-        for (const [englishStr, translationKey] of Object.entries(STRING_TO_KEY)) {
+        for (const [englishStr, translationKey] of Object.entries(
+          STRING_TO_KEY,
+        )) {
           if (originalText.includes(englishStr)) {
             const translated = translate(translationKey, targetLocale);
             if (translated && translated !== englishStr) {
@@ -278,7 +299,10 @@ export default function DomTranslator() {
       // Reconnect observer after a short delay to avoid immediate re-trigger
       setTimeout(() => {
         if (observerRef.current && document.body) {
-          observerRef.current.observe(document.body, { childList: true, subtree: true });
+          observerRef.current.observe(document.body, {
+            childList: true,
+            subtree: true,
+          });
         }
       }, 100);
     }
@@ -339,7 +363,10 @@ export default function DomTranslator() {
       }
     });
 
-    observerRef.current.observe(document.body, { childList: true, subtree: true });
+    observerRef.current.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
 
     return () => {
       observerRef.current?.disconnect();

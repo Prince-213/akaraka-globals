@@ -165,7 +165,7 @@ const HomePageAboutSection: React.FC<HomePageAboutSectionProps> = ({
               >
                 <Image
                   fill
-                  src="/assets/img/home1/who-we.png"
+                  src="/assets/img/home1/who.png"
                   alt=""
                   style={{
                     objectFit: "cover",

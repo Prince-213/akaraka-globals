@@ -110,7 +110,7 @@ const FaqSection: React.FC= () => {
                     06. How can I place an order or get a quote?
                   </Accordion.Header>
                   <Accordion.Body>
-                    You can reach us by phone at 0816-617-5684, email at
+                    You can reach us by phone at 0816-617-5684 or 0901-598-9177, email at
                     akarakaglobalresources@yahoo.com, or visit our office in
                     Dei-Dei, Abuja for a quote or to place your order.
                   </Accordion.Body>

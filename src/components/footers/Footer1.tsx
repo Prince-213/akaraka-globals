@@ -17,7 +17,7 @@ const Footer1: React.FC = () => {
                   <Image
                     width={160}
                     height={100}
-                    src="/assets/img/Group 416.webp"
+                    src="/assets/img/akaraka-logo.png"
                     alt=""
                   />
                 </Link>
@@ -45,8 +45,7 @@ const Footer1: React.FC = () => {
                       <li className="single-address">
                         <span>HEAD OFFICE - ABUJA</span>
                         <a href="#">
-                          Zone C6, No.351 International Building Materials
-                          Market, Dei-Dei, Abuja, F.C.T.
+                          Plot No D1160 Zauda Pazar & S/Gari Layout, Abuja, F.C.T.
                         </a>
                       </li>
                       <li className="single-address">
@@ -115,7 +114,7 @@ const Footer1: React.FC = () => {
                                 </svg>
                               </Link>
                             </li>
-                           {/*  <li>
+                            {/*  <li>
                               <Link href="/blog">
                                 News &amp; Updates
                                 <svg
@@ -233,7 +232,7 @@ const Footer1: React.FC = () => {
                             <div className="content">
                               <span>CALL ANY TIME</span>
                               <h6>
-                                <a href="tel:08166175684">0816-617-5684</a>
+                                <a href="tel:08166175684">0816-617-5684</a>, <a href="tel:09015989177">0901-598-9177</a>
                               </h6>
                             </div>
                           </div>

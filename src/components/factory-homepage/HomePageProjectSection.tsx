@@ -86,20 +86,18 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img1.webp"
+                            src="/assets/img/sections/calcium-carbonate.webp"
                             alt=""
                           />
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Category: Raw Materials</span>
-                            <h3
-                              style={{
-                                color: "red",
-                              }}
-                            >
-                              Calcium Carbonate &amp; Stone Dust
-                            </h3>
+                            <span>Raw Materials</span>
+                            <h4>
+                              <Link href="/service/details/raw-materials-supply">
+                                Calcium Carbonate &amp; Stone Dust
+                              </Link>
+                            </h4>
                             <ul>
                               <li>
                                 <Link href="/product">Paints</Link>
@@ -120,7 +118,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img2.webp"
+                            src="/assets/img/sections/acrylic-pva.webp"
                             alt=""
                           />
                         </div>
@@ -152,7 +150,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img3.webp"
+                            src="/assets/img/sections/ink-pigment.webp"
                             alt=""
                           />
                         </div>
@@ -183,7 +181,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img4.webp"
+                            src="/assets/img/sections/emulsion-text-coat-paint.webp"
                             alt=""
                           />
                         </div>
@@ -214,7 +212,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img5.webp"
+                            src="/assets/img/sections/plastics-polymers.webp"
                             alt=""
                           />
                         </div>
@@ -245,7 +243,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/home1/project-img6.webp"
+                            src="/assets/img/sections/hpmc-celluse-ether.webp"
                             alt=""
                           />
                         </div>

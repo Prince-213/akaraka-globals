@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
 
 const notfound = () => {
@@ -28,8 +29,8 @@ const notfound = () => {
           </div>
         </div>
       </div>
-      <img src="assets/img/innerpages/breadcrumb-section-vector.svg" alt="" className="vector" />
-      <img src="assets/img/innerpages/breadcrumb-section-vector2.svg" alt="" className="vector2" />
+      <Image src="/assets/img/innerpages/breadcrumb-section-vector.svg" alt="" className="vector" width={92} height={92} />
+      <Image src="/assets/img/innerpages/breadcrumb-section-vector2.svg" alt="" className="vector2" width={92} height={92} />
     </div>
   </div>
   {/* Breadcrumb Section End*/}
@@ -38,7 +39,7 @@ const notfound = () => {
       <div className="row justify-content-center">
         <div className="col-xl-8 col-lg-10">
           <div className="error-content text-center">
-            <img src="assets/img/innerpages/error-img.webp" alt="" />
+            <Image src="/assets/img/innerpages/error-img.webp" alt="" width={400} height={300} />
             <h2>Sorry! Page Not Found.</h2>
             <p>The page you are looking for may have been moved, removed, or does not exist. Please check the URL or navigate back to our homepage.</p>
             <Link className="primary-btn1" href="/">

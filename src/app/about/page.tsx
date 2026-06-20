@@ -16,6 +16,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us",
   description: "Learn more about Akaraka Global Resources Limited, our history, mission, and why we are a trusted industrial supplier.",
+  openGraph: {
+    title: "About AGRL - Akaraka Global Resources Limited",
+    description: "Over 25 years of industrial supply excellence in Nigeria. Learn about our history, mission, and leadership.",
+  },
 };
 
 

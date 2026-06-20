@@ -59,11 +59,11 @@ const HomePageServiceSection: React.FC = () => {
                     <div className="service-wrap">
                         <ul className="service-img-list" ref={imgRef}>
                             {[
-                                "/assets/img/home1/service-img1.webp",
-                                "/assets/img/home1/service-img2.webp",
-                                "/assets/img/home1/service-img3.webp",
-                                "/assets/img/home1/service-img4.webp",
-                                "/assets/img/home1/service-img5.webp",
+                                "/assets/img/sections/raw-materials.webp",
+                                "/assets/img/sections/industrial-chemicals-distribution.webp",
+                                "/assets/img/sections/ink-pigment.webp",
+                                "/assets/img/sections/emulsion-text-coat-paint.webp",
+                                "/assets/img/sections/plastics-polymers.webp",
                             ].map((src, index) => (
                                 <li key={index} className={index === 0 ? "active" : ""}>
                                     <div className="service-img">

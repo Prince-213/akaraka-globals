@@ -28,12 +28,7 @@ const HomePageTeamSection: React.FC = () => {
                 <span>Managing Director / CEO</span>
                 <h4>Chinebu L. Chigozie</h4>
               </div>
-              <div
-                className="team-img"
-                style={{
-                    position: "relative",
-                }}
-              >
+              <div className="team-img">
                 <Image
                   width={100}
                   height={100}

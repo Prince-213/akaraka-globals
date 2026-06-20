@@ -9,6 +9,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Team",
   description: "Meet the leadership and expert team behind Akaraka Global Resources Limited.",
+  openGraph: {
+    title: "Our Team - AGRL | Akaraka Global Resources",
+    description: "Meet the leadership and dedicated professionals driving industrial supply excellence at AGRL.",
+  },
 };
 const page = () => {
   return (

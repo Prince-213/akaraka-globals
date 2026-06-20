@@ -1,8 +1,10 @@
 "use client";
-import { useEffect, useRef } from "react";
+
+import { useEffect, useRef, useCallback } from "react";
 import { useLanguage } from "./LanguageContext";
 import { translate, type Locale } from "./translations";
 
+// English UI string → translation key
 const STRING_TO_KEY: Record<string, string> = {
   // ── Navigation ──
   "Home": "home",
@@ -161,93 +163,189 @@ const STRING_TO_KEY: Record<string, string> = {
   "PLASTICS & POLYMERS": "plasticsAndPolymers",
 };
 
-function translateTextNodes(root: Element, locale: Locale) {
-  if (locale === "en") {
-    const all = root.querySelectorAll("[data-original]");
-    all.forEach((el) => {
-      const orig = el.getAttribute("data-original");
-      if (orig) {
-        el.textContent = orig;
-        el.removeAttribute("data-original");
-      }
-    });
-    return;
-  }
+const EXCLUDED_TAGS = new Set([
+  "SCRIPT", "STYLE", "INPUT", "TEXTAREA", "IFRAME", "SVG", "PATH", "NOSCRIPT", "CODE", "PRE",
+]);
 
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-    acceptNode(node) {
-      if (!node.textContent?.trim()) return NodeFilter.FILTER_REJECT;
-      const parent = node.parentElement;
-      if (!parent) return NodeFilter.FILTER_REJECT;
-      const tag = parent.tagName;
-      if (["SCRIPT", "STYLE", "INPUT", "TEXTAREA", "IFRAME", "SVG", "PATH"].includes(tag)) {
-        return NodeFilter.FILTER_REJECT;
-      }
-      return NodeFilter.FILTER_ACCEPT;
-    },
-  });
+const EXCLUDED_SELECTORS = "[data-no-translate], script, style, input, textarea, iframe, svg, path, noscript, code, pre";
 
-  const nodesToTranslate: { node: Text; original: string }[] = [];
-  while (walker.nextNode()) {
-    const node = walker.currentNode as Text;
-    const text = node.textContent?.trim();
-    if (text && text.length > 1 && !/^\d/.test(text)) {
-      nodesToTranslate.push({ node, original: text });
-    }
-  }
-
-  for (const { node, original } of nodesToTranslate) {
-    const key = STRING_TO_KEY[original];
-    if (key) {
-      const translated = translate(key, locale);
-      if (translated && translated !== original) {
-        if (!node.parentElement?.hasAttribute("data-original")) {
-          node.parentElement?.setAttribute("data-original", original);
-        }
-        node.textContent = translated;
-        continue;
-      }
-    }
-
-    const fullText = node.textContent || "";
-    for (const [english, k] of Object.entries(STRING_TO_KEY)) {
-      if (fullText.includes(english)) {
-        const translated = translate(k, locale);
-        if (translated && translated !== english) {
-          if (!node.parentElement?.hasAttribute("data-original")) {
-            node.parentElement?.setAttribute("data-original", fullText);
-          }
-          node.textContent = fullText.replace(english, translated);
-          break;
-        }
-      }
-    }
-  }
+function dispatchTranslationEvent(state: "start" | "end") {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new CustomEvent("agrl-translation", { detail: { state } }));
 }
 
 export default function DomTranslator() {
   const { locale } = useLanguage();
   const observerRef = useRef<MutationObserver | null>(null);
+  const timeoutRef = useRef<number | null>(null);
+  const isTranslatingRef = useRef(false);
+  const lastLocaleRef = useRef<Locale>("en");
 
+  const applyTranslation = useCallback((targetLocale: Locale) => {
+    if (typeof document === "undefined" || !document.body) return;
+    if (isTranslatingRef.current) return;
+
+    isTranslatingRef.current = true;
+    dispatchTranslationEvent("start");
+
+    // Disconnect observer to prevent loops
+    observerRef.current?.disconnect();
+
+    try {
+      // Step 1: Restore all previously translated elements to English
+      const marked = Array.from(document.body.querySelectorAll("[data-i18n-marked]"));
+      marked.forEach((el) => {
+        const original = el.getAttribute("data-i18n-original");
+        if (original !== null) {
+          el.textContent = original;
+        }
+        el.removeAttribute("data-i18n-marked");
+        el.removeAttribute("data-i18n-original");
+      });
+
+      // If switching to English, we're done
+      if (targetLocale === "en") {
+        lastLocaleRef.current = targetLocale;
+        return;
+      }
+
+      // Step 2: Walk DOM and translate all matching text nodes
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          const parent = node.parentElement;
+          if (!parent) return NodeFilter.FILTER_REJECT;
+          if (EXCLUDED_TAGS.has(parent.tagName)) return NodeFilter.FILTER_REJECT;
+          if (parent.closest(EXCLUDED_SELECTORS)) return NodeFilter.FILTER_REJECT;
+          const text = node.textContent || "";
+          if (!text.trim()) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        },
+      });
+
+      const nodesToProcess: { node: Text; parent: Element }[] = [];
+      let currentNode: Node | null;
+      while ((currentNode = walker.nextNode())) {
+        const textNode = currentNode as Text;
+        const parent = textNode.parentElement;
+        if (parent) {
+          nodesToProcess.push({ node: textNode, parent });
+        }
+      }
+
+      // Step 3: Translate each text node
+      for (const { node, parent } of nodesToProcess) {
+        const originalText = (node.textContent || "").trim();
+        if (!originalText || originalText.length < 2) continue;
+
+        // Try exact match first
+        const key = STRING_TO_KEY[originalText];
+        if (key) {
+          const translated = translate(key, targetLocale);
+          if (translated && translated !== originalText) {
+            parent.setAttribute("data-i18n-marked", "true");
+            parent.setAttribute("data-i18n-original", originalText);
+            parent.textContent = translated;
+            continue;
+          }
+        }
+
+        // Try partial match: check if text contains any translatable strings
+        let hasTranslation = false;
+        for (const [englishStr, translationKey] of Object.entries(STRING_TO_KEY)) {
+          if (originalText.includes(englishStr)) {
+            const translated = translate(translationKey, targetLocale);
+            if (translated && translated !== englishStr) {
+              const newText = originalText.replace(englishStr, translated);
+              if (newText !== originalText) {
+                parent.setAttribute("data-i18n-marked", "true");
+                parent.setAttribute("data-i18n-original", originalText);
+                parent.textContent = newText;
+                hasTranslation = true;
+                break;
+              }
+            }
+          }
+        }
+
+        if (hasTranslation) continue;
+      }
+
+      lastLocaleRef.current = targetLocale;
+    } finally {
+      isTranslatingRef.current = false;
+      dispatchTranslationEvent("end");
+
+      // Reconnect observer after a short delay to avoid immediate re-trigger
+      setTimeout(() => {
+        if (observerRef.current && document.body) {
+          observerRef.current.observe(document.body, { childList: true, subtree: true });
+        }
+      }, 100);
+    }
+  }, []);
+
+  // Effect: Apply translation when locale changes
   useEffect(() => {
-    const run = () => {
-      if (document.body) {
-        translateTextNodes(document.body, locale);
+    if (typeof document === "undefined") return;
+
+    // Debounce to prevent rapid successive translations
+    if (timeoutRef.current) {
+      window.clearTimeout(timeoutRef.current);
+    }
+
+    timeoutRef.current = window.setTimeout(() => {
+      applyTranslation(locale);
+    }, 150);
+
+    return () => {
+      if (timeoutRef.current) {
+        window.clearTimeout(timeoutRef.current);
       }
     };
-    const t = setTimeout(run, 100);
+  }, [locale, applyTranslation]);
 
-    if (observerRef.current) observerRef.current.disconnect();
-    observerRef.current = new MutationObserver(() => {
-      translateTextNodes(document.body, locale);
+  // Effect: Set up MutationObserver for dynamic content
+  useEffect(() => {
+    if (typeof document === "undefined" || !document.body) return;
+
+    observerRef.current = new MutationObserver((mutations) => {
+      // Skip if we're currently translating
+      if (isTranslatingRef.current) return;
+
+      // Check if any mutations added visible text content
+      const hasNewText = mutations.some((mutation) => {
+        if (mutation.type !== "childList") return false;
+        return Array.from(mutation.addedNodes).some((node) => {
+          if (node.nodeType === Node.TEXT_NODE) {
+            return !!(node.textContent || "").trim();
+          }
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            const el = node as Element;
+            if (el.closest(EXCLUDED_SELECTORS)) return false;
+            return el.textContent && el.textContent.trim().length > 0;
+          }
+          return false;
+        });
+      });
+
+      if (hasNewText) {
+        // Debounce and re-translate
+        if (timeoutRef.current) {
+          window.clearTimeout(timeoutRef.current);
+        }
+        timeoutRef.current = window.setTimeout(() => {
+          applyTranslation(locale);
+        }, 300);
+      }
     });
+
     observerRef.current.observe(document.body, { childList: true, subtree: true });
 
     return () => {
-      clearTimeout(t);
       observerRef.current?.disconnect();
+      observerRef.current = null;
     };
-  }, [locale]);
+  }, [locale, applyTranslation]);
 
   return null;
 }

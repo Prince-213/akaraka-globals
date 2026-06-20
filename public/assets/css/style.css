@@ -8026,6 +8026,19 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   border-left: unset;
 }
 
+.home1-project-section .project-card .project-img {
+  aspect-ratio: 43 / 45;
+  overflow: hidden;
+  position: relative;
+}
+
+.home1-project-section .project-card .project-img img {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+  object-fit: cover;
+}
+
 /*=====================================
   09. Home1 Team Section CSS
 ========================================*/
@@ -12160,6 +12173,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+  aspect-ratio: 13 / 12;
+  width: 100%;
 }
 @media (max-width: 767px) {
   .service-card .service-img {
@@ -12171,7 +12186,9 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   transition: all 0.5s ease-out;
   -o-object-fit: cover;
      object-fit: cover;
-  min-height: 130px;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
 }
 .service-card .service-img::after {
   position: absolute;
@@ -21381,9 +21398,17 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 .product-card2 .product-img {
   min-width: 200px;
   max-width: 200px;
+  aspect-ratio: 13 / 12;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
 }
 .product-card2 .product-img img {
   border-radius: 10px;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+  object-fit: cover;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .product-card2 .product-img {
@@ -28318,6 +28343,77 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
     gap: 8px;
   }
 }
+
+/* Delivery Grid */
+.delivery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.delivery-card {
+  background: #F7F6FF;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.delivery-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.delivery-card-icon {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery-card-icon svg {
+  fill: var(--primary-color1);
+  width: 16px;
+  height: 16px;
+}
+
+.delivery-card-content h4 {
+  font-family: var(--font-manrope);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--title-color);
+  margin-bottom: 6px;
+}
+
+.delivery-card-content p {
+  font-family: var(--font-dmsans);
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(var(--title-color-opc), 0.7);
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .delivery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .delivery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .delivery-card {
+    padding: 18px;
+  }
+}
+
 .service-details-page-wrap .service-details-img {
   margin-top: 20px;
 }
@@ -30949,5 +31045,134 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 @media (max-width: 576px) {
   .project-metro-card.two .project-content-wrap .project-content h3 a {
     font-size: 25px;
+  }
+}
+
+/* =============================================
+   BENTO GALLERY
+   ============================================= */
+.gallery-page .section-title span {
+  display: inline-block;
+  color: var(--primary-color1, #d32f2f);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.gallery-page .section-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.gallery-page .section-title p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.bento-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: dense;
+  grid-auto-rows: 220px;
+  gap: 12px;
+}
+
+.bento-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.bento-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.13);
+}
+
+.bento-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.bento-item:hover img {
+  transform: scale(1.06);
+}
+
+.bento-item.bento-wide {
+  grid-column: span 2;
+}
+
+.bento-item.bento-tall {
+  grid-row: span 2;
+}
+
+.bento-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 14px 18px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.bento-item:hover .bento-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bento-overlay span {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+  .bento-gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .bento-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+    gap: 8px;
+  }
+
+  .gallery-page .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bento-gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 240px;
+  }
+
+  .bento-item.bento-wide {
+    grid-column: span 1;
+  }
+
+  .bento-item.bento-tall {
+    grid-row: span 1;
+  }
+
+  .gallery-page .section-title h2 {
+    font-size: 26px;
   }
 }/*# sourceMappingURL=style.css.map */

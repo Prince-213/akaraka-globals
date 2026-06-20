@@ -117,12 +117,9 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <span>Reliable raw material supply!</span>
                                             <p>"AGRL consistently delivers quality calcium carbonate on time. Our paint production has never faced material shortages."</p>
                                             <div className="author-area">
-                                                {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img1.webp" alt="" />
-                                                </div> */}
                                                 <div className="author-content">
-                                                    <h5>Alhaji Suleiman</h5>
-                                                    <span>CEO, Prime Paints Ltd</span>
+                                                    <h5>Okoye Okechukwu Darlington</h5>
+                                                    <span>Managing Director/CEO, MP Colours Limited</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -136,12 +133,9 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <span>Top-grade chemical products!</span>
                                             <p>"The titanium dioxide from Akaraka is the best quality we have sourced. Excellent pricing and professional service."</p>
                                             <div className="author-area">
-                                                {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img2.webp" alt="" />
-                                                </div> */}
                                                 <div className="author-content">
-                                                    <h5>Mrs. Adeola Ojo</h5>
-                                                    <span>Director, ChemSol Nigeria</span>
+                                                    <h5>Jude Asoghoa</h5>
+                                                    <span>Managing Director/CEO, Fine Wall Paint and Chemical Industries Limited</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -155,12 +149,9 @@ const HomePageTestimonialSection: React.FC = () => {
                                             <span>Excellent ink pigments!</span>
                                             <p>"AGRL's confineous ink range gives vibrant consistent colors. Our textile printing quality has improved significantly."</p>
                                             <div className="author-area">
-                                                {/* <div className="author-img">
-                                                    <Image width={60} height={50} src="/assets/img/home1/testimonial-author-img3.webp" alt="" />
-                                                </div> */}
                                                 <div className="author-content">
-                                                    <h5>Engr. Bello Musa</h5>
-                                                    <span>Manager, Kano Textiles</span>
+                                                    <h5>Ijebuonwu Azuibke</h5>
+                                                    <span>Managing Director/CEO, AC Paints Nigeria Limited</span>
                                                 </div>
                                             </div>
                                         </div>

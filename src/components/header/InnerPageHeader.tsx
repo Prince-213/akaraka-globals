@@ -110,7 +110,7 @@ const InnerPageHeader: React.FC = () => {
 
   const projectPaths = [
     "/project",
-    "project/metro",
+    "/project/metro",
     "/project/horizontal",
     "/project/infoflow",
     "/project/text-down",
@@ -122,23 +122,23 @@ const InnerPageHeader: React.FC = () => {
   );
 
   const innerPagePaths = [
+    "/about",
     "/blog",
     "/blog/details",
-    "blog/sidebar",
-    "blog/standard",
+    "/blog/sidebar",
+    "/blog/standard",
     "/career",
     "/career-details",
     "/cart",
     "/checkout",
     "/faq",
-    "our-clients",
+    "/our-clients",
     "/our-process",
     "/our-team",
     "/product",
     "/product/details",
     "/shop",
     "/shop-details",
-    "/checkout",
     "/contact",
   ];
   const isInnerPagePathActive = innerPagePaths.some((path) =>
@@ -195,7 +195,8 @@ const InnerPageHeader: React.FC = () => {
                   <div className="content">
                     <span>CALL ANY TIME</span>
                     <h6>
-                      <a href="tel:08166175684">0816-617-5684</a>
+                      <a href="tel:08166175684">0816-617-5684</a> <br />{" "}
+                      <a href="tel:09015989177">0901-598-9177</a>
                     </h6>
                   </div>
                 </div>
@@ -349,8 +350,7 @@ const InnerPageHeader: React.FC = () => {
               <li className="single-address">
                 <span>HEAD OFFICE - ABUJA</span>
                 <a href="#">
-                  Zone C6, No.351 International Building Materials Market,
-                  Dei-Dei, Abuja
+                  Plot No D1160 Zauda Pazar & S/Gari Layout, Abuja, F.C.T.
                 </a>
               </li>
               <li className="single-address">
@@ -418,46 +418,30 @@ const InnerPageHeader: React.FC = () => {
               >
                 <Link href="/" className="drop-down">
                   Home
-                  <svg
-                    width={10}
-                    height={10}
-                    viewBox="0 0 10 10"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M10 0.0495054L10 10.0001L8.13725 10.0001L-8.22301e-08 1.8812L1.86275 -3.55691e-07L7.35294 5.5446L7.30392 0.0495053L10 0.0495054Z" />
-                    <path d="M-9.6438e-05 10.0002L6.27441 10.0002L3.62736 7.32687L-9.63211e-05 7.32687L-9.6438e-05 10.0002Z" />
-                  </svg>
+                  
                 </Link>
-                <i
-                  onClick={() => toggleMenu("HOME")}
-                  className={`bi bi-${state.activeMenu === "HOME" ? "dash" : "plus"} dropdown-icon`}
-                />
               </li>
               <li
                 className={`menu-item-has-children  ${isServiceActive ? "active" : ""}`}
               >
                 <Link href="/service" className="drop-down">
                   Services
-                  <svg
-                    width={10}
-                    height={10}
-                    viewBox="0 0 10 10"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M10 0.0495054L10 10.0001L8.13725 10.0001L-8.22301e-08 1.8812L1.86275 -3.55691e-07L7.35294 5.5446L7.30392 0.0495053L10 0.0495054Z" />
-                    <path d="M-9.6438e-05 10.0002L6.27441 10.0002L3.62736 7.32687L-9.63211e-05 7.32687L-9.6438e-05 10.0002Z" />
-                  </svg>
+                 
                 </Link>
-                <i
-                  onClick={() => toggleMenu("solution")}
-                  className={`bi bi-${state.activeMenu === "solution" ? "dash" : "plus"} dropdown-icon`}
-                />
               </li>
-              <li className={pathname === "/about" ? "active" : ""}>
+              <li className={pathname.startsWith("/about") ? "active" : ""}>
                 <Link href="/about">About</Link>
               </li>
               <li
-                className={`menu-item-has-children  ${pathname === "/contact"? "active" : ""}`}
+                className={`menu-item-has-children position-inherit ${pathname.startsWith("/gallery") ? "active" : ""}`}
+              >
+                <Link href="/gallery" className="drop-down">
+                  Gallery
+                 
+                </Link>
+              </li>
+              <li
+                className={`menu-item-has-children  ${pathname.startsWith("/contact") ? "active" : ""}`}
               >
                 <Link href="/contact" className="drop-down">
                   Contact Us
@@ -475,7 +459,6 @@ const InnerPageHeader: React.FC = () => {
                   onClick={() => toggleMenu("contact")}
                   className={`bi bi-${state.activeMenu === "contact" ? "dash" : "plus"} dropdown-icon`}
                 />
-
               </li>
             </ul>
             <div className="contact-area d-lg-none d-flex">
@@ -493,7 +476,8 @@ const InnerPageHeader: React.FC = () => {
               </div>
               <div className="content">
                 <span>Call Us</span>
-                <a href="tel:08166175684">0816-617-5684</a>
+                <a href="tel:08166175684">0816-617-5684</a> <br />{" "}
+                <a href="tel:09015989177">0901-598-9177</a>
               </div>
             </div>
           </div>
@@ -513,7 +497,8 @@ const InnerPageHeader: React.FC = () => {
               </div>
               <div className="content">
                 <span>Call Us</span>
-                <a href="tel:08166175684">0816-617-5684</a>
+                <a href="tel:08166175684">0816-617-5684</a> <br />{" "}
+                <a href="tel:09015989177">0901-598-9177</a>
               </div>
             </div>
             <div className="right-sidebar-button" onClick={toggleRightSidebar}>

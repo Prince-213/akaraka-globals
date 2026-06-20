@@ -18,7 +18,7 @@ export default function SchemaOrg() {
         },
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Zone C6, No.351 International Building Materials Market, Dei-Dei",
+          streetAddress: "Plot No D1160 Zauda Pazar & S/Gari Layout, Abuja",
           addressLocality: "Abuja",
           addressRegion: "F.C.T.",
           addressCountry: "NG",
@@ -60,7 +60,7 @@ export default function SchemaOrg() {
         image: "https://akarakaglobalresources.com/assets/img/akaraka-logo.png",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "Zone C6, No.351 International Building Materials Market, Dei-Dei",
+          streetAddress: "Plot No D1160 Zauda Pazar & S/Gari Layout, Abuja",
           addressLocality: "Abuja",
           addressRegion: "F.C.T.",
           addressCountry: "NG",

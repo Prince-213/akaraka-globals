@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/bootstrap-icons.css";
 import "../../public/assets/css/animate.min.css";
@@ -8,6 +8,12 @@ import "../../public/assets/css/nice-select.css";
 import "../../public/assets/css/style.css";
 import { dmsans, manrope } from "../fonts/font";
 import ClientRoot from "@/components/ClientRoot"
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#d32f2f",
+};
 import SchemaOrg from "@/components/common/SchemaOrg";
 import { LanguageProvider } from "@/i18n/LanguageContext";
 import DomTranslator from "@/i18n/DomTranslator";

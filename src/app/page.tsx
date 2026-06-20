@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import Banner from "@/components/factory-homepage/Banner";
 import FooterTop from "@/components/factory-homepage/FooterTop";
 import HomaPageVideoSection from "@/components/factory-homepage/HomaPageVideoSection";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Akaraka Global Resources Limited (AGRL) — Nigeria's trusted supplier of industrial chemicals, paints, inks, raw materials, coatings, and plastics. Sales, imports, exports and general contracting since 2000.",
+  openGraph: {
+    title: "Akaraka Global Resources Limited (AGRL) - Industrial Chemicals & Raw Materials",
+    description: "Leading supplier of industrial chemicals, paints, inks, raw materials and coatings in Nigeria. AD Asperia Per Astra.",
+  },
+};
 import HomePageAboutSection from "@/components/factory-homepage/HomePageAboutSection";
 import HomepageBlogSection from "@/components/factory-homepage/HomepageBlogSection";
 import HomePageCounterSection from "@/components/factory-homepage/HomePageCounterSection";

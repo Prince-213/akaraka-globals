@@ -3,6 +3,8 @@ import React, { useEffect, useReducer } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { useLanguage } from "@/i18n/LanguageContext";
+import LanguageSwitcher from "@/i18n/LanguageSwitcher";
 
 interface State {
   activeMenu: string;
@@ -66,6 +68,7 @@ function reducer(state: State, action: Action): State {
 const InnerPageHeader: React.FC = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const pathname = usePathname();
+  const { t } = useLanguage();
 
   const handleScroll = () => {
     dispatch({ type: "setScrollY", payload: window.scrollY });
@@ -170,8 +173,8 @@ const InnerPageHeader: React.FC = () => {
           </div>
           <div className="sidebar-content-wrap">
             <div className="title-area">
-              <span>Get In Touch With Us</span>
-              <h2>Connect with AGRL</h2>
+              <span>{t("getInTouchWithUs")}</span>
+              <h2>{t("connectWithAGRL")}</h2>
               <p>
                 Ready to take the first step towards unlocking opportunity
                 realizing goals, and embracing innovation?
@@ -193,7 +196,7 @@ const InnerPageHeader: React.FC = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <span>CALL ANY TIME</span>
+                    <span>{t("callAnyTime")}</span>
                     <h6>
                       <a href="tel:08166175684">0816-617-5684</a> <br />{" "}
                       <a href="tel:09015989177">0901-598-9177</a>
@@ -303,7 +306,7 @@ const InnerPageHeader: React.FC = () => {
                   <div className="content">
                     <span>Follow Us</span>
                     <h6>
-                      <a href="https://www.facebook.com/">Facebook,</a>{" "}
+                      <a href="https://wa.link/aijby0" target="_blank" rel="noopener noreferrer">WhatsApp,</a>{" "}
                       <a href="https://www.linkedin.com/">LinkedIn,</a>{" "}
                       <a href="https://www.instagram.com/">Instagram,</a>
                     </h6>
@@ -361,13 +364,12 @@ const InnerPageHeader: React.FC = () => {
               </li>
             </ul>
             <Link href="/contact" className="all-location-btn">
-              View All Locations
+              {t("viewAllLocations")}
             </Link>
           </div>
           <div className="sidebar-bottom-area">
             <p>
-              Copyright 2025 <Link href="/">AGRL</Link> | Akaraka Global
-              Resources Limited
+              {t("copyrightText").replace("{year}", "2025")}
             </p>
           </div>
         </div>
@@ -416,35 +418,25 @@ const InnerPageHeader: React.FC = () => {
               <li
                 className={`menu-item-has-children position-inherit ${isHomeActive ? "active" : ""}`}
               >
-                <Link href="/" className="drop-down">
-                  Home
-                  
-                </Link>
+                <Link href="/" className="drop-down">{t("home")}</Link>
               </li>
               <li
                 className={`menu-item-has-children  ${isServiceActive ? "active" : ""}`}
               >
-                <Link href="/service" className="drop-down">
-                  Services
-                 
-                </Link>
+                <Link href="/service" className="drop-down">{t("services")}</Link>
               </li>
               <li className={pathname.startsWith("/about") ? "active" : ""}>
-                <Link href="/about">About</Link>
+                <Link href="/about">{t("about")}</Link>
               </li>
               <li
                 className={`menu-item-has-children position-inherit ${pathname.startsWith("/gallery") ? "active" : ""}`}
               >
-                <Link href="/gallery" className="drop-down">
-                  Gallery
-                 
-                </Link>
+                <Link href="/gallery" className="drop-down">{t("gallery")}</Link>
               </li>
               <li
                 className={`menu-item-has-children  ${pathname.startsWith("/contact") ? "active" : ""}`}
               >
-                <Link href="/contact" className="drop-down">
-                  Contact Us
+                <Link href="/contact" className="drop-down">{t("contactUs")}
                   <svg
                     width={10}
                     height={10}
@@ -475,7 +467,7 @@ const InnerPageHeader: React.FC = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Us</span>
+                <span>{t("callUs")}</span>
                 <a href="tel:08166175684">0816-617-5684</a> <br />{" "}
                 <a href="tel:09015989177">0901-598-9177</a>
               </div>
@@ -496,10 +488,13 @@ const InnerPageHeader: React.FC = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Us</span>
+                <span>{t("callUs")}</span>
                 <a href="tel:08166175684">0816-617-5684</a> <br />{" "}
                 <a href="tel:09015989177">0901-598-9177</a>
               </div>
+            </div>
+            <div style={{ marginRight: "12px" }}>
+              <LanguageSwitcher />
             </div>
             <div className="right-sidebar-button" onClick={toggleRightSidebar}>
               <svg
@@ -518,7 +513,7 @@ const InnerPageHeader: React.FC = () => {
                 />
                 <rect y="12.6" width="11.2" height="1.4" rx="0.699998" />
               </svg>
-              <span>GET IN TOUCH</span>
+              <span>{t("getInTouch")}</span>
             </div>
             <div
               className="sidebar-button mobile-menu-btn"

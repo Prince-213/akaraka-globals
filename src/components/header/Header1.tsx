@@ -348,7 +348,7 @@ const Header1: React.FC = () => {
                   <div className="content">
                     <span>Follow Us</span>
                     <h6>
-                      <a href="https://www.facebook.com/">Facebook,</a>{" "}
+                      <a href="https://wa.link/aijby0" target="_blank" rel="noopener noreferrer">WhatsApp,</a>{" "}
                       <a href="https://www.linkedin.com/">LinkedIn,</a>{" "}
                       <a href="https://www.instagram.com/">Instagram,</a>
                     </h6>

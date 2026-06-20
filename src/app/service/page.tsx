@@ -373,11 +373,11 @@ const page = () => {
                         <div className="col-lg-6 wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
                             <div className="product-card2 two">
                                 <div className="product-img">
-                                    <Image width={260} height={240} src="/assets/img/sections/hpmc-celluse-ether.webp" alt="" />
+                                    <Image width={260} height={240} src="/assets/img/sections/hecellose-natrosol.jpeg" alt="" />
                                 </div>
                                 <div className="product-content">
-                                    <h4><Link href="/product/details">HPMC (Cellulose Ether)</Link></h4>
-                                    <p>Hydroxypropyl methylcellulose for construction materials, tile adhesives, and paint thickeners. Excellent water retention and workability.</p>
+                                    <h4><Link href="/product/details">Hecellose & Natrosol</Link></h4>
+                                    <p>High-quality Hecellose and Natrosol products are vital additives in numerous industries, including paints, coatings, and construction materials. They are widely used as thickeners, binders, and water-retention agents, ensuring product stability and performance.</p>
                                 </div>
                                 <Link href="/product/details" className="arrow">
                                     <svg width={38} height={38} viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">

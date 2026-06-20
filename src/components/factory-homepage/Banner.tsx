@@ -17,7 +17,7 @@ const Banner = () => {
                     <div className="banner-wrapper">
                         <div className="banner-content-wrap">
                             <div className="banner-content wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <h1>Your Trusted Partner in Industrial Chemicals, Paints &amp; Raw Materials.</h1>
+                                <h1>Your Trusted Partner in Industrial Chemicals, Paints, Raw Materials & Plastics</h1>
                                 <div className="btn-grp">
                                     <Link className="primary-btn1" href="/service">
                                         <span>{t("exploreProducts")}

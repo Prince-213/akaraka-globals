@@ -9,7 +9,14 @@ type BreadcrumbProps = {
 const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
   return (
     <div className="breadcrumb-section">
-      <div className="breadcrumb-content-wrap">
+      <Image
+        src="/assets/img/innerpages/about-excellence.jpeg"
+        alt=""
+        fill
+        style={{ objectFit: "cover", zIndex: 0 }}
+        priority
+      />
+      <div className="breadcrumb-content-wrap" style={{ position: "relative", zIndex: 1 }}>
         <div className="container">
           <div className="row">
             <div className="col-xl-9 col-lg-10">
@@ -17,12 +24,7 @@ const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
                 <ul className="breadcrumb-list">
                   <li>
                     <Link href="/">
-                      <svg
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width={12} height={12} viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.0594065 0H12.0001V2.2353L2.25745 12L0 9.76471L6.65353 3.17647L0.0594065 3.2353V0Z" />
                         <path d="M12.0009 12.0001V4.4707L8.79297 7.64718V12.0001H12.0009Z" />
                       </svg>
@@ -36,33 +38,8 @@ const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
             </div>
           </div>
         </div>
-
         <CircularText />
-        <Image
-          width={92}
-          height={92}
-          src="/assets/img/innerpages/breadcrumb-section-vector.svg"
-          alt="breadcrumb vector"
-          className="vector"
-        />
-      </div>
-      <div
-        className="breadcrumb-img "
-        style={{
-          height: "550px",
-          overflow: "hidden",
-        }}
-      >
-        <Image
-          src="/assets/img/innerpages/about-excellence.jpeg"
-          alt="breadcrumb image"
-          fill
-          style={{
-            backgroundPosition: "center",
-            objectFit: "cover",
-            backgroundSize: "cover",
-          }}
-        />
+        <Image width={92} height={92} src="/assets/img/innerpages/breadcrumb-section-vector.svg" alt="" className="vector" />
       </div>
     </div>
   );

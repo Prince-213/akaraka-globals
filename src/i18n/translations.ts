@@ -253,6 +253,63 @@ const translations: Record<string, TranslationMap> = {
   READ_MORE:         { en: "READ MORE",         fr: "LIRE LA SUITE",        ha: "ƘARA KARATU",          yo: "KÀ SIWÁJÚ",            ig: "GỤỌKWUO",             zh: "阅读更多", es: "LEER MÁS" },
   SUBMIT:            { en: "SUBMIT",            fr: "ENVOYER",              ha: "AIKA",                 yo: "FÌ RÁNṢẸ́",             ig: "ZIGA",                zh: "提交",     es: "ENVIAR" },
   CONTACT:           { en: "CONTACT",           fr: "CONTACT",              ha: "TUNTUƁE",              yo: "KÀN SÍ",               ig: "KPỌTỤRỤ",             zh: "联系",     es: "CONTACTO" },
+
+  // ── Navigation & Common UI ──
+  gallery:            { en: "Gallery",           fr: "Galerie",             ha: "Hotuna",              yo: "Àwòrán",              ig: "Ngosi",               zh: "图库",     es: "Galería" },
+  viewAllLocations:   { en: "View All Locations",fr: "Voir tous les lieux", ha: "Duba Duk Wurare",     yo: "Wo Gbogbo Àwọn Ibẹ̀",  ig: "Lelee Ebe Niile",      zh: "查看所有地点", es: "Ver Todas las Ubicaciones" },
+  callAnyTime:        { en: "CALL ANY TIME",     fr: "APPELEZ À TOUT MOMENT",ha: "KIRA KOWANE LOKACI",  yo: "PÈ NÍGBÀKIGBÀ",        ig: "KPỌỌ N'OGE ỌBỤLA",    zh: "随时致电",  es: "LLAME EN CUALQUIER MOMENTO" },
+  connectedWithUs:    { en: "Connected With Us", fr: "Connecté avec nous",  ha: "Sadarwa Da Mu",       yo: "Ní Ìsopọ̀ Pẹ̀lú Wa",   ig: "Ejikọrọ na Anyị",     zh: "与我们联系", es: "Conectado Con Nosotros" },
+  connectWithAGRL:    { en: "Connect with AGRL", fr: "Connectez-vous avec AGRL",ha: "Sadarwa da AGRL",   yo: "Sopọ̀ Pẹ̀lú AGRL",     ig: "Jikọọ na AGRL",       zh: "联系AGRL",  es: "Conectar con AGRL" },
+  collectionPointDeiDei: { en: "COLLECTION POINT - DEI-DEI", fr: "POINT DE COLLECTE - DEI-DEI", ha: "WURIN KARƁA - DEI-DEI", yo: "IBI ÌKÓJỌ - DEI-DEI", ig: "EBE NCHỊKỌTA - DEI-DEI", zh: "提货点 - DEI-DEI", es: "PUNTO DE RECOGIDA - DEI-DEI" },
+  copyrightText:      { en: "Copyright {year} AGRL | Akaraka Global Resources Limited", fr: "Droits d'auteur {year} AGRL", ha: "Haƙƙin mallaka {year} AGRL", yo: "Ẹ̀tọ́ Àdàkọ {year} AGRL", ig: "Ikike nwebisiinka {year} AGRL", zh: "版权所有 {year} AGRL", es: "Derechos de autor {year} AGRL" },
+
+  // ── Form Labels ──
+  fullName:           { en: "Full Name *",       fr: "Nom complet *",       ha: "Cikakken Suna *",     yo: "Orúkọ Kíkún *",       ig: "Aha Zuruezu *",       zh: "全名 *",    es: "Nombre Completo *" },
+  emailAddress:       { en: "Email *",           fr: "E-mail *",            ha: "Imel *",              yo: "Àkọọ́lẹ̀ Ìmẹ̀èlì *",     ig: "Email *",             zh: "邮箱 *",    es: "Correo Electrónico *" },
+  phoneNumber:        { en: "Phone *",           fr: "Téléphone *",         ha: "Waya *",              yo: "Fóònù *",             ig: "Ekwentị *",           zh: "电话 *",    es: "Teléfono *" },
+  subjectField:       { en: "Subject",           fr: "Sujet",               ha: "Taken Saƙo",          yo: "Àkòrí",               ig: "Isiokwu",             zh: "主题",     es: "Asunto" },
+  messageField:       { en: "Message *",         fr: "Message *",           ha: "Saƙo *",              yo: "Ìfiránṣẹ́ *",          ig: "Ozi *",               zh: "留言 *",    es: "Mensaje *" },
+  termsCheckbox:      { en: "I have read & accepted Terms & Conditions.", fr: "J'ai lu et accepté les conditions.", ha: "Na karanta kuma na yarda da Sharuɗɗa.", yo: "Mo ti kà, mo sì gba Àwọn Òfin.", ig: "Agụọla m ma nabata Usoro na Ọnọdụ.", zh: "我已阅读并接受条款和条件。", es: "He leído y acepto los Términos y Condiciones." },
+
+  // ── Contact page ──
+  toMoreInquiry:      { en: "To More Inquiry",   fr: "Pour plus d'infos",   ha: "Don Ƙarin Tambaya",   yo: "Fún Ìbéèrè Síwájú",    ig: "Maka Ajụjụ Ọzọ",      zh: "更多咨询",  es: "Para Más Consultas" },
+  toSendMail:         { en: "To Send Mail",      fr: "Pour envoyer un mail",ha: "Don Aika Imel",       yo: "Láti Fí Ìmẹ̀èlì Ránṣẹ́", ig: "Iji Zipu Ozi",    zh: "发送邮件",  es: "Para Enviar Correo" },
+
+  // ── FAQ ──
+  talkAnyQuestion:    { en: "Talk Any Question", fr: "Posez une question",  ha: "Yi Magana Kan Kowace Tambaya", yo: "Sọ Ìbéèrè Èyíkéyìí", ig: "Kwuo Ajụjụ Ọbụla", zh: "提出任何问题", es: "Haga Cualquier Pregunta" },
+
+  // ── Products ──
+  productQuality:      { en: "Product Quality",   fr: "Qualité du produit",  ha: "Ingancin Kayayyaki",  yo: "Dídára Ọjà",          ig: "Ogo Ngwaahịa",        zh: "产品质量",  es: "Calidad del Producto" },
+  qualityAtEveryStep:  { en: "Quality Product At Every Step", fr: "Produit de qualité à chaque étape", ha: "Ingantaccen Kaya A Kowane Mataki", yo: "Ọjà Dídára Ní Gbogbo Ìgbésẹ̀", ig: "Ngwaahịa Ogo Na Nzọụkwụ Ọbụla", zh: "每一步的优质产品", es: "Producto de Calidad en Cada Paso" },
+
+  // ── Counter ──
+  productsAndMaterials:{ en: "Products & Materials", fr: "Produits et matériaux", ha: "Kayayyaki & Kayan Aiki", yo: "Àwọn Ọjà & Ohun Èlò", ig: "Ngwaahịa & Akụrụngwa", zh: "产品与材料", es: "Productos y Materiales" },
+  happyClients:       { en: "Happy Clients Served", fr: "Clients satisfaits", ha: "Abokan Ciniki Masu Farin Ciki", yo: "Àwọn Alábàṣiṣẹ́pọ̀ Tó Dùn", ig: "Ndị Ahịa Obi Ụtọ", zh: "已服务客户", es: "Clientes Satisfechos" },
+  yearsOfExperience:  { en: "Years of Experience", fr: "Années d'expérience", ha: "Shekaru na Kwarewa", yo: "Ọdún Ìrírí",        ig: "Afọ nke Ahụmahụ",    zh: "年经验",    es: "Años de Experiencia" },
+  branchLocations:    { en: "Branch Locations",   fr: "Succursales",        ha: "Wuraren Reshe",       yo: "Àwọn Ibẹ̀ Ẹ̀ka",       ig: "Ebe Alaka",           zh: "分支机构",  es: "Sucursales" },
+
+  // ── 404 / Error ──
+  takeMeHome:         { en: "Take Me Home",      fr: "Ramenez-moi à l'accueil", ha: "Kai Ni Gida",     yo: "Mú Mi Lọ Sí Ilé",     ig: "Kpọga M N'ụlọ",       zh: "带我回家",  es: "Llévame a Casa" },
+  backToHome:         { en: "Back to Home",      fr: "Retour à l'accueil",  ha: "Koma Gida",          yo: "Padà sí Ilé",         ig: "Laghachi n'ụlọ",      zh: "返回首页",  es: "Volver al Inicio" },
+  tryAgain:           { en: "Try Again",         fr: "Réessayer",           ha: "Sake Gwadawa",       yo: "Gba Ìgbìyànjú Mìíràn",ig: "Nwaa Ọzọ",           zh: "重试",     es: "Reintentar" },
+  somethingWentWrong: { en: "Something went wrong", fr: "Une erreur s'est produite", ha: "Wani abu ya faru", yo: "Ohun kan ti ṣẹlẹ̀", ig: "Ihe adịghị mma mere", zh: "出了点问题", es: "Algo salió mal" },
+  pageNotFound:       { en: "Sorry! Page Not Found.", fr: "Désolé ! Page introuvable.", ha: "Yi Haƙuri! Ba a Sami Shafi Ba.", yo: "Má Bínú! A Kò Rí Ojú-ewé Náà.", ig: "Ndo! Ahụghị Ibe Ahụ.", zh: "抱歉！页面未找到。", es: "¡Lo siento! Página no encontrada." },
+
+  // ── Testimonials ──
+  ourClientTestimonial:{ en: "Our Client Testimonial", fr: "Témoignage client", ha: "Shaidar Abokin Cinikinmu", yo: "Ẹ̀rí Alábàṣiṣẹ́pọ̀ Wa", ig: "Ngba Nkwa Onye Ahịa Anyị", zh: "客户评价", es: "Testimonio de Nuestro Cliente" },
+  trustedByPartners:  { en: "Trusted by Our Partners.", fr: "Approuvé par nos partenaires.", ha: "Amintacce Ta Abokan Hulɗarmu.", yo: "Ìgbẹ́kẹ̀lé Láti Ọwọ́ Alábàṣepọ̀ Wa.", ig: "Ndị Mmekọ Anyị Tụkwasịrị Obi.", zh: "合作伙伴的信赖。", es: "Confiado por Nuestros Socios." },
+
+  // ── Project / Featured ──
+  ourSupplyCategories:{ en: "Our Supply Categories", fr: "Nos catégories d'approvisionnement", ha: "Rukunonin Samar da Kayayyakinmu", yo: "Àwọn Ẹ̀ka Ìpèsè Wa", ig: "Otu Nnyefe Anyị", zh: "我们的供应类别", es: "Nuestras Categorías de Suministro" },
+  featuredProductRanges:{ en: "Featured Product Ranges", fr: "Gammes de produits en vedette", ha: "Fitattun Kayayyakinmu", yo: "Àwọn Ọjà Tí A Ṣàfihàn", ig: "Ngwaahịa Egosipụtara", zh: "特色产品系列", es: "Gamas de Productos Destacados" },
+
+  // ── Service details ──
+  benefitsOfAGRL:     { en: "Benefits of Choosing AGRL", fr: "Avantages de choisir AGRL", ha: "Amfanin Zaɓin AGRL", yo: "Àwọn Ànfàní Yíyan AGRL", ig: "Uru nke Ịhọrọ AGRL", zh: "选择AGRL的好处", es: "Beneficios de Elegir AGRL" },
+  benefitsIntro:      { en: "Partnering with Akaraka Global Resources gives you access to unmatched expertise, quality, and service reliability.", fr: "Un partenariat avec AGRL vous donne accès à une expertise inégalée.", ha: "Haɗin gwiwa da AGRL yana ba ku damar samun ƙwarewa mara misaltuwa.", yo: "Ìbáṣepọ̀ pẹ̀lú AGRL fún ọ ní ànfàní sí ìmọ̀ tí kò ní ìdíje.", ig: "Imekọ ihe na AGRL na-enye gị ohere ịnweta nka na-enweghị atụ.", zh: "与AGRL合作让您获得无与伦比的专业知识和服务可靠性。", es: "Asociarse con AGRL le da acceso a experiencia inigualable." },
+
+  // ── Chatbot ──
+  online:             { en: "Online",             fr: "En ligne",            ha: "Yana Kan Layi",       yo: "Wà Lórí Ayélujára",   ig: "N'ịntanetị",         zh: "在线",     es: "En línea" },
+  clearChat:          { en: "Clear chat history", fr: "Effacer l'historique", ha: "Share tarihin taɗi", yo: "Pa Àkọsílẹ̀ Ìfọ̀rọ̀wérọ̀ Rẹ́", ig: "Hichapụ akụkọ nkata", zh: "清除聊天记录", es: "Borrar historial de chat" },
 };
 
 export function translate(key: string, locale: Locale): string {

@@ -32,7 +32,7 @@ const serviceDetails: Record<string, ServiceDetail> = {
         "We supply a comprehensive range of raw materials and industrial minerals sourced from trusted local and international suppliers. Our quality assurance protocols ensure every shipment meets Nigerian industrial standards.",
       list: [
         { category: "Minerals & Fillers", items: "Calcium Carbonate (CaCO3), Stone Dust (Marble Dust), Kaolinite" },
-        { category: "Industrial Chemicals", items: "Acrylic PVA Emulsion, Titanium Dioxide (TiO2), Hecellose, Cellulose Ether, Natrosol, HPMC (Hydroxy Propyl Methyl Cellulose)" },
+        { category: "Industrial Chemicals", items: "Acrylic PVA Emulsion, Titanium Dioxide (TiO2), Hecellose, Natrosol" },
         { category: "Processing Aids", items: "Antiscal Chemical, Formaline, Ammonia" },
       ],
     },
@@ -69,7 +69,7 @@ const serviceDetails: Record<string, ServiceDetail> = {
       list: [
         { category: "Emulsions & Binders", items: "Acrylic PVA Emulsion, Styrene Acrylic, Pure Acrylic, Vinyl Acetate Ethylene" },
         { category: "Pigments & Opacifiers", items: "Titanium Dioxide (Rutile & Anatase), Yellow Oxide, Red Oxide, Black Oxide, Blue Oxide, Green Oxide" },
-        { category: "Cellulose Derivatives", items: "Hecellose, Cellulose Ether, Natrosol, HPMC (Hydroxy Propyl Methyl Cellulose)" },
+        { category: "Cellulose Derivatives", items: "Hecellose, Natrosol" },
         { category: "Processing Chemicals", items: "Antiscal Chemical, Formaline, Ammonia Solution" },
       ],
     },

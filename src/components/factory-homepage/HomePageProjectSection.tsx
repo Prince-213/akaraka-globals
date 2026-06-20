@@ -243,7 +243,7 @@ const HomePageProjectSection: React.FC = () => {
                           <Image
                             width={430}
                             height={450}
-                            src="/assets/img/sections/hpmc-celluse-ether.webp"
+                            src="/assets/img/sections/hecellose-natrosol.jpeg"
                             alt=""
                           />
                         </div>
@@ -253,7 +253,7 @@ const HomePageProjectSection: React.FC = () => {
                             <h3
                               style={{
                                 color: "red",
-                              }} >HPMC &amp; Cellulose Ethers</h3>
+                              }} >Hecellose &amp; Natrosol</h3>
                             <ul>
                               <li>
                                 <Link href="/product">Pharma</Link>

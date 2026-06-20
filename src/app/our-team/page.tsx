@@ -49,11 +49,11 @@ const page = () => {
                     <div className="icon">
                       <i className="bi bi-plus" />
                     </div>
-                    <a href="https://www.facebook.com/" className="social-area">
-                      <span>Facebook</span>
+                    <a href="https://wa.link/aijby0" className="social-area" target="_blank" rel="noopener noreferrer">
+                      <span>WhatsApp</span>
                       <div className="icon">
                         <span>
-                          <i className="bx bxl-facebook" />
+                          <i className="bx bxl-whatsapp" />
                         </span>
                       </div>
                     </a>

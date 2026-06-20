@@ -40,7 +40,7 @@ export default function SchemaOrg() {
         ],
         email: "akarakaglobalresources@yahoo.com",
         sameAs: [
-          "https://facebook.com/akarakaglobalresources",
+          "https://wa.link/aijby0",
           "https://linkedin.com/company/akarakaglobalresources",
           "https://twitter.com/akarakaglobal",
         ],

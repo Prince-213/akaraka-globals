@@ -42,13 +42,13 @@ const HomePageTeamSection: React.FC = () => {
                   }}
                 />
               </div>
-              <a href="https://www.facebook.com/" className="social-area">
+              <a href="https://wa.link/aijby0" className="social-area" target="_blank" rel="noopener noreferrer">
                 <div className="icon">
                   <span>
-                    <i className="bx bxl-facebook" />
+                    <i className="bx bxl-whatsapp" />
                   </span>
                 </div>
-                <span>Facebook</span>
+                <span>WhatsApp</span>
               </a>
             </li>
           </ul>

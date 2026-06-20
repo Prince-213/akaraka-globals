@@ -336,9 +336,9 @@ const Footer1: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/">
-                  <i className="bi bi-facebook" />
-                  Facebook
+                <a href="https://wa.link/aijby0" target="_blank" rel="noopener noreferrer">
+                  <i className="bi bi-whatsapp" />
+                  WhatsApp
                 </a>
               </li>
               <li>

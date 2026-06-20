@@ -18,7 +18,7 @@ const companyKnowledge: KnowledgeEntry[] = [
   {
     question: "What chemicals do you distribute?",
     keywords: ["acrylic", "pva", "titanium dioxide", "tio2", "hecellose", "cellulose", "ether", "natrosol", "hpmc", "antiscal", "formaline", "ammonia"],
-    answer: "Our chemical distribution includes: Acrylic PVA Emulsion, Titanium Dioxide (Rutile & Anatase grades), Hecellose, Cellulose Ether, Natrosol, HPMC (Hydroxy Propyl Methyl Cellulose), Antiscal Chemical, Formaline, and Ammonia Solution. We maintain large warehouse stock in Abuja for immediate dispatch. Bulk and retail quantities available."
+    answer: "Our chemical distribution includes: Acrylic PVA Emulsion, Titanium Dioxide (Rutile & Anatase grades), Hecellose, Natrosol, Antiscal Chemical, Formaline, and Ammonia Solution. We maintain large warehouse stock in Abuja for immediate dispatch. Bulk and retail quantities available."
   },
   {
     question: "What inks and pigments do you have?",

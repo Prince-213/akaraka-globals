@@ -9,14 +9,7 @@ type BreadcrumbProps = {
 const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
   return (
     <div className="breadcrumb-section">
-      <Image
-        src="/assets/img/innerpages/about-excellence.jpeg"
-        alt=""
-        fill
-        style={{ objectFit: "cover", zIndex: 0 }}
-        priority
-      />
-      <div className="breadcrumb-content-wrap" style={{ position: "relative", zIndex: 1 }}>
+      <div className="breadcrumb-content-wrap">
         <div className="container">
           <div className="row">
             <div className="col-xl-9 col-lg-10">
@@ -40,6 +33,14 @@ const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
         </div>
         <CircularText />
         <Image width={92} height={92} src="/assets/img/innerpages/breadcrumb-section-vector.svg" alt="" className="vector" />
+      </div>
+      <div className="breadcrumb-img" style={{ position: "relative", height: "550px", overflow: "hidden" }}>
+        <Image
+          src="/assets/img/innerpages/about-excellence.jpeg"
+          alt=""
+          fill
+          style={{ objectFit: "cover" }}
+        />
       </div>
     </div>
   );

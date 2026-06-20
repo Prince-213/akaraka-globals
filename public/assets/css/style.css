@@ -24811,31 +24811,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   75. Breadcrumb Section CSS
 ========================================*/
 .breadcrumb-section {
-  position: relative;
-  min-height: 420px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-.breadcrumb-section::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.15) 100%);
-  z-index: 0;
-  pointer-events: none;
-}
-/* Make breadcrumb text white over dark overlay */
-.breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content .breadcrumb-list li,
-.breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content .breadcrumb-list li a,
-.breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content h1 {
-  color: #fff;
-}
-.breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content .breadcrumb-list li a svg {
-  fill: #fff;
-}
-.breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content .breadcrumb-list li::before {
-  background-color: rgba(255,255,255,0.3);
+  background-color: #FFFBF5;
 }
 .breadcrumb-section .breadcrumb-content-wrap {
   position: relative;
@@ -24968,7 +24944,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   background-color: rgba(var(--black-color-opc), 0.08);
 }
 .breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content {
-  padding: 100px 0 100px;
+  padding: 160px 0 70px;
 }
 @media (max-width: 991px) {
   .breadcrumb-section .breadcrumb-content-wrap .breadcrumb-content {
@@ -25073,9 +25049,29 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
     font-size: 32px;
   }
 }
-.breadcrumb-section .breadcrumb-img,
+.breadcrumb-section .breadcrumb-img {
+  -webkit-mask-image: url(../img/innerpages/breadcrumb-img-bg.webp);
+          mask-image: url(../img/innerpages/breadcrumb-img-bg.webp);
+  -webkit-mask-size: cover;
+          mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+}
+@media (max-width: 1199px) {
+  .breadcrumb-section .breadcrumb-img {
+    -webkit-mask-position: 67%;
+            mask-position: 67%;
+  }
+}
 .breadcrumb-section .breadcrumb-img img {
-  display: none;
+  min-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 576px) {
+  .breadcrumb-section .breadcrumb-img img {
+    min-height: 280px;
+  }
 }
 .breadcrumb-section.two .breadcrumb-content-wrap .breadcrumb-content {
   padding: 200px 0 180px;

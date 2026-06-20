@@ -341,12 +341,6 @@ const Footer1: React.FC = () => {
                   WhatsApp
                 </a>
               </li>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <i className="bi bi-instagram" />
-                  Instagram
-                </a>
-              </li>
             </ul>
           </div>
         </div>

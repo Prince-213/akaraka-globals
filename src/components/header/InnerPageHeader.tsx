@@ -307,8 +307,7 @@ const InnerPageHeader: React.FC = () => {
                     <span>Follow Us</span>
                     <h6>
                       <a href="https://wa.link/aijby0" target="_blank" rel="noopener noreferrer">WhatsApp,</a>{" "}
-                      <a href="https://www.linkedin.com/">LinkedIn,</a>{" "}
-                      <a href="https://www.instagram.com/">Instagram,</a>
+                      <a href="https://www.linkedin.com/">LinkedIn,</a>
                     </h6>
                   </div>
                 </div>

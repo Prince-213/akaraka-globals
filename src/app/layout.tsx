@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: "Akaraka Global Resources | Industrial Chemicals & Paints",
     template: "%s | AGRL",
   },
-  description: "Leading supplier of industrial chemicals, paints, inks, raw materials, coatings, and plastics in Nigeria. Imports, exports & contracting since 2000.",
+  description: "Top supplier of industrial chemicals, paints, raw materials & plastics in Nigeria. Imports, exports & general contracting since 2000.",
   keywords: ["industrial chemicals", "paints", "inks", "raw materials", "calcium carbonate", "CaCO3", "titanium dioxide", "HPMC", "coatings", "plastics", "Nigeria", "Abuja", "AGRL", "Akaraka"],
   authors: [{ name: "Akaraka Global Resources Limited" }],
   creator: "Akaraka Global Resources Limited",
@@ -33,9 +33,6 @@ export const metadata: Metadata = {
     address: true,
     telephone: true,
   },
-  metadataBase: new URL(
-    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://akarakaglobalresources.com"
-  ),
   alternates: {
     canonical: "/",
   },

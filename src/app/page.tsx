@@ -5,7 +5,7 @@ import HomaPageVideoSection from "@/components/factory-homepage/HomaPageVideoSec
 
 export const metadata: Metadata = {
   title: "Akaraka Global Resources | Industrial Chemicals",
-  description: "Nigeria's trusted supplier of industrial chemicals, paints, inks, raw materials, coatings, and plastics. Imports, exports & general contracting since 2000.",
+  description: "Top supplier of industrial chemicals, paints, raw materials & plastics in Nigeria. Imports, exports & general contracting since 2000.",
   openGraph: {
     title: "Akaraka Global Resources | Industrial Chemicals",
     description: "Leading supplier of industrial chemicals, paints, inks, raw materials and coatings in Nigeria.",

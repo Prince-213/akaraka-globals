@@ -20,10 +20,10 @@ import DomTranslator from "@/i18n/DomTranslator";
 
 export const metadata: Metadata = {
   title: {
-    default: "Akaraka Global Resources Limited (AGRL) - Industrial Chemicals, Paints & Raw Materials",
-    template: "%s | AGRL - Akaraka Global Resources",
+    default: "Akaraka Global Resources | Industrial Chemicals & Paints",
+    template: "%s | AGRL",
   },
-  description: "AGRL is a leading supplier of industrial chemicals, paints, inks, raw materials (CaCO3, stone dust, kaolinite), coatings, and plastics in Nigeria. Dealers in imports, exports and general contracting since 2000. AD Asperia Per Astra.",
+  description: "Leading supplier of industrial chemicals, paints, inks, raw materials, coatings, and plastics in Nigeria. Imports, exports & contracting since 2000.",
   keywords: ["industrial chemicals", "paints", "inks", "raw materials", "calcium carbonate", "CaCO3", "titanium dioxide", "HPMC", "coatings", "plastics", "Nigeria", "Abuja", "AGRL", "Akaraka"],
   authors: [{ name: "Akaraka Global Resources Limited" }],
   creator: "Akaraka Global Resources Limited",
@@ -33,15 +33,17 @@ export const metadata: Metadata = {
     address: true,
     telephone: true,
   },
-  metadataBase: new URL("https://akarakaglobalresources.com"),
+  metadataBase: new URL(
+    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://akarakaglobalresources.com"
+  ),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_NG",
-    siteName: "Akaraka Global Resources Limited",
-    title: "Akaraka Global Resources Limited (AGRL) - Industrial Chemicals, Paints & Raw Materials",
+    siteName: "Akaraka Global Resources",
+    title: "Akaraka Global Resources | Industrial Chemicals",
     description: "Trusted supplier of industrial chemicals, paints, inks, raw materials, coatings and plastics in Nigeria since 2000.",
   },
   twitter: {

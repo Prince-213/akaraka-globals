@@ -75,10 +75,20 @@ const STRING_TO_KEY: Record<string, string> = {
   "Quality Assurance & Testing": "qualityAssuranceAndTesting",
   "Delivery & Support": "deliveryAndSupport",
 
+  // ── Why Choose Us ──
+  "Why Work With Us": "whyWorkWithUs",
+  "Why We're the Right Choice Industry": "rightChoiceIndustry",
+  "Contact Now": "contactNow",
+  "Solutions Expert": "solutionsExpert",
+  "Trusted Partner": "trustedPartnerAccordion",
+  "Driving Innovation": "drivingInnovation",
+  "Pushing The Boundaries of Material Science": "pushingBoundaries",
+
   // ── Team ──
   "Our Leadership Team": "ourLeadershipTeam",
   "Meet Our AGRL Team": "meetOurTeam",
   "Managing Director": "managingDirector",
+  "Managing Director / CEO": "managingDirector",
   "Operations Manager": "operationsManager",
   "Sales Director": "salesDirector",
   "Supply Chain Lead": "supplyChainLead",
@@ -95,6 +105,7 @@ const STRING_TO_KEY: Record<string, string> = {
   "News & Updates": "newsAndUpdates",
 
   // ── FAQ ──
+  "Answer Your Questions": "answerYourQuestions",
   "Frequently Asked Questions": "frequentlyAskedQuestions",
   "Ask A Question": "askAQuestion",
 
@@ -111,10 +122,38 @@ const STRING_TO_KEY: Record<string, string> = {
   "Your Message": "yourMessage",
   "Submit Now": "submitNow",
   "Get In Touch With Us": "getInTouchWithUs",
+  "Connected With Us": "connectedWithUs",
+  "To More Inquiry": "toMoreInquiry",
+  "To Send Mail": "toSendMail",
+  "Full Name *": "fullName",
+  "Email *": "emailAddress",
+  "Phone *": "phoneNumber",
+  Subject: "subjectField",
+  "Message *": "messageField",
+  "I have read & accepted Terms & Conditions.": "termsCheckbox",
 
   // ── Map / Locations ──
   "Our Office Locations": "ourOfficeLocations",
   "Contact Us For Directions": "contactUsForDirections",
+  "COLLECTION POINT - DEI-DEI": "collectionPointDeiDei",
+  "VIEW ALL LOCATIONS": "viewAllLocations",
+
+  // ── Counter ──
+  "Products & Materials": "productsAndMaterials",
+  "Happy Clients Served": "happyClients",
+  "Years of Experience": "yearsOfExperience",
+  "Branch Locations": "branchLocations",
+
+  // ── Testimonials ──
+  "Our Client Testimonial": "ourClientTestimonial",
+  "Trusted by Our Partners.": "trustedByPartners",
+
+  // ── Product Categories (with prefix variants) ──
+  "Category: Industrial Chemicals": "industrialChemicalsCategory",
+  "Category: Inks & Pigments": "inksAndPigmentsCategory",
+  "Category: Coatings & Paints": "coatingsAndPaintsCategory",
+  "Category: Plastics & Polymers": "plasticsAndPolymersCategory",
+  "Category: Chemical Products": "chemicalProductsCategory",
 
   // ── Misc / Business ──
   "Partner With AGRL Today": "partnerWithUs",

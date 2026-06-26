@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useRef } from "react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HomePageMapSection: React.FC = () => {
+  const { t } = useLanguage();
   const addressListRef = useRef<HTMLUListElement | null>(null);
   const mapListRef = useRef<HTMLUListElement | null>(null);
 
@@ -38,7 +40,7 @@ const HomePageMapSection: React.FC = () => {
         <>
             <div className="home1-map-section mb-120">
                 <div className="address-wrapper">
-                    <h2>Our Office Locations</h2>
+                    <h2>{t("ourOfficeLocations")}</h2>
                     <div className="address-area">
                         <ul className="address-list" ref={addressListRef}>
                             <li className="single-address">
@@ -60,7 +62,7 @@ const HomePageMapSection: React.FC = () => {
                                 </svg>
                             </li>
                         </ul>
-                        <Link href="/contact" className="location-btn">Contact Us For Directions</Link>
+                        <Link href="/contact" className="location-btn">{t("contactUsForDirections")}</Link>
                     </div>
                 </div>
                 <ul className="map-list" ref={mapListRef}>

@@ -43,13 +43,13 @@ const Footer1: React.FC = () => {
                   <div className="address-area">
                     <ul className="address-list">
                       <li className="single-address">
-                        <span>HEAD OFFICE - ABUJA</span>
+                        <span>{t("headOfficeAbuja")}</span>
                         <a href="#">
                           Plot No D1160 Zauda Pazar & S/Gari Layout, Abuja, F.C.T.
                         </a>
                       </li>
                       <li className="single-address">
-                        <span>BRANCH OFFICE</span>
+                        <span>{t("branchOffice")}</span>
                         <a href="#">
                           Akaraka Plaza, Beside Zenith Bank, Mararaba Building
                           Materials
@@ -68,7 +68,7 @@ const Footer1: React.FC = () => {
                     <div className="col-md-4 col-sm-6 d-flex justify-content-lg-center">
                       <div className="footer-widget">
                         <div className="widget-title">
-                          <h5>COMPANY</h5>
+                          <h5>{t("company")}</h5>
                         </div>
                         <div className="menu-container">
                           <ul className="widget-list">
@@ -88,7 +88,7 @@ const Footer1: React.FC = () => {
                             </li>
                             <li>
                               <Link href="/our-team">
-                                Our Leadership
+                                {t("ourLeadership")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -149,13 +149,13 @@ const Footer1: React.FC = () => {
                     <div className="col-md-4 col-sm-6 d-flex justify-content-lg-center">
                       <div className="footer-widget">
                         <div className="widget-title">
-                          <h5>PRODUCTS</h5>
+                          <h5>{t("products")}</h5>
                         </div>
                         <div className="menu-container">
                           <ul className="widget-list">
                             <li>
                               <Link href="/service">
-                                Raw Materials
+                                {t("rawMaterials")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -169,7 +169,7 @@ const Footer1: React.FC = () => {
                             </li>
                             <li>
                               <Link href="/service">
-                                Chemicals &amp; Paints
+                                {t("chemicalsAndPaints")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -183,7 +183,7 @@ const Footer1: React.FC = () => {
                             </li>
                             <li>
                               <Link href="/service">
-                                Inks &amp; Pigments
+                                {t("inksAndPigments")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -197,7 +197,7 @@ const Footer1: React.FC = () => {
                             </li>
                             <li>
                               <Link href="/service">
-                                Plastics &amp; Polymers
+                                {t("plasticsAndPolymers")}
                                 <svg
                                   width={9}
                                   height={9}
@@ -230,7 +230,7 @@ const Footer1: React.FC = () => {
                               </svg>
                             </div>
                             <div className="content">
-                              <span>CALL ANY TIME</span>
+                              <span>{t("callAnyTime")}</span>
                               <h6>
                                 <a href="tel:08166175684">0816-617-5684</a>, <a href="tel:09015989177">0901-598-9177</a>
                               </h6>
@@ -268,7 +268,7 @@ const Footer1: React.FC = () => {
                               </svg>
                             </div>
                             <div className="content">
-                              <span>ADDRESS</span>
+                              <span>{t("address")}</span>
                               <h6>
                                 <a href="#">Abuja, Nigeria</a>
                               </h6>
@@ -324,8 +324,7 @@ const Footer1: React.FC = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2025 <Link href="/">AGRL</Link> | Akaraka Global
-                Resources Limited
+                {t("copyrightText").replace("{year}", "2025")}
               </p>
             </div>
             <ul className="social-area">

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 export default function Error({
   error,
@@ -9,13 +10,14 @@ export default function Error({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  const { t } = useLanguage();
   return (
     <div className="error-page-wrap pt-120 mb-120">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6 text-center">
             <h1 style={{ fontSize: "120px", fontWeight: 800, color: "var(--primary-color1, #d32f2f)", lineHeight: 1, marginBottom: "20px" }}>500</h1>
-            <h2 style={{ fontSize: "36px", marginBottom: "16px" }}>Something went wrong</h2>
+            <h2 style={{ fontSize: "36px", marginBottom: "16px" }}>{t("somethingWentWrong")}</h2>
             <p style={{ color: "#666", marginBottom: "30px", fontSize: "16px", lineHeight: 1.7 }}>
               We encountered an unexpected error. Please try again or return to the homepage.
             </p>
@@ -27,7 +29,7 @@ export default function Error({
                   border: "none", borderRadius: "6px", cursor: "pointer", fontWeight: 600, fontSize: "15px"
                 }}
               >
-                Try Again
+                {t("tryAgain")}
               </button>
               <Link
                 href="/"
@@ -36,7 +38,7 @@ export default function Error({
                   borderRadius: "6px", fontWeight: 600, fontSize: "15px", textDecoration: "none", display: "inline-block"
                 }}
               >
-                Back to Home
+                {t("backToHome")}
               </Link>
             </div>
           </div>

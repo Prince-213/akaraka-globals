@@ -1,27 +1,20 @@
+"use client";
+
 import FooterTop from "@/components/factory-homepage/FooterTop";
 import InnerPageHeader from "@/components/header/InnerPageHeader";
 import Link from "next/link";
 import React from "react";
 import Footer1 from "@/components/footers/Footer1";
 import Breadcrumb from "@/components/common/Breadcrumb";
-import { Metadata } from "next";
+import { useLanguage } from "@/i18n/LanguageContext";
 import HomePageMapSection from "@/components/factory-homepage/HomePageMapSection";
-
-export const metadata: Metadata = {
-  title: "Contact Us",
-  description:
-    "Get in touch with Akaraka Global Resources Limited for all your industrial chemical and raw material needs.",
-  openGraph: {
-    title: "Contact AGRL - Akaraka Global Resources Limited",
-    description: "Reach out for industrial chemicals, paints, raw materials, and contracting services in Abuja, Nigeria.",
-  },
-};
 const page = () => {
+  const { t } = useLanguage();
   return (
     <>
       <InnerPageHeader />
       <Breadcrumb
-        title="Contact"
+        title={t("contactUs")}
         subtitle="Contact Us | Get In Touch | How Can We Help"
       />
 
@@ -48,9 +41,9 @@ const page = () => {
                       >
                         <path d="M8.98296 6.85403C8.95783 6.74844 8.90581 6.65097 8.83186 6.57091C8.7579 6.49085 8.66448 6.43086 8.56049 6.39665L5.40652 5.35573L7.64645 0.92109C7.78706 0.642066 7.70293 0.302757 7.44742 0.120036C7.19067 -0.0620481 6.83912 -0.0346848 6.61687 0.186515L0.188418 6.55014C0.11097 6.62683 0.0545794 6.72182 0.024588 6.82611C-0.00540343 6.9304 -0.008003 7.04055 0.0170357 7.14612C0.042173 7.25171 0.0941932 7.34917 0.168144 7.42923C0.242096 7.50929 0.335517 7.56928 0.439513 7.60349L3.59348 8.64441L1.35355 13.0791C1.21294 13.3581 1.29707 13.6974 1.55258 13.8801C1.80847 14.0616 2.15934 14.0351 2.38313 13.8136L8.81158 7.45C8.88903 7.37332 8.94542 7.27833 8.97541 7.17403C9.0054 7.06974 9.008 6.95959 8.98296 6.85403Z" />
                       </svg>
-                      Get In Touch
+{t("getInTouch")}
                     </span>
-                    <h2>Connected With Us</h2>
+                    <h2>{t("connectedWithUs")}</h2>
                   </div>
                   <svg
                     className="arrow-vector"
@@ -76,7 +69,7 @@ const page = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <span>To More Inquiry</span>
+                        <span>{t("toMoreInquiry")}</span>
                         <h6>
                           <a href="tel:08166175684">0816-617-5684</a>
                         </h6>
@@ -101,7 +94,7 @@ const page = () => {
                         </svg>
                       </div>
                       <div className="content">
-                        <span>To Send Mail</span>
+                        <span>{t("toSendMail")}</span>
                         <h6>
                           <a href="mailto:akarakaglobalresources@yahoo.com">
                             akarakaglobalresources@yahoo.com
@@ -122,31 +115,31 @@ const page = () => {
                     <div className="row g-4">
                       <div className="col-md-12">
                         <div className="form-inner">
-                          <label>Full Name *</label>
+                          <label>{t("fullName")}</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-inner">
-                          <label>Email *</label>
+                          <label>{t("emailAddress")}</label>
                           <input type="email" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-inner">
-                          <label>Phone *</label>
+                          <label>{t("phoneNumber")}</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-inner">
-                          <label>Subject</label>
+                          <label>{t("subjectField")}</label>
                           <input type="text" />
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-inner">
-                          <label>Message *</label>
+                          <label>{t("messageField")}</label>
                           <textarea />
                         </div>
                       </div>
@@ -162,7 +155,7 @@ const page = () => {
                               className="form-check-label"
                               htmlFor="contactCheck"
                             >
-                              I have read &amp; accepted Terms &amp; Conditions.
+                              {t("termsCheckbox")}
                             </label>
                           </div>
                         </div>
@@ -172,7 +165,7 @@ const page = () => {
                       type="submit"
                       className="primary-btn4 btn-hover black-bg"
                     >
-                      Submit Now
+                      {t("submitNow")}
                       <svg
                         className="arrow"
                         width={23}
@@ -197,7 +190,7 @@ const page = () => {
       <div className="contact-page-address-section mb-120">
         <div className="container">
           <h6>
-            <Link href="/contact">View All Locations</Link>
+            <Link href="/contact">{t("viewAllLocations")}</Link>
           </h6>
           <ul
             className="address-list"
@@ -210,20 +203,20 @@ const page = () => {
             }}
           >
             <li className="single-address">
-              <span>HEAD OFFICE - ABUJA</span>
+              <span>{t("headOfficeAbuja")}</span>
               <a href="https://maps.app.goo.gl/osTF3q1rQ18Babz28">
                 Plot No D1160 Zauda Pazar & S/Gari Layout, Abuja, F.C.T.
               </a>
             </li>
             <li className="single-address">
-              <span>COLLECTION POINT - DEI-DEI</span>
+              <span>{t("collectionPointDeiDei")}</span>
               <a href="https://maps.app.goo.gl/Kbx7o7quMx6LXWHs5">
                 Zone C8 Shop NO.6 International Building Materials Market,
                 Dei-Dei, Abuja, F.C.T.
               </a>
             </li>
             <li className="single-address">
-              <span>BRANCH OFFICE</span>
+              <span>{t("branchOffice")}</span>
               <a href="https://maps.app.goo.gl/osTF3q1rQ18Babz28">
                 Akaraka Plaza, Beside Zenith Bank, Mararaba Building Materials
               </a>

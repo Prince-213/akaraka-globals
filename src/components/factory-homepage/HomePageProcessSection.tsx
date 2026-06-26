@@ -1,6 +1,10 @@
+"use client";
+
 import React from 'react'
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HomePageProcessSection: React.FC = () => {
+    const { t } = useLanguage();
     return (
         <>
             <div className="home1-process-section mb-120">
@@ -8,8 +12,8 @@ const HomePageProcessSection: React.FC = () => {
                     <div className="row justify-content-center mb-70 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="col-xl-6 col-lg-7 col-md-8">
                             <div className="section-title text-center">
-                                <span>How We Deliver</span>
-                                <h2>Our Supply Chain Process</h2>
+                                <span>{t("howWeDeliver")}</span>
+                                <h2>{t("ourSupplyChainProcess")}</h2>
                             </div>
                         </div>
                     </div>
@@ -21,7 +25,7 @@ const HomePageProcessSection: React.FC = () => {
                                 <div className="step-no">
                                     <span>STEP : 01</span>
                                 </div>
-                                <h3>Sourcing &amp;<br />Procurement</h3>
+                                <h3>{t("sourcingAndProcurement")}</h3>
                                 <p>We identify the best raw materials and chemical products for your exact requirements.</p>
                                 <svg className="vector" width={75} height={75} viewBox="0 0 75 75" xmlns="http://www.w3.org/2000/svg">
                                     <rect width={25} height={25} />
@@ -50,7 +54,7 @@ const HomePageProcessSection: React.FC = () => {
                                 <div className="step-no">
                                     <span>STEP : 02</span>
                                 </div>
-                                <h3>Quality Assurance &amp; Testing</h3>
+                                <h3>{t("qualityAssuranceAndTesting")}</h3>
                                 <p>Every shipment undergoes rigorous quality checks to meet industry specifications.</p>
                                 <svg className="vector" width={75} height={75} viewBox="0 0 75 75" xmlns="http://www.w3.org/2000/svg">
                                     <rect width={25} height={25} />
@@ -79,7 +83,7 @@ const HomePageProcessSection: React.FC = () => {
                                 <div className="step-no">
                                     <span>STEP : 03</span>
                                 </div>
-                                <h3>Delivery &amp; Support</h3>
+                                <h3>{t("deliveryAndSupport")}</h3>
                                 <p>We ensure timely dispatch and provide ongoing technical support for all products.</p>
                                 <svg className="vector" width={75} height={75} viewBox="0 0 75 75" xmlns="http://www.w3.org/2000/svg">
                                     <rect width={25} height={25} />

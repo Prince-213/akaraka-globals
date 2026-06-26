@@ -1,8 +1,12 @@
+"use client";
+
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const notfound = () => {
+  const { t } = useLanguage();
   return (
     <div className="error-page-wrapper">
   {/* Breadcrumb Section Start*/}
@@ -19,12 +23,12 @@ const notfound = () => {
                       <path d="M0.0594065 0H12.0001V2.2353L2.25745 12L0 9.76471L6.65353 3.17647L0.0594065 3.2353V0Z" />
                       <path d="M12.0009 12.0001V4.4707L8.79297 7.64718V12.0001H12.0009Z" />
                     </svg>
-                    Home
+                    {t("home")}
                   </Link>
                 </li>
-                <li>Error</li>
+                <li>{t("error")}</li>
               </ul>
-              <h1>Sorry! We Are Working That Page.</h1>
+              <h1>{t("pageWorking")}</h1>
             </div>
           </div>
         </div>
@@ -40,12 +44,12 @@ const notfound = () => {
         <div className="col-xl-8 col-lg-10">
           <div className="error-content text-center">
             <Image src="/assets/img/innerpages/error-img.webp" alt="" width={400} height={300} />
-            <h2>Sorry! Page Not Found.</h2>
+            <h2>{t("pageNotFound")}</h2>
             <p>The page you are looking for may have been moved, removed, or does not exist. Please check the URL or navigate back to our homepage.</p>
             <Link className="primary-btn1" href="/">
-              <span>Take Me Home
+              <span>{t("takeMeHome")}
               </span>
-              <span>Take Me Home
+              <span>{t("takeMeHome")}
               </span>
               <svg className="arrow" width={23} height={23} viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
                 <g>

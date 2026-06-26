@@ -10,10 +10,12 @@ import SwiperCore, {
 } from "swiper";
 import { SwiperOptions } from "swiper/types";
 import Image from "next/image";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const HomePageTestimonialSection: React.FC = () => {
+  const { t } = useLanguage();
   const settings: SwiperOptions = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -61,15 +63,15 @@ const HomePageTestimonialSection: React.FC = () => {
                         <div className="col-xl-4">
                             <div className="testimonial-title-area wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="section-title">
-                                    <span>Our Client Testimonial</span>
-                                    <h2>Trusted by Our Partners.</h2>
+                                    <span>{t("ourClientTestimonial")}</span>
+                                    <h2>{t("trustedByPartners")}</h2>
                                     <p>Hear from manufacturers, contractors, and resellers who trust AGRL for their industrial supply needs across Nigeria.</p>
                                 </div>
                                 <ul className="rating-list">
                                     <li>
                                         <a href="https://clutch.co/" className="single-rating">
                                             <div className="review">
-                                                <span>Review On</span>
+                                                <span>{t("reviewOn")}</span>
                                                 <Image width={80} height={50} src="/assets/img/home1/icon/clutch-logo.svg" alt="" />
                                             </div>
                                             <div className="rating">
@@ -87,7 +89,7 @@ const HomePageTestimonialSection: React.FC = () => {
                                     <li>
                                         <a href="https://www.google.com/" className="single-rating google">
                                             <div className="review">
-                                                <span>Review On</span>
+                                                <span>{t("reviewOn")}</span>
                                                 <Image width={80} height={50} src="/assets/img/home1/icon/google-logo.svg" alt="" />
                                             </div>
                                             <div className="rating">

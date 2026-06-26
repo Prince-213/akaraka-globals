@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HomePageTeamSection: React.FC = () => {
+  const { t } = useLanguage();
   return (
     <>
       <div className="home1-team-section mb-120">
@@ -13,8 +17,8 @@ const HomePageTeamSection: React.FC = () => {
           >
             <div className="col-xl-4 col-lg-5 col-md-8">
               <div className="section-title text-center">
-                <span>Our Leadership Team</span>
-                <h2>Meet Our AGRL Team</h2>
+                <span>{t("ourLeadershipTeam")}</span>
+                <h2>{t("meetOurTeam")}</h2>
               </div>
             </div>
           </div>
@@ -25,7 +29,7 @@ const HomePageTeamSection: React.FC = () => {
               data-wow-duration="1500ms"
             >
               <div className="team-name-and-desig">
-                <span>Managing Director / CEO</span>
+                <span>{t("managingDirector")}</span>
                 <h4>Chinebu L. Chigozie</h4>
               </div>
               <div className="team-img">

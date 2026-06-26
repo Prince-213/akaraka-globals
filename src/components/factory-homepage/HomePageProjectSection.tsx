@@ -11,10 +11,12 @@ import SwiperCore, {
 } from "swiper";
 import { SwiperOptions } from "swiper/types";
 import Image from "next/image";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const HomePageProjectSection: React.FC = () => {
+  const { t } = useLanguage();
   const settings: SwiperOptions = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -68,8 +70,8 @@ const HomePageProjectSection: React.FC = () => {
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
               >
-                <span>Our Supply Categories</span>
-                <h2>Featured Product Ranges</h2>
+                <span>{t("ourSupplyCategories")}</span>
+                <h2>{t("featuredProductRanges")}</h2>
               </div>
             </div>
           </div>
@@ -92,7 +94,7 @@ const HomePageProjectSection: React.FC = () => {
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Raw Materials</span>
+                            <span>{t("rawMaterials")}</span>
                             <h4>
                               <Link href="/service/details/raw-materials-supply">
                                 Calcium Carbonate &amp; Stone Dust
@@ -124,7 +126,7 @@ const HomePageProjectSection: React.FC = () => {
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Category: Industrial Chemicals</span>
+                            <span>{t("industrialChemicalsCategory")}</span>
                             <h3
                               style={{
                                 color: "red",
@@ -156,7 +158,7 @@ const HomePageProjectSection: React.FC = () => {
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Category: Inks &amp; Pigments</span>
+                            <span>{t("inksAndPigmentsCategory")}</span>
                             <h3
                               style={{
                                 color: "red",
@@ -187,7 +189,7 @@ const HomePageProjectSection: React.FC = () => {
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Category: Coatings &amp; Paints</span>
+                            <span>{t("coatingsAndPaintsCategory")}</span>
                             <h3
                               style={{
                                 color: "red",
@@ -218,7 +220,7 @@ const HomePageProjectSection: React.FC = () => {
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Category: Plastics &amp; Polymers</span>
+                            <span>{t("plasticsAndPolymersCategory")}</span>
                             <h3
                               style={{
                                 color: "red",
@@ -249,7 +251,7 @@ const HomePageProjectSection: React.FC = () => {
                         </div>
                         <div className="project-content-wrap">
                           <div className="project-content">
-                            <span>Category: Chemical Products</span>
+                            <span>{t("chemicalProductsCategory")}</span>
                             <h3
                               style={{
                                 color: "red",
@@ -275,8 +277,8 @@ const HomePageProjectSection: React.FC = () => {
         <div className="row">
           <div className="col-lg-12 d-flex justify-content-center bounce_up">
             <Link className="primary-btn1 white-bg" href="/service">
-              <span>View All Products</span>
-              <span>View All Products</span>
+              {t("viewAllProducts")}
+              {t("viewAllProducts")}
               <svg
                 className="arrow"
                 width={23}

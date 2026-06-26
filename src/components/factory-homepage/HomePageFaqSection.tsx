@@ -3,8 +3,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Accordion } from "react-bootstrap";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const FaqSection: React.FC= () => {
+  const { t } = useLanguage();
   return (
     <div className="home1-faq-section mb-120">
       <div className="container">
@@ -15,14 +17,14 @@ const FaqSection: React.FC= () => {
             data-wow-duration="1500ms"
           >
             <div className="section-title">
-              <span>Answer Your Questions</span>
-              <h2>Frequently Asked Questions</h2>
+              <span>{t("answerYourQuestions")}</span>
+              <h2>{t("frequentlyAskedQuestions")}</h2>
             </div>
           </div>
           <div className="col-lg-3 d-flex justify-content-lg-end btn_wrapper">
             <Link className="primary-btn1 transparent" href="/contact">
-              <span>Ask A Question</span>
-              <span>Ask A Question</span>
+              {t("askAQuestion")}
+              {t("askAQuestion")}
               <svg
                 className="arrow"
                 width={23}

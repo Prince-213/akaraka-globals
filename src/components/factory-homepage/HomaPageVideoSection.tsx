@@ -69,7 +69,7 @@ const HomaPageVideoSection: React.FC = () => {
               // onClick={() => setOpen(true)}
               isOpen={isOpen}
               animationSpeed={350}
-              videoId="V-Rz3wOP0OI"
+              videoId="Y6dMApC2KiE"
               ratio="16:9"
               onClose={() => setOpen(false)}
             />

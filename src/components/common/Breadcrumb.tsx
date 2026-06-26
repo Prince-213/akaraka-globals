@@ -1,12 +1,16 @@
+"use client";
+
 import React from "react";
 import CircularText from "./CircularText";
 import Link from "next/link";
 import Image from "next/image";
+import { useLanguage } from "@/i18n/LanguageContext";
 type BreadcrumbProps = {
   title: string;
   subtitle: string;
 };
 const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
+  const { t } = useLanguage();
   return (
     <div className="breadcrumb-section">
       <div className="breadcrumb-content-wrap">
@@ -26,7 +30,7 @@ const Breadcrumb = ({ title, subtitle }: BreadcrumbProps) => {
                         <path d="M0.0594065 0H12.0001V2.2353L2.25745 12L0 9.76471L6.65353 3.17647L0.0594065 3.2353V0Z" />
                         <path d="M12.0009 12.0001V4.4707L8.79297 7.64718V12.0001H12.0009Z" />
                       </svg>
-                      Home
+                      {t("home")}
                     </Link>
                   </li>
                   <li>{title}</li>

@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Accordion } from 'react-bootstrap'
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HomeWhyChooseUsSection: React.FC = () => {
+    const { t } = useLanguage();
     return (
         <>
             <div className="home2-why-choose-us-section mb-120">
@@ -12,14 +14,14 @@ const HomeWhyChooseUsSection: React.FC = () => {
                     <div className="row g-4 align-items-center justify-content-between mb-60">
                         <div className="col-xl-6 col-lg-8 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="section-title two">
-                                <span>Why Work With Us</span>
-                                <h2>Why We’re the Right Choice Industry</h2>
+                                <span>{t("whyWorkWithUs")}</span>
+                                <h2>{t("rightChoiceIndustry")}</h2>
                             </div>
                         </div>
                         <div className="col-lg-3 d-flex justify-content-lg-end btn_wrapper">
                             <Link href="/contact" className="contact-btn">
                                 <div className="primary-btn2 two">
-                                    <span>Contact Now</span>
+                                    <span>{t("contactNow")}</span>
                                     <svg className="arrow" width={23} height={23} viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
                                         <g>
                                             <path d="M0.113861 0H22.9999V4.28425L4.32671 22.9997L0 18.7154L12.7524 6.08815L0.113861 6.20089V0Z" />
@@ -45,7 +47,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
               data-wow-duration="1500ms"
             >
               <Accordion.Header>
-                <span>01.</span> Solutions Expert
+                <span>01.</span> {t("solutionsExpert")}
               </Accordion.Header>
               <Accordion.Body>
                 <Image
@@ -72,7 +74,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
               data-wow-duration="1500ms"
             >
               <Accordion.Header>
-                <span>02.</span> Trusted Partner
+                <span>02.</span> {t("trustedPartnerAccordion")}
               </Accordion.Header>
               <Accordion.Body>
                 <Image
@@ -99,7 +101,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
               data-wow-duration="1500ms"
             >
               <Accordion.Header>
-                <span>03.</span> Driving Innovation
+                <span>03.</span> {t("drivingInnovation")}
               </Accordion.Header>
               <Accordion.Body>
                 <Image
@@ -125,7 +127,7 @@ const HomeWhyChooseUsSection: React.FC = () => {
               data-wow-duration="1500ms"
             >
               <Accordion.Header>
-                <span>04.</span> Pushing The Boundaries of Material Science
+                <span>04.</span> {t("pushingBoundaries")}
               </Accordion.Header>
               <Accordion.Body>
                 <Image

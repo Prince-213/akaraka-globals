@@ -1,8 +1,10 @@
 "use client";
 import Counter from "@/components/common/Counter";
 import React, { useRef } from "react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HomePageCounterSection: React.FC = () => {
+  const { t } = useLanguage();
   const ref2 = useRef<HTMLDivElement | null>(null);
   const ref3 = useRef<HTMLDivElement | null>(null);
   const ref4 = useRef<HTMLDivElement | null>(null);
@@ -26,7 +28,7 @@ const HomePageCounterSection: React.FC = () => {
                                         />
                                         <span>+</span>
                                     </div>
-                                    <span>Products &amp; Materials</span>
+                                    <span>{t("productsAndMaterials")}</span>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-center divider">
@@ -42,7 +44,7 @@ const HomePageCounterSection: React.FC = () => {
                                         />
                                         <span>+</span>
                                     </div>
-                                    <span>Happy Clients Served</span>
+                                    <span>{t("happyClients")}</span>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-center justify-content-md-end divider">
@@ -57,7 +59,7 @@ const HomePageCounterSection: React.FC = () => {
                                             className="counter"
                                         />
                                     </div>
-                                    <span>Years of Experience</span>
+                                    <span>{t("yearsOfExperience")}</span>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-lg-center">
@@ -72,7 +74,7 @@ const HomePageCounterSection: React.FC = () => {
                                             className="counter"
                                         />
                                     </div>
-                                    <span>Branch Locations</span>
+                                    <span>{t("branchLocations")}</span>
                                 </div>
                             </div>
                         </div>

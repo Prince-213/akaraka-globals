@@ -4,6 +4,7 @@ import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 import Link from "next/link";
 import Image from "next/image";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 interface HomePageAboutSectionProps {
   pt?: string; // optional prop
@@ -12,6 +13,7 @@ const HomePageAboutSection: React.FC<HomePageAboutSectionProps> = ({
   pt = "",
 }) => {
   const [isOpen, setOpen] = useState<boolean>(false);
+  const { t } = useLanguage();
   return (
     <>
       <div className={`home1-about-section mb-120 ${pt}`} id="scroll-section">
@@ -25,8 +27,8 @@ const HomePageAboutSection: React.FC<HomePageAboutSectionProps> = ({
               >
                 <div className="about-title-area">
                   <div className="section-title">
-                    <span>About AGRL</span>
-                    <h2>Over 25 Years of Industrial Supply Excellence.</h2>
+                    <span>{t("aboutAGRL")}</span>
+                    <h2>{t("over25Years")}.</h2>
                   </div>
                   <div className="video-and-content">
                     <a
@@ -107,7 +109,7 @@ const HomePageAboutSection: React.FC<HomePageAboutSectionProps> = ({
                     </svg>
                   </div>
                   <div className="about-btn">
-                    About Us More
+                    {t("aboutUsMore")}
                     <svg viewBox="0 0 13 20">
                       <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
                     </svg>
@@ -182,7 +184,7 @@ const HomePageAboutSection: React.FC<HomePageAboutSectionProps> = ({
             // onClick={() => setOpen(true)}
             isOpen={isOpen}
             animationSpeed={350}
-            videoId="r4KpWiK08vM"
+            videoId="Y6dMApC2KiE"
             ratio="16:9"
             onClose={() => setOpen(false)}
           />

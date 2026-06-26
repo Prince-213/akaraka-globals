@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRef, useEffect } from "react";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const HomePageServiceSection: React.FC = () => {
   const listRef = useRef<HTMLUListElement | null>(null);
@@ -30,6 +31,7 @@ const HomePageServiceSection: React.FC = () => {
       listeners.forEach((remove) => remove());
     };
   }, []);
+  const { t } = useLanguage();
     return (
         <>
             <div className="home1-service-section mb-120">
@@ -37,15 +39,15 @@ const HomePageServiceSection: React.FC = () => {
                     <div className="row g-4 align-items-center justify-content-between mb-70">
                         <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div className="section-title">
-                                <span>Our Product Categories</span>
-                                <h2>Comprehensive Industrial Solutions</h2>
+                                <span>{t("ourProductCategories")}</span>
+                                <h2>{t("comprehensiveIndustrialSolutions")}</h2>
                             </div>
                         </div>
                         <div className="col-lg-3 d-flex justify-content-lg-end btn_wrapper">
                             <Link className="primary-btn1 transparent" href="/service">
-                                <span>View All Products
+                                <span>{t("viewAllProducts")}
                                 </span>
-                                <span>View All Products
+                                <span>{t("viewAllProducts")}
                                 </span>
                                 <svg className="arrow" width={23} height={23} viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
                                     <g>
@@ -74,13 +76,7 @@ const HomePageServiceSection: React.FC = () => {
                         </ul>
 
                         <ul className="service-list" ref={listRef}>
-                            {[
-                                "Raw Materials",
-                                "Industrial Chemicals",
-                                "Inks & Pigments",
-                                "Coatings & Paints",
-                                "Plastics & Polymers",
-                            ].map((title, index) => (
+                            {[t("rawMaterials"), t("industrialChemicals"), t("inksAndPigments"), t("coatingsAndPaints"), t("plasticsAndPolymers")].map((title, index) => (
                                 <li key={index}>
                                     <Link href="/service/details">
                                         {title}
